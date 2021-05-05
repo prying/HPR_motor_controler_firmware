@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include "fsm.h"
 #include "usart.h"
+#include "gpio.h"
 
 // Defines
 #define MSGBUFF_SIZE    25
@@ -46,7 +47,8 @@ eFsmState ErrorHandler(eFsmPeripheriesData *sPeripheries)
 eFsmState RecivedArmHandler(eFsmPeripheriesData *sPeripheries)
 {
     // TODO turn on pwr supply for igiter (i.e. turn on the buck converter)
-
+    // Turn on the buck converter for the igniter
+    HAL_GPIO_WritePin(IGN_PWR_GPIO_Port, IGN_PWR_Pin, GPIO_PIN_SET);
     return Standby_State;
 }
 
@@ -54,6 +56,7 @@ eFsmState RecivedArmHandler(eFsmPeripheriesData *sPeripheries)
 eFsmState RevicedLaunchHandler(eFsmPeripheriesData *sPeripheries)
 {
     // TODO turn on mosfet to allow current to travel to the igiter
+    HAL_GPIO_WritePin(IGN_CONTROL_GPIO_Port, IGN_CONTROL_Pin, GPIO_PIN_SET);
     return Igniter_On_State;
 }
 
@@ -128,7 +131,7 @@ void Fsm_Step(eFsmPeripheriesData *sPeripheries)
         //TODO Maybe this could also trigger and abort???
     }
 
-    
+
     return;
 }
 
@@ -140,7 +143,7 @@ void SendStateMsg(eFsmState state)
 {
     // Needs to be a static becuase the memory is deallocated when this function is removed from the stack before DMA has finished moving it
     static char msgBuff[MSGBUFF_SIZE];
-    int  n = 0;
+    int         n = 0;
 
     n = sprintf(msgBuff, "State: %s\r\n", eFsmStateNames[state]);
     if (n <= 0)
@@ -150,7 +153,8 @@ void SendStateMsg(eFsmState state)
     else
     {
         if (HAL_UART_Transmit_DMA(&huart2, msgBuff, n) != HAL_OK)
-        {}
+        {
+        }
     }
 
     return;
