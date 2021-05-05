@@ -8,28 +8,41 @@
 #ifndef INC_FSM_H_
 #define INC_FSM_H_
 
+#define STATE_NAME_LENGTH 12
+
 // States
 typedef enum
 {
-	Idle_State,
-	Standby_State,
-	Igniter_On_State,
-	Valve_Open_State,
-	Igniter_Off_State,
-	Aborted_State,
-	Last_State
+    Idle_State,
+    Standby_State,
+    Igniter_On_State,
+    Valve_Open_State,
+    Igniter_Off_State,
+    Aborted_State,
+    Last_State
 } eFsmState;
 
+// State names 
+const static char eFsmStateNames[][STATE_NAME_LENGTH] =
+{
+    "Idle",
+    "Standby",
+    "Igniter On",
+    "Valve Open",
+    "Igniter Off",
+    "Aborted",
+    "PLACEHOLDER"
+};
 // Fsm events
 typedef enum
 {
-	Error_Event,
-	Arm_Event,
-	Launch_Event,
-	Open_Valve_Timer_Event,
-	Stop_Igniter_Timer_Event,
-	Reset_Event,
-	Last_Event
+    Error_Event,
+    Arm_Event,
+    Launch_Event,
+    Open_Valve_Timer_Event,
+    Stop_Igniter_Timer_Event,
+    Reset_Event,
+    Last_Event
 } eFsmEvent;
 
 // Struct for handing pointers for external stuff like peripheries
@@ -37,7 +50,7 @@ typedef enum
 // doing somthing else
 typedef struct PeripheriesData
 {
-	int i; // Just a placeholder
+    int i;     // Just a placeholder
 }eFsmPeripheriesData;
 
 // Initialize finite state machine
@@ -47,7 +60,7 @@ void Fsm_Init();
 eFsmState Fsm_State();
 
 // Get event
-void Fsm_sendEvent(eFsmEvent Event);
+void Fsm_SendEvent(eFsmEvent Event);
 
 // Step the finite state machines logic
 void Fsm_Step(eFsmPeripheriesData *sPeripheries);
