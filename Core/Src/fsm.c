@@ -13,12 +13,16 @@
 #include "gpio.h"
 
 // Defines
-#define MSGBUFF_SIZE    25
+#define MSGBUFF_SIZE             25
+#define ERROR_MSG_SIZE           30
+#define IGN_CONTROL_OFF_DELAY    20 //ms
 
 // Nasty global vars
-static eFsmState eFsmCurrentState = Last_State;
-static eFsmEvent eFsmNewEvent     = Last_Event;
+static eFsmState  eFsmCurrentState = Last_State;
+static eFsmEvent  eFsmNewEvent     = Last_Event;
 
+static const char errorMsg[] = "\r\nSomthing went wrong! MOVED TO ERROR STATE\r\n";
+static const char resetMsg[] = "\r\nReturned to idel state\r\n";
 
 // Event handler function pointer
 typedef eFsmState (*pfEventHandler) (eFsmPeripheriesData *sPeripheries);
@@ -40,6 +44,20 @@ void SendStateMsg(eFsmState state);
 eFsmState ErrorHandler(eFsmPeripheriesData *sPeripheries)
 {
     // TODO turn everything off and to the safe position
+    // Turn off igniter and power to the ignition sorce
+    // Turn off IGN Control
+    HAL_GPIO_WritePin(IGN_CONTROL_GPIO_Port, IGN_CONTROL_Pin, GPIO_PIN_RESET);
+
+    // Turn on the buck converter for the igniter
+    HAL_Delay(IGN_CONTROL_OFF_DELAY);
+    HAL_GPIO_WritePin(IGN_PWR_GPIO_Port, IGN_PWR_Pin, GPIO_PIN_RESET);
+
+    // Move valve to suitable position
+    // TODO pwm control
+
+    // Anounce over usart and i2c to let everyone know
+    HAL_UART_Transmit_DMA(&huart2, errorMsg, sizeof(errorMsg) / sizeof(char));
+    // TODO Some i2c related method
     return Aborted_State;
 }
 
@@ -64,6 +82,7 @@ eFsmState RevicedLaunchHandler(eFsmPeripheriesData *sPeripheries)
 eFsmState AlarmOpenValveHandler(eFsmPeripheriesData *sPeripheries)
 {
     // TODO Open servo
+    // TODO pwm control
     return Valve_Open_State;
 }
 
@@ -71,6 +90,13 @@ eFsmState AlarmOpenValveHandler(eFsmPeripheriesData *sPeripheries)
 eFsmState AlarmTurnOffIgniterHandler(eFsmPeripheriesData *sPeripheries)
 {
     // TODO turn off mosfet and turn off pwr supply for igniter
+    // Turn off IGN Control
+    HAL_GPIO_WritePin(IGN_CONTROL_GPIO_Port, IGN_CONTROL_Pin, GPIO_PIN_RESET);
+
+    // Turn on the buck converter for the igniter
+    HAL_Delay(IGN_CONTROL_OFF_DELAY);
+    HAL_GPIO_WritePin(IGN_PWR_GPIO_Port, IGN_PWR_Pin, GPIO_PIN_RESET);
+
     return Igniter_Off_State;
 }
 
@@ -78,6 +104,20 @@ eFsmState AlarmTurnOffIgniterHandler(eFsmPeripheriesData *sPeripheries)
 eFsmState ResetHandler(eFsmPeripheriesData *sPeripheries)
 {
     // TODO move all vars needed to be in the idle state
+
+    // Turn off IGN Control
+    HAL_GPIO_WritePin(IGN_CONTROL_GPIO_Port, IGN_CONTROL_Pin, GPIO_PIN_RESET);
+
+    // Turn on the buck converter for the igniter
+    HAL_Delay(IGN_CONTROL_OFF_DELAY);
+    HAL_GPIO_WritePin(IGN_PWR_GPIO_Port, IGN_PWR_Pin, GPIO_PIN_RESET);
+
+    // Move valve to suitable position
+    // TODO pwm control
+
+    // Anounce over usart and i2c to let everyone know
+    HAL_UART_Transmit_DMA(&huart2, resetMsg, sizeof(resetMsg) / sizeof(char));
+
     return Idle_State;
 }
 
@@ -108,7 +148,7 @@ void Fsm_SendEvent(eFsmEvent Event)
 // Step the finite state machines logic
 void Fsm_Step(eFsmPeripheriesData *sPeripheries)
 {
-    // Setup linkages for the FSM               Might make a global?
+    // Setup linkages for the FSM               Might make a global if it is wasiting alot of loop resourses?
     static afEventHandler FSM =
     {
         [Idle_State]        = {[Error_Event] = ErrorHandler, [Arm_Event]                = RecivedArmHandler          },

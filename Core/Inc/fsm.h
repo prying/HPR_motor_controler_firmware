@@ -45,9 +45,8 @@ typedef enum
     Last_Event
 } eFsmEvent;
 
-// Struct for handing pointers for external stuff like peripheries
-// TODO figure out how best to implement this struct and how it interacts with HAL. Test first with a GPIO. Also might be renamed if it ends up
-// doing somthing else
+// Struct for handing pointers for external stuff if needed 
+// TODO remove if not used
 typedef struct PeripheriesData
 {
     int i;     // Just a placeholder
