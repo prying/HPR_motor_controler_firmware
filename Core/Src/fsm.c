@@ -153,12 +153,12 @@ void Fsm_Step(eFsmPeripheriesData *sPeripheries)
     // Setup linkages for the FSM               Might make a global if it is wasiting alot of loop resourses?
     static afEventHandler FSM =
     {
-        [Idle_State]        = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler, [Arm_Event]                = RecivedArmHandler          },
-        [Standby_State]     = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler, [Launch_Event]             = RevicedLaunchHandler       },
-        [Igniter_On_State]  = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler, [Open_Valve_Timer_Event]   = AlarmOpenValveHandler      },
-        [Valve_Open_State]  = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler, [Stop_Igniter_Timer_Event] = AlarmTurnOffIgniterHandler },
-        [Igniter_Off_State] = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler                                                          },
-        [Aborted_State]     = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler                                                          }
+        [Idle_State]        = {[Error_Event] = ErrorHandler, [Reset_Event]  = ResetHandler, [Arm_Event]                = RecivedArmHandler          },
+        [Standby_State]     = {[Error_Event] = ErrorHandler, [Reset_Event]  = ResetHandler, [Launch_Event]             = RevicedLaunchHandler       },
+        [Igniter_On_State]  = {[Error_Event] = ErrorHandler, [Reset_Event]  = ResetHandler, [Open_Valve_Timer_Event]   = AlarmOpenValveHandler      },
+        [Valve_Open_State]  = {[Error_Event] = ErrorHandler, [Reset_Event]  = ResetHandler, [Stop_Igniter_Timer_Event] = AlarmTurnOffIgniterHandler },
+        [Igniter_Off_State] = {[Error_Event] = ErrorHandler, [Reset_Event]  = ResetHandler                                                          },
+        [Aborted_State]     = {[Error_Event] = ErrorHandler, [Reset_Event]  = ResetHandler                                                          }
     };
 
     // Validate that both state and event are valid and that there is a event handler at the event for this state
