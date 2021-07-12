@@ -11,11 +11,14 @@
 #include "fsm.h"
 #include "usart.h"
 #include "gpio.h"
+#include "pwm.h"
 
 // Defines
 #define MSGBUFF_SIZE             25
 #define ERROR_MSG_SIZE           30
 #define IGN_CONTROL_OFF_DELAY    20 //ms
+#define SERVO_CLOSED_ANGLE       0  //degrees
+#define SERVO_OPEN_ANGLE         90 //degrees
 
 // Nasty global vars
 static eFsmState  eFsmCurrentState = Last_State;
@@ -56,7 +59,7 @@ eFsmState ErrorHandler(eFsmPeripheriesData *sPeripheries)
     // TODO pwm control
 
     // Anounce over usart and i2c to let everyone know
-    HAL_UART_Transmit_DMA(&huart2, errorMsg, sizeof(errorMsg) / sizeof(char));
+    HAL_UART_Transmit_DMA(&huart2, (uint8_t *)errorMsg, sizeof(errorMsg) / sizeof(char));
     // TODO Some i2c related method
     return Aborted_State;
 }
@@ -81,8 +84,7 @@ eFsmState RevicedLaunchHandler(eFsmPeripheriesData *sPeripheries)
 // Timer finishes counting to open clock
 eFsmState AlarmOpenValveHandler(eFsmPeripheriesData *sPeripheries)
 {
-    // TODO Open servo
-    // TODO pwm control
+    PWM1_setPos(SERVO_OPEN_ANGLE);
     return Valve_Open_State;
 }
 
@@ -113,10 +115,10 @@ eFsmState ResetHandler(eFsmPeripheriesData *sPeripheries)
     HAL_GPIO_WritePin(IGN_PWR_GPIO_Port, IGN_PWR_Pin, GPIO_PIN_RESET);
 
     // Move valve to suitable position
-    // TODO pwm control
+    PWM1_setPos(SERVO_CLOSED_ANGLE);
 
     // Anounce over usart and i2c to let everyone know
-    HAL_UART_Transmit_DMA(&huart2, resetMsg, sizeof(resetMsg) / sizeof(char));
+    HAL_UART_Transmit_DMA(&huart2, (uint8_t *)resetMsg, sizeof(resetMsg) / sizeof(char));
 
     return Idle_State;
 }
@@ -151,12 +153,12 @@ void Fsm_Step(eFsmPeripheriesData *sPeripheries)
     // Setup linkages for the FSM               Might make a global if it is wasiting alot of loop resourses?
     static afEventHandler FSM =
     {
-        [Idle_State]        = {[Error_Event] = ErrorHandler, [Arm_Event]                = RecivedArmHandler          },
-        [Standby_State]     = {[Error_Event] = ErrorHandler, [Launch_Event]             = RevicedLaunchHandler       },
-        [Igniter_On_State]  = {[Error_Event] = ErrorHandler, [Open_Valve_Timer_Event]   = AlarmOpenValveHandler      },
-        [Valve_Open_State]  = {[Error_Event] = ErrorHandler, [Stop_Igniter_Timer_Event] = AlarmTurnOffIgniterHandler },
-        [Igniter_Off_State] = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler               },
-        [Aborted_State]     = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler               }
+        [Idle_State]        = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler, [Arm_Event]                = RecivedArmHandler          },
+        [Standby_State]     = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler, [Launch_Event]             = RevicedLaunchHandler       },
+        [Igniter_On_State]  = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler, [Open_Valve_Timer_Event]   = AlarmOpenValveHandler      },
+        [Valve_Open_State]  = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler, [Stop_Igniter_Timer_Event] = AlarmTurnOffIgniterHandler },
+        [Igniter_Off_State] = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler                                                          },
+        [Aborted_State]     = {[Error_Event] = ErrorHandler, [Reset_Event]              = ResetHandler                                                          }
     };
 
     // Validate that both state and event are valid and that there is a event handler at the event for this state
@@ -183,7 +185,7 @@ void SendStateMsg(eFsmState state)
 {
     // Needs to be a static becuase the memory is deallocated when this function is removed from the stack before DMA has finished moving it
     static char msgBuff[MSGBUFF_SIZE];
-    int         n = 0;
+    int n = 0;
 
     n = sprintf(msgBuff, "State: %s\r\n", eFsmStateNames[state]);
     if (n <= 0)
@@ -192,7 +194,7 @@ void SendStateMsg(eFsmState state)
     }
     else
     {
-        if (HAL_UART_Transmit_DMA(&huart2, msgBuff, n) != HAL_OK)
+        if (HAL_UART_Transmit_DMA(&huart2, (uint8_t *)msgBuff, n) != HAL_OK)
         {
         }
     }
