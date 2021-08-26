@@ -1,4 +1,6 @@
 
+The setting that form a state are applied at the event:
+
 ```mermaid
 stateDiagram-v2
     Idle --> Idle: Reset

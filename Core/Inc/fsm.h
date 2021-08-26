@@ -53,16 +53,16 @@ typedef struct PeripheriesData
 }eFsmPeripheriesData;
 
 // Initialize finite state machine
-void Fsm_Init();
+void FSM_init();
 
 // Get current state;
-eFsmState Fsm_State();
+eFsmState FSM_state();
 
 // Get event
-void Fsm_SendEvent(eFsmEvent Event);
+void FSM_sendEvent(eFsmEvent Event);
 
 // Step the finite state machines logic
-void Fsm_Step(eFsmPeripheriesData *sPeripheries);
+void FSM_step(eFsmPeripheriesData *sPeripheries);
 
 
 #endif /* INC_FSM_H_ */

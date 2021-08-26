@@ -38,13 +38,13 @@ typedef eFsmState (*const afEventHandler[Last_State][Last_Event])(eFsmPeripherie
 //**************************************
 
 // Anounce on UART that it has moved to a state
-void SendStateMsg(eFsmState state);
+void sendStateMsg(eFsmState state);
 
 // Event handles
 //**************************************
 
 // When an error is detected call Error_Event and go to the aborted state
-eFsmState ErrorHandler(eFsmPeripheriesData *sPeripheries)
+eFsmState _errorHandler(eFsmPeripheriesData *sPeripheries)
 {
     // TODO turn everything off and to the safe position
     // Turn off igniter and power to the ignition sorce
@@ -65,7 +65,7 @@ eFsmState ErrorHandler(eFsmPeripheriesData *sPeripheries)
 }
 
 // Go from idle to standby
-eFsmState RecivedArmHandler(eFsmPeripheriesData *sPeripheries)
+eFsmState _recivedArmHandler(eFsmPeripheriesData *sPeripheries)
 {
     // TODO turn on pwr supply for igiter (i.e. turn on the buck converter)
     // Turn on the buck converter for the igniter
@@ -74,7 +74,7 @@ eFsmState RecivedArmHandler(eFsmPeripheriesData *sPeripheries)
 }
 
 // Turn igniter on
-eFsmState RevicedLaunchHandler(eFsmPeripheriesData *sPeripheries)
+eFsmState _revicedLaunchHandler(eFsmPeripheriesData *sPeripheries)
 {
     // TODO turn on mosfet to allow current to travel to the igiter
     HAL_GPIO_WritePin(IGN_CONTROL_GPIO_Port, IGN_CONTROL_Pin, GPIO_PIN_SET);
@@ -82,14 +82,14 @@ eFsmState RevicedLaunchHandler(eFsmPeripheriesData *sPeripheries)
 }
 
 // Timer finishes counting to open clock
-eFsmState AlarmOpenValveHandler(eFsmPeripheriesData *sPeripheries)
+eFsmState _alarmOpenValveHandler(eFsmPeripheriesData *sPeripheries)
 {
     PWM1_setPos(SERVO_OPEN_ANGLE);
     return Valve_Open_State;
 }
 
 // Timer finishes counting to turn igniter off
-eFsmState AlarmTurnOffIgniterHandler(eFsmPeripheriesData *sPeripheries)
+eFsmState _alarmTurnOffIgniterHandler(eFsmPeripheriesData *sPeripheries)
 {
     // TODO turn off mosfet and turn off pwr supply for igniter
     // Turn off IGN Control
@@ -103,7 +103,7 @@ eFsmState AlarmTurnOffIgniterHandler(eFsmPeripheriesData *sPeripheries)
 }
 
 // When in the aborted state it can be reset
-eFsmState ResetHandler(eFsmPeripheriesData *sPeripheries)
+eFsmState _resetHandler(eFsmPeripheriesData *sPeripheries)
 {
     // TODO move all vars needed to be in the idle state
 
@@ -127,20 +127,20 @@ eFsmState ResetHandler(eFsmPeripheriesData *sPeripheries)
 //*****************************************
 
 // Initialize finite state machine
-void Fsm_Init()
+void FSM_init()
 {
     eFsmCurrentState = Idle_State;
     return;
 }
 
 // Get current state;
-eFsmState Fsm_State()
+eFsmState FSM_state()
 {
     return eFsmCurrentState;
 }
 
 // Get event
-void Fsm_SendEvent(eFsmEvent Event)
+void FSM_sendEvent(eFsmEvent Event)
 {
     // TODO! validation ect;
     eFsmNewEvent = Event;
@@ -148,17 +148,17 @@ void Fsm_SendEvent(eFsmEvent Event)
 }
 
 // Step the finite state machines logic
-void Fsm_Step(eFsmPeripheriesData *sPeripheries)
+void FSM_step(eFsmPeripheriesData *sPeripheries)
 {
     // Setup linkages for the FSM               Might make a global if it is wasiting alot of loop resourses?
     static afEventHandler FSM =
     {
-        [Idle_State]        = {[Error_Event] = ErrorHandler, [Reset_Event]  = ResetHandler, [Arm_Event]                = RecivedArmHandler          },
-        [Standby_State]     = {[Error_Event] = ErrorHandler, [Reset_Event]  = ResetHandler, [Launch_Event]             = RevicedLaunchHandler       },
-        [Igniter_On_State]  = {[Error_Event] = ErrorHandler, [Reset_Event]  = ResetHandler, [Open_Valve_Timer_Event]   = AlarmOpenValveHandler      },
-        [Valve_Open_State]  = {[Error_Event] = ErrorHandler, [Reset_Event]  = ResetHandler, [Stop_Igniter_Timer_Event] = AlarmTurnOffIgniterHandler },
-        [Igniter_Off_State] = {[Error_Event] = ErrorHandler, [Reset_Event]  = ResetHandler                                                          },
-        [Aborted_State]     = {[Error_Event] = ErrorHandler, [Reset_Event]  = ResetHandler                                                          }
+        [Idle_State]        = {[Error_Event] = _errorHandler, [Reset_Event]  = _resetHandler, [Arm_Event]                = _recivedArmHandler          },
+        [Standby_State]     = {[Error_Event] = _errorHandler, [Reset_Event]  = _resetHandler, [Launch_Event]             = _revicedLaunchHandler       },
+        [Igniter_On_State]  = {[Error_Event] = _errorHandler, [Reset_Event]  = _resetHandler, [Open_Valve_Timer_Event]   = _alarmOpenValveHandler      },
+        [Valve_Open_State]  = {[Error_Event] = _errorHandler, [Reset_Event]  = _resetHandler, [Stop_Igniter_Timer_Event] = _alarmTurnOffIgniterHandler },
+        [Igniter_Off_State] = {[Error_Event] = _errorHandler, [Reset_Event]  = _resetHandler                                                          },
+        [Aborted_State]     = {[Error_Event] = _errorHandler, [Reset_Event]  = _resetHandler                                                          }
     };
 
     // Validate that both state and event are valid and that there is a event handler at the event for this state
@@ -166,7 +166,7 @@ void Fsm_Step(eFsmPeripheriesData *sPeripheries)
     {
         // Call the event handler at the end of the function pointer
         eFsmCurrentState = (*FSM[eFsmCurrentState][eFsmNewEvent])(sPeripheries);
-        SendStateMsg(eFsmCurrentState);
+        sendStateMsg(eFsmCurrentState);
     }
     else
     {
@@ -181,7 +181,7 @@ void Fsm_Step(eFsmPeripheriesData *sPeripheries)
 //*****************************************
 
 // Anounce on UART that it has moved to a state
-void SendStateMsg(eFsmState state)
+void sendStateMsg(eFsmState state)
 {
     // Needs to be a static becuase the memory is deallocated when this function is removed from the stack before DMA has finished moving it
     static char msgBuff[MSGBUFF_SIZE];
@@ -202,3 +202,7 @@ void SendStateMsg(eFsmState state)
     return;
 }
 
+void eventToQue(eFsmEvent Event)
+{
+    
+}

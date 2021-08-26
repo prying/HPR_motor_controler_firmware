@@ -78,7 +78,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-    Fsm_Init();
+    FSM_init();
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -107,9 +107,9 @@ int main(void)
     /* USER CODE BEGIN 3 */
 
         // Update FSM TODO
-        Fsm_SendEvent(Last_Event);
+        FSM_sendEvent(Last_Event);
         // Run FSM logic
-        Fsm_Step(&periData);
+        FSM_step(&periData);
 
         HAL_Delay(1000);
     }
