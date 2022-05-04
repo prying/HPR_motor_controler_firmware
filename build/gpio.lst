@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccorPZpw.s 			page 1
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccKb04Tn.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccorPZpw.s 			page 1
   30:Core/Src/gpio.c **** /*----------------------------------------------------------------------------*/
   31:Core/Src/gpio.c **** /* USER CODE BEGIN 1 */
   32:Core/Src/gpio.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccorPZpw.s 			page 2
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccKb04Tn.s 			page 2
 
 
   33:Core/Src/gpio.c **** /* USER CODE END 1 */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccorPZpw.s 			page 1
   49:Core/Src/gpio.c **** 
   50:Core/Src/gpio.c ****   /*Configure GPIO pin Output Level */
   51:Core/Src/gpio.c ****   HAL_GPIO_WritePin(GPIOA, IGN_CONTROL_Pin|IGN_PWR_Pin, GPIO_PIN_RESET);
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccorPZpw.s 			page 3
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccKb04Tn.s 			page 3
 
 
   65              		.loc 1 51 3 view .LVU9
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccorPZpw.s 			page 1
  106              	.LVL3:
   65:Core/Src/gpio.c **** 
   66:Core/Src/gpio.c **** }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccorPZpw.s 			page 4
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccKb04Tn.s 			page 4
 
 
  107              		.loc 1 66 1 is_stmt 0 view .LVU26
@@ -198,14 +198,14 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccorPZpw.s 			page 1
  122              		.file 4 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h"
  123              		.file 5 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h"
  124              		.file 6 "<built-in>"
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccorPZpw.s 			page 5
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccKb04Tn.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 gpio.c
-C:\Users\flynn\AppData\Local\Temp\ccorPZpw.s:18     .text.MX_GPIO_Init:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccorPZpw.s:24     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
-C:\Users\flynn\AppData\Local\Temp\ccorPZpw.s:114    .text.MX_GPIO_Init:00000058 $d
+C:\Users\flynn\AppData\Local\Temp\ccKb04Tn.s:18     .text.MX_GPIO_Init:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccKb04Tn.s:24     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
+C:\Users\flynn\AppData\Local\Temp\ccKb04Tn.s:114    .text.MX_GPIO_Init:00000058 $d
 
 UNDEFINED SYMBOLS
 memset

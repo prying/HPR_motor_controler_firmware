@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 1
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 1
   30:Core/Src/system_stm32l0xx.c ****   * License. You may obtain a copy of the License at:
   31:Core/Src/system_stm32l0xx.c ****   *                        opensource.org/licenses/BSD-3-Clause
   32:Core/Src/system_stm32l0xx.c ****   *
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 2
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s 			page 2
 
 
   33:Core/Src/system_stm32l0xx.c ****   ******************************************************************************
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 1
   87:Core/Src/system_stm32l0xx.c **** #if defined(USER_VECT_TAB_ADDRESS)
   88:Core/Src/system_stm32l0xx.c **** /*!< Uncomment the following line if you need to relocate your vector Table
   89:Core/Src/system_stm32l0xx.c ****      in Sram else user remap will be done in Flash. */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 3
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s 			page 3
 
 
   90:Core/Src/system_stm32l0xx.c **** /* #define VECT_TAB_SRAM */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 1
  144:Core/Src/system_stm32l0xx.c **** 
  145:Core/Src/system_stm32l0xx.c **** /** @addtogroup STM32L0xx_System_Private_Functions
  146:Core/Src/system_stm32l0xx.c ****   * @{
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 4
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s 			page 4
 
 
  147:Core/Src/system_stm32l0xx.c ****   */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 1
  182:Core/Src/system_stm32l0xx.c ****   *
  183:Core/Src/system_stm32l0xx.c ****   *           - If SYSCLK source is PLL, SystemCoreClock will contain the HSE_VALUE(**)
  184:Core/Src/system_stm32l0xx.c ****   *             or HSI_VALUE(*) multiplied/divided by the PLL factors.
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 5
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s 			page 5
 
 
  185:Core/Src/system_stm32l0xx.c ****   *
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 1
  213:Core/Src/system_stm32l0xx.c ****     case 0x04U:  /* HSI used as system clock */
  214:Core/Src/system_stm32l0xx.c ****       if ((RCC->CR & RCC_CR_HSIDIVF) != 0U)
  215:Core/Src/system_stm32l0xx.c ****       {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 6
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s 			page 6
 
 
  216:Core/Src/system_stm32l0xx.c ****         SystemCoreClock = HSI_VALUE / 4U;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 1
  110 002e DB68     		ldr	r3, [r3, #12]
  111              	.LVL10:
  234:Core/Src/system_stm32l0xx.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 7
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s 			page 7
 
 
  235:Core/Src/system_stm32l0xx.c ****       if (pllsource == 0x00U)
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 1
  211:Core/Src/system_stm32l0xx.c ****       break;
  155              		.loc 1 211 7 is_stmt 1 view .LVU38
  211:Core/Src/system_stm32l0xx.c ****       break;
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 8
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s 			page 8
 
 
  156              		.loc 1 211 52 is_stmt 0 view .LVU39
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 1
  259:Core/Src/system_stm32l0xx.c **** }
  189              		.loc 1 259 1 view .LVU49
  190              		@ sp needed
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 9
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s 			page 9
 
 
  191 0082 10BD     		pop	{r4, pc}
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 1
  231 00a0 1A60     		str	r2, [r3]
  225:Core/Src/system_stm32l0xx.c ****     default:  /* PLL used as system clock */
  232              		.loc 1 225 7 is_stmt 1 view .LVU64
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 10
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s 			page 10
 
 
  233 00a2 E3E7     		b	.L6
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 1
  279 00ec 00127A00 		.word	8000000
  280              		.cfi_endproc
  281              	.LFE41:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 11
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s 			page 11
 
 
  283              		.global	PLLMulTable
@@ -637,24 +637,24 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 1
  318              		.file 3 "f:\\toolchains\\gnu_arm\\10 2021.10\\arm-none-eabi\\include\\sys\\_stdint.h"
  319              		.file 4 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h"
  320              		.file 5 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h"
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOust1H.s 			page 12
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s 			page 12
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 system_stm32l0xx.c
-C:\Users\flynn\AppData\Local\Temp\ccOust1H.s:18     .text.SystemInit:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccOust1H.s:24     .text.SystemInit:00000000 SystemInit
-C:\Users\flynn\AppData\Local\Temp\ccOust1H.s:40     .text.SystemCoreClockUpdate:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccOust1H.s:46     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
-C:\Users\flynn\AppData\Local\Temp\ccOust1H.s:273    .text.SystemCoreClockUpdate:000000d4 $d
-C:\Users\flynn\AppData\Local\Temp\ccOust1H.s:313    .rodata.PLLMulTable:00000000 PLLMulTable
-C:\Users\flynn\AppData\Local\Temp\ccOust1H.s:306    .rodata.APBPrescTable:00000000 APBPrescTable
-C:\Users\flynn\AppData\Local\Temp\ccOust1H.s:299    .rodata.AHBPrescTable:00000000 AHBPrescTable
-C:\Users\flynn\AppData\Local\Temp\ccOust1H.s:292    .data.SystemCoreClock:00000000 SystemCoreClock
-C:\Users\flynn\AppData\Local\Temp\ccOust1H.s:288    .data.SystemCoreClock:00000000 $d
-C:\Users\flynn\AppData\Local\Temp\ccOust1H.s:295    .rodata.AHBPrescTable:00000000 $d
-C:\Users\flynn\AppData\Local\Temp\ccOust1H.s:303    .rodata.APBPrescTable:00000000 $d
-C:\Users\flynn\AppData\Local\Temp\ccOust1H.s:309    .rodata.PLLMulTable:00000000 $d
+C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s:18     .text.SystemInit:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s:24     .text.SystemInit:00000000 SystemInit
+C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s:40     .text.SystemCoreClockUpdate:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s:46     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
+C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s:273    .text.SystemCoreClockUpdate:000000d4 $d
+C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s:313    .rodata.PLLMulTable:00000000 PLLMulTable
+C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s:306    .rodata.APBPrescTable:00000000 APBPrescTable
+C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s:299    .rodata.AHBPrescTable:00000000 AHBPrescTable
+C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s:292    .data.SystemCoreClock:00000000 SystemCoreClock
+C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s:288    .data.SystemCoreClock:00000000 $d
+C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s:295    .rodata.AHBPrescTable:00000000 $d
+C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s:303    .rodata.APBPrescTable:00000000 $d
+C:\Users\flynn\AppData\Local\Temp\ccOzxG7s.s:309    .rodata.PLLMulTable:00000000 $d
 
 UNDEFINED SYMBOLS
 __aeabi_uidiv

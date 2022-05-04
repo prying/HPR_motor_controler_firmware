@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 1
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 1
   29:Core/Src/fsm.c **** static const char errorMsg[] = "\r\nSomthing went wrong! MOVED TO ERROR STATE\r\n";
   30:Core/Src/fsm.c **** static const char resetMsg[] = "\r\nReturned to idel state\r\n";
   31:Core/Src/fsm.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 2
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 2
 
 
   32:Core/Src/fsm.c **** // Event handler function pointer
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 1
   76:Core/Src/fsm.c ****     // Turn on the buck converter for the igniter
   77:Core/Src/fsm.c ****     HAL_GPIO_WritePin(IGN_PWR_GPIO_Port, IGN_PWR_Pin, GPIO_PIN_SET);
   38              		.loc 1 77 5 is_stmt 1 view .LVU2
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 3
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 3
 
 
   39 0002 A020     		movs	r0, #160
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 1
   85              		.loc 1 87 1 is_stmt 0 view .LVU11
   86 000e 0220     		movs	r0, #2
   87              		@ sp needed
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 4
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 4
 
 
   88 0010 10BD     		pop	{r4, pc}
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 1
  126              		.loc 1 105 5 view .LVU17
  127 0016 0022     		movs	r2, #0
  128 0018 8021     		movs	r1, #128
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 5
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 5
 
 
  129 001a 2000     		movs	r0, r4
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 1
  176 0018 8021     		movs	r1, #128
  177 001a 2000     		movs	r0, r4
  178 001c FFF7FEFF 		bl	HAL_GPIO_WritePin
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 6
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 6
 
 
  179              	.LVL15:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 1
  226              		.loc 1 94 1 is_stmt 0 view .LVU34
  227 0008 0320     		movs	r0, #3
  228              		@ sp needed
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 7
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 7
 
 
  229 000a 10BD     		pop	{r4, pc}
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 1
  273 0018 8021     		movs	r1, #128
  274 001a 2000     		movs	r0, r4
  275 001c FFF7FEFF 		bl	HAL_GPIO_WritePin
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 8
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 8
 
 
  276              	.LVL24:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 1
  315              		.loc 1 137 22 is_stmt 0 view .LVU47
  316 0000 014B     		ldr	r3, .L14
  317 0002 0022     		movs	r2, #0
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 9
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 9
 
 
  318 0004 1A70     		strb	r2, [r3]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 1
  146:Core/Src/fsm.c **** 
  147:Core/Src/fsm.c **** // Get event
  148:Core/Src/fsm.c **** void FSM_sendEvent(eFsmEvent Event)
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 10
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 10
 
 
  149:Core/Src/fsm.c **** {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 1
  169:Core/Src/fsm.c ****   };
  170:Core/Src/fsm.c **** 
  171:Core/Src/fsm.c ****   // Validate that both state and event are valid and that there is a event handler at the event fo
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 11
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 11
 
 
  172:Core/Src/fsm.c ****   if ((eFsmCurrentState < Last_State) && (eFsmNewEvent < Last_Event) && FSM[eFsmCurrentState][eFsmN
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 1
  407 0000 10B5     		push	{r4, lr}
  408              	.LCFI6:
  409              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 12
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 12
 
 
  410              		.cfi_offset 4, -8
@@ -670,730 +670,721 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 1
  413              		.loc 1 223 5 view .LVU62
  414              	.LVL29:
  224:Core/Src/fsm.c **** 
- 225:Core/Src/fsm.c ****     //while (huart2.gState == HAL_UART_STATE_BUSY_TX);
- 226:Core/Src/fsm.c **** 
- 227:Core/Src/fsm.c ****     // TODO: make safe with snprintf
- 228:Core/Src/fsm.c ****     n = sprintf(msgBuff, "State: %s\n", eFsmStateNames[state]);
- 415              		.loc 1 228 5 view .LVU63
- 416              		.loc 1 228 55 is_stmt 0 view .LVU64
+ 225:Core/Src/fsm.c ****     // TODO: make safe with snprintf
+ 226:Core/Src/fsm.c ****     n = sprintf(msgBuff, "State: %s\n", eFsmStateNames[state]);
+ 415              		.loc 1 226 5 view .LVU63
+ 416              		.loc 1 226 55 is_stmt 0 view .LVU64
  417 0002 4200     		lsls	r2, r0, #1
  418 0004 1218     		adds	r2, r2, r0
  419 0006 9200     		lsls	r2, r2, #2
- 420 0008 094B     		ldr	r3, .L26
- 421 000a 9A18     		adds	r2, r3, r2
- 422              		.loc 1 228 9 view .LVU65
- 423 000c 0949     		ldr	r1, .L26+4
- 424 000e 0A48     		ldr	r0, .L26+8
- 425              	.LVL30:
- 426              		.loc 1 228 9 view .LVU66
+ 420 0008 0848     		ldr	r0, .L25
+ 421              	.LVL30:
+ 422              		.loc 1 226 55 view .LVU65
+ 423 000a 8218     		adds	r2, r0, r2
+ 424              		.loc 1 226 9 view .LVU66
+ 425 000c 0849     		ldr	r1, .L25+4
+ 426 000e 0948     		ldr	r0, .L25+8
  427 0010 FFF7FEFF 		bl	sprintf
  428              	.LVL31:
  429 0014 021E     		subs	r2, r0, #0
  430              	.LVL32:
- 229:Core/Src/fsm.c ****     if (n <= 0)
- 431              		.loc 1 229 5 is_stmt 1 view .LVU67
- 432              		.loc 1 229 8 is_stmt 0 view .LVU68
- 433 0016 00DC     		bgt	.L25
+ 227:Core/Src/fsm.c ****     if (n <= 0)
+ 431              		.loc 1 227 5 is_stmt 1 view .LVU67
+ 432              		.loc 1 227 8 is_stmt 0 view .LVU68
+ 433 0016 00DC     		bgt	.L24
  434              	.LVL33:
  435              	.L22:
- 230:Core/Src/fsm.c ****     {
- 231:Core/Src/fsm.c ****         // Somthing went wrong BUT DONT CRASH
- 232:Core/Src/fsm.c ****     }
- 233:Core/Src/fsm.c ****     else
- 234:Core/Src/fsm.c ****     {
- 235:Core/Src/fsm.c ****       // Cursed code TODO: figure out why for reset and error event code get stuck on 33 (busy tx-i
- 236:Core/Src/fsm.c ****       huart2.gState = HAL_UART_STATE_READY;
- 237:Core/Src/fsm.c ****       if (HAL_UART_Transmit(&huart2, (uint8_t *)msgBuff, n, 100) != HAL_OK)
- 238:Core/Src/fsm.c ****       {
- 239:Core/Src/fsm.c ****         while(1);
- 240:Core/Src/fsm.c ****       }
- 241:Core/Src/fsm.c ****     }
- 242:Core/Src/fsm.c **** 
- 243:Core/Src/fsm.c ****     return;
- 244:Core/Src/fsm.c **** }
- 436              		.loc 1 244 1 view .LVU69
+ 228:Core/Src/fsm.c ****     {
+ 229:Core/Src/fsm.c ****         // Somthing went wrong BUT DONT CRASH
+ 230:Core/Src/fsm.c ****     }
+ 231:Core/Src/fsm.c ****     else
+ 232:Core/Src/fsm.c ****     {
+ 233:Core/Src/fsm.c ****       // Cursed code TODO: figure out why for reset and error event code get stuck on 33 (busy tx-i
+ 234:Core/Src/fsm.c ****       huart2.gState = HAL_UART_STATE_READY;
+ 235:Core/Src/fsm.c ****       if (HAL_UART_Transmit(&huart2, (uint8_t *)msgBuff, n, 100) != HAL_OK)
+ 236:Core/Src/fsm.c ****       {
+ 237:Core/Src/fsm.c **** 
+ 238:Core/Src/fsm.c ****       }
+ 239:Core/Src/fsm.c ****     }
+ 240:Core/Src/fsm.c **** 
+ 241:Core/Src/fsm.c ****     return;
+ 242:Core/Src/fsm.c **** }
+ 436              		.loc 1 242 1 view .LVU69
  437              		@ sp needed
  438 0018 10BD     		pop	{r4, pc}
  439              	.LVL34:
- 440              	.L25:
- 236:Core/Src/fsm.c ****       if (HAL_UART_Transmit(&huart2, (uint8_t *)msgBuff, n, 100) != HAL_OK)
- 441              		.loc 1 236 7 is_stmt 1 view .LVU70
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 13
+ 440              	.L24:
+ 234:Core/Src/fsm.c ****       if (HAL_UART_Transmit(&huart2, (uint8_t *)msgBuff, n, 100) != HAL_OK)
+ 441              		.loc 1 234 7 is_stmt 1 view .LVU70
+ 234:Core/Src/fsm.c ****       if (HAL_UART_Transmit(&huart2, (uint8_t *)msgBuff, n, 100) != HAL_OK)
+ 442              		.loc 1 234 21 is_stmt 0 view .LVU71
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 13
 
 
- 236:Core/Src/fsm.c ****       if (HAL_UART_Transmit(&huart2, (uint8_t *)msgBuff, n, 100) != HAL_OK)
- 442              		.loc 1 236 21 is_stmt 0 view .LVU71
- 443 001a 0848     		ldr	r0, .L26+12
+ 443 001a 0748     		ldr	r0, .L25+12
  444              	.LVL35:
- 236:Core/Src/fsm.c ****       if (HAL_UART_Transmit(&huart2, (uint8_t *)msgBuff, n, 100) != HAL_OK)
- 445              		.loc 1 236 21 view .LVU72
+ 234:Core/Src/fsm.c ****       if (HAL_UART_Transmit(&huart2, (uint8_t *)msgBuff, n, 100) != HAL_OK)
+ 445              		.loc 1 234 21 view .LVU72
  446 001c 2023     		movs	r3, #32
  447 001e 8367     		str	r3, [r0, #120]
- 237:Core/Src/fsm.c ****       {
- 448              		.loc 1 237 7 is_stmt 1 view .LVU73
- 237:Core/Src/fsm.c ****       {
- 449              		.loc 1 237 11 is_stmt 0 view .LVU74
+ 235:Core/Src/fsm.c ****       {
+ 448              		.loc 1 235 7 is_stmt 1 view .LVU73
+ 235:Core/Src/fsm.c ****       {
+ 449              		.loc 1 235 11 is_stmt 0 view .LVU74
  450 0020 92B2     		uxth	r2, r2
  451              	.LVL36:
- 237:Core/Src/fsm.c ****       {
- 452              		.loc 1 237 11 view .LVU75
+ 235:Core/Src/fsm.c ****       {
+ 452              		.loc 1 235 11 view .LVU75
  453 0022 4433     		adds	r3, r3, #68
- 454 0024 0449     		ldr	r1, .L26+8
+ 454 0024 0349     		ldr	r1, .L25+8
  455 0026 FFF7FEFF 		bl	HAL_UART_Transmit
  456              	.LVL37:
- 237:Core/Src/fsm.c ****       {
- 457              		.loc 1 237 10 view .LVU76
- 458 002a 0028     		cmp	r0, #0
- 459 002c F4D0     		beq	.L22
- 460              	.L24:
- 239:Core/Src/fsm.c ****       }
- 461              		.loc 1 239 9 is_stmt 1 discriminator 2 view .LVU77
- 239:Core/Src/fsm.c ****       }
- 462              		.loc 1 239 17 discriminator 2 view .LVU78
- 239:Core/Src/fsm.c ****       }
- 463              		.loc 1 239 14 discriminator 2 view .LVU79
- 464 002e FEE7     		b	.L24
- 465              	.L27:
- 466              		.align	2
- 467              	.L26:
- 468 0030 00000000 		.word	.LANCHOR4
- 469 0034 00000000 		.word	.LC8
- 470 0038 00000000 		.word	.LANCHOR5
- 471 003c 00000000 		.word	huart2
- 472              		.cfi_endproc
- 473              	.LFE54:
- 475              		.section	.text.FSM_step,"ax",%progbits
- 476              		.align	1
- 477              		.global	FSM_step
- 478              		.syntax unified
- 479              		.code	16
- 480              		.thumb_func
- 482              	FSM_step:
- 483              	.LVL38:
- 484              	.LFB52:
+ 238:Core/Src/fsm.c ****     }
+ 457              		.loc 1 238 7 is_stmt 1 view .LVU76
+ 241:Core/Src/fsm.c **** }
+ 458              		.loc 1 241 5 view .LVU77
+ 459 002a F5E7     		b	.L22
+ 460              	.L26:
+ 461              		.align	2
+ 462              	.L25:
+ 463 002c 00000000 		.word	.LANCHOR4
+ 464 0030 00000000 		.word	.LC8
+ 465 0034 00000000 		.word	.LANCHOR5
+ 466 0038 00000000 		.word	huart2
+ 467              		.cfi_endproc
+ 468              	.LFE54:
+ 470              		.section	.text.FSM_step,"ax",%progbits
+ 471              		.align	1
+ 472              		.global	FSM_step
+ 473              		.syntax unified
+ 474              		.code	16
+ 475              		.thumb_func
+ 477              	FSM_step:
+ 478              	.LVL38:
+ 479              	.LFB52:
  157:Core/Src/fsm.c ****   static eFsmEvent preEvent = Last_Event;
- 485              		.loc 1 157 1 view -0
- 486              		.cfi_startproc
- 487              		@ args = 0, pretend = 0, frame = 0
- 488              		@ frame_needed = 0, uses_anonymous_args = 0
+ 480              		.loc 1 157 1 view -0
+ 481              		.cfi_startproc
+ 482              		@ args = 0, pretend = 0, frame = 0
+ 483              		@ frame_needed = 0, uses_anonymous_args = 0
  157:Core/Src/fsm.c ****   static eFsmEvent preEvent = Last_Event;
- 489              		.loc 1 157 1 is_stmt 0 view .LVU81
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 14
-
-
- 490 0000 10B5     		push	{r4, lr}
- 491              	.LCFI7:
- 492              		.cfi_def_cfa_offset 8
- 493              		.cfi_offset 4, -8
- 494              		.cfi_offset 14, -4
+ 484              		.loc 1 157 1 is_stmt 0 view .LVU79
+ 485 0000 10B5     		push	{r4, lr}
+ 486              	.LCFI7:
+ 487              		.cfi_def_cfa_offset 8
+ 488              		.cfi_offset 4, -8
+ 489              		.cfi_offset 14, -4
  158:Core/Src/fsm.c **** 
- 495              		.loc 1 158 3 is_stmt 1 view .LVU82
+ 490              		.loc 1 158 3 is_stmt 1 view .LVU80
  161:Core/Src/fsm.c ****   {
- 496              		.loc 1 161 3 view .LVU83
- 172:Core/Src/fsm.c ****   {
- 497              		.loc 1 172 3 view .LVU84
- 172:Core/Src/fsm.c ****   {
- 498              		.loc 1 172 25 is_stmt 0 view .LVU85
- 499 0002 0F4B     		ldr	r3, .L30
- 500 0004 1A78     		ldrb	r2, [r3]
- 172:Core/Src/fsm.c ****   {
- 501              		.loc 1 172 6 view .LVU86
- 502 0006 052A     		cmp	r2, #5
- 503 0008 19D8     		bhi	.L28
- 172:Core/Src/fsm.c ****   {
- 504              		.loc 1 172 56 discriminator 1 view .LVU87
- 505 000a 0E4B     		ldr	r3, .L30+4
- 506 000c 1978     		ldrb	r1, [r3]
- 172:Core/Src/fsm.c ****   {
- 507              		.loc 1 172 39 discriminator 1 view .LVU88
- 508 000e 0529     		cmp	r1, #5
- 509 0010 15D8     		bhi	.L28
- 172:Core/Src/fsm.c ****   {
- 510              		.loc 1 172 94 discriminator 2 view .LVU89
- 511 0012 5300     		lsls	r3, r2, #1
- 512 0014 9B18     		adds	r3, r3, r2
- 513 0016 5B00     		lsls	r3, r3, #1
- 514 0018 5B18     		adds	r3, r3, r1
- 515 001a 9B00     		lsls	r3, r3, #2
- 516 001c 0A4A     		ldr	r2, .L30+8
- 517 001e 9B58     		ldr	r3, [r3, r2]
- 172:Core/Src/fsm.c ****   {
- 518              		.loc 1 172 70 discriminator 2 view .LVU90
- 519 0020 002B     		cmp	r3, #0
- 520 0022 0CD0     		beq	.L28
- 172:Core/Src/fsm.c ****   {
- 521              		.loc 1 172 133 discriminator 3 view .LVU91
- 522 0024 094A     		ldr	r2, .L30+12
- 523 0026 1278     		ldrb	r2, [r2]
- 172:Core/Src/fsm.c ****   {
- 524              		.loc 1 172 117 discriminator 3 view .LVU92
- 525 0028 9142     		cmp	r1, r2
- 526 002a 08D0     		beq	.L28
- 175:Core/Src/fsm.c ****       preEvent = eFsmNewEvent;
- 527              		.loc 1 175 7 is_stmt 1 view .LVU93
- 175:Core/Src/fsm.c ****       preEvent = eFsmNewEvent;
- 528              		.loc 1 175 27 is_stmt 0 view .LVU94
- 529 002c 9847     		blx	r3
- 530              	.LVL39:
- 175:Core/Src/fsm.c ****       preEvent = eFsmNewEvent;
- 531              		.loc 1 175 24 view .LVU95
- 532 002e 044B     		ldr	r3, .L30
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 15
+ 491              		.loc 1 161 3 view .LVU81
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 14
 
 
- 533 0030 1870     		strb	r0, [r3]
+ 172:Core/Src/fsm.c ****   {
+ 492              		.loc 1 172 3 view .LVU82
+ 172:Core/Src/fsm.c ****   {
+ 493              		.loc 1 172 25 is_stmt 0 view .LVU83
+ 494 0002 0F4B     		ldr	r3, .L29
+ 495 0004 1A78     		ldrb	r2, [r3]
+ 172:Core/Src/fsm.c ****   {
+ 496              		.loc 1 172 6 view .LVU84
+ 497 0006 052A     		cmp	r2, #5
+ 498 0008 19D8     		bhi	.L27
+ 172:Core/Src/fsm.c ****   {
+ 499              		.loc 1 172 56 discriminator 1 view .LVU85
+ 500 000a 0E4B     		ldr	r3, .L29+4
+ 501 000c 1978     		ldrb	r1, [r3]
+ 172:Core/Src/fsm.c ****   {
+ 502              		.loc 1 172 39 discriminator 1 view .LVU86
+ 503 000e 0529     		cmp	r1, #5
+ 504 0010 15D8     		bhi	.L27
+ 172:Core/Src/fsm.c ****   {
+ 505              		.loc 1 172 94 discriminator 2 view .LVU87
+ 506 0012 5300     		lsls	r3, r2, #1
+ 507 0014 9B18     		adds	r3, r3, r2
+ 508 0016 5B00     		lsls	r3, r3, #1
+ 509 0018 5B18     		adds	r3, r3, r1
+ 510 001a 9B00     		lsls	r3, r3, #2
+ 511 001c 0A4A     		ldr	r2, .L29+8
+ 512 001e 9B58     		ldr	r3, [r3, r2]
+ 172:Core/Src/fsm.c ****   {
+ 513              		.loc 1 172 70 discriminator 2 view .LVU88
+ 514 0020 002B     		cmp	r3, #0
+ 515 0022 0CD0     		beq	.L27
+ 172:Core/Src/fsm.c ****   {
+ 516              		.loc 1 172 133 discriminator 3 view .LVU89
+ 517 0024 094A     		ldr	r2, .L29+12
+ 518 0026 1278     		ldrb	r2, [r2]
+ 172:Core/Src/fsm.c ****   {
+ 519              		.loc 1 172 117 discriminator 3 view .LVU90
+ 520 0028 9142     		cmp	r1, r2
+ 521 002a 08D0     		beq	.L27
+ 175:Core/Src/fsm.c ****       preEvent = eFsmNewEvent;
+ 522              		.loc 1 175 7 is_stmt 1 view .LVU91
+ 175:Core/Src/fsm.c ****       preEvent = eFsmNewEvent;
+ 523              		.loc 1 175 27 is_stmt 0 view .LVU92
+ 524 002c 9847     		blx	r3
+ 525              	.LVL39:
+ 175:Core/Src/fsm.c ****       preEvent = eFsmNewEvent;
+ 526              		.loc 1 175 24 view .LVU93
+ 527 002e 044B     		ldr	r3, .L29
+ 528 0030 1870     		strb	r0, [r3]
  176:Core/Src/fsm.c ****       sendStateMsg(eFsmCurrentState);
- 534              		.loc 1 176 7 is_stmt 1 view .LVU96
+ 529              		.loc 1 176 7 is_stmt 1 view .LVU94
  176:Core/Src/fsm.c ****       sendStateMsg(eFsmCurrentState);
- 535              		.loc 1 176 16 is_stmt 0 view .LVU97
- 536 0032 044B     		ldr	r3, .L30+4
- 537 0034 1A78     		ldrb	r2, [r3]
- 538 0036 054B     		ldr	r3, .L30+12
- 539 0038 1A70     		strb	r2, [r3]
+ 530              		.loc 1 176 16 is_stmt 0 view .LVU95
+ 531 0032 044B     		ldr	r3, .L29+4
+ 532 0034 1A78     		ldrb	r2, [r3]
+ 533 0036 054B     		ldr	r3, .L29+12
+ 534 0038 1A70     		strb	r2, [r3]
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 15
+
+
  177:Core/Src/fsm.c ****   }
- 540              		.loc 1 177 7 is_stmt 1 view .LVU98
- 541 003a FFF7FEFF 		bl	sendStateMsg
- 542              	.LVL40:
+ 535              		.loc 1 177 7 is_stmt 1 view .LVU96
+ 536 003a FFF7FEFF 		bl	sendStateMsg
+ 537              	.LVL40:
  182:Core/Src/fsm.c **** 
- 543              		.loc 1 182 3 view .LVU99
+ 538              		.loc 1 182 3 view .LVU97
  185:Core/Src/fsm.c **** }
- 544              		.loc 1 185 3 view .LVU100
- 545              	.L28:
+ 539              		.loc 1 185 3 view .LVU98
+ 540              	.L27:
  186:Core/Src/fsm.c **** 
- 546              		.loc 1 186 1 is_stmt 0 view .LVU101
- 547              		@ sp needed
- 548 003e 10BD     		pop	{r4, pc}
- 549              	.L31:
- 550              		.align	2
- 551              	.L30:
- 552 0040 00000000 		.word	.LANCHOR2
- 553 0044 00000000 		.word	.LANCHOR3
- 554 0048 00000000 		.word	FSM.2
- 555 004c 00000000 		.word	.LANCHOR6
- 556              		.cfi_endproc
- 557              	.LFE52:
- 559              		.section	.text.nextEventFromState,"ax",%progbits
- 560              		.align	1
- 561              		.global	nextEventFromState
- 562              		.syntax unified
- 563              		.code	16
- 564              		.thumb_func
- 566              	nextEventFromState:
- 567              	.LVL41:
- 568              	.LFB55:
- 245:Core/Src/fsm.c **** 
- 246:Core/Src/fsm.c **** eFsmEvent nextEventFromState(eFsmState state)
- 247:Core/Src/fsm.c **** {
- 569              		.loc 1 247 1 is_stmt 1 view -0
- 570              		.cfi_startproc
- 571              		@ args = 0, pretend = 0, frame = 0
- 572              		@ frame_needed = 0, uses_anonymous_args = 0
- 573              		@ link register save eliminated.
- 248:Core/Src/fsm.c ****   // Next state
- 249:Core/Src/fsm.c ****   switch (state)
- 574              		.loc 1 249 3 view .LVU103
- 575 0000 0628     		cmp	r0, #6
- 576 0002 0FD8     		bhi	.L33
- 577 0004 8000     		lsls	r0, r0, #2
- 578              	.LVL42:
- 579              		.loc 1 249 3 is_stmt 0 view .LVU104
- 580 0006 094B     		ldr	r3, .L43
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 16
+ 541              		.loc 1 186 1 is_stmt 0 view .LVU99
+ 542              		@ sp needed
+ 543 003e 10BD     		pop	{r4, pc}
+ 544              	.L30:
+ 545              		.align	2
+ 546              	.L29:
+ 547 0040 00000000 		.word	.LANCHOR2
+ 548 0044 00000000 		.word	.LANCHOR3
+ 549 0048 00000000 		.word	FSM.2
+ 550 004c 00000000 		.word	.LANCHOR6
+ 551              		.cfi_endproc
+ 552              	.LFE52:
+ 554              		.section	.text.nextEventFromState,"ax",%progbits
+ 555              		.align	1
+ 556              		.global	nextEventFromState
+ 557              		.syntax unified
+ 558              		.code	16
+ 559              		.thumb_func
+ 561              	nextEventFromState:
+ 562              	.LVL41:
+ 563              	.LFB55:
+ 243:Core/Src/fsm.c **** 
+ 244:Core/Src/fsm.c **** eFsmEvent nextEventFromState(eFsmState state)
+ 245:Core/Src/fsm.c **** {
+ 564              		.loc 1 245 1 is_stmt 1 view -0
+ 565              		.cfi_startproc
+ 566              		@ args = 0, pretend = 0, frame = 0
+ 567              		@ frame_needed = 0, uses_anonymous_args = 0
+ 568              		@ link register save eliminated.
+ 246:Core/Src/fsm.c ****   // Next state
+ 247:Core/Src/fsm.c ****   switch (state)
+ 569              		.loc 1 247 3 view .LVU101
+ 570 0000 0628     		cmp	r0, #6
+ 571 0002 0FD8     		bhi	.L32
+ 572 0004 8000     		lsls	r0, r0, #2
+ 573              	.LVL42:
+ 574              		.loc 1 247 3 is_stmt 0 view .LVU102
+ 575 0006 094B     		ldr	r3, .L42
+ 576 0008 1B58     		ldr	r3, [r3, r0]
+ 577 000a 9F46     		mov	pc, r3
+ 578              		.section	.rodata.nextEventFromState,"a",%progbits
+ 579              		.align	2
+ 580              	.L34:
+ 581 0000 0C000000 		.word	.L40
+ 582 0004 28000000 		.word	.L41
+ 583 0008 10000000 		.word	.L38
+ 584 000c 14000000 		.word	.L37
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 16
 
 
- 581 0008 1B58     		ldr	r3, [r3, r0]
- 582 000a 9F46     		mov	pc, r3
- 583              		.section	.rodata.nextEventFromState,"a",%progbits
- 584              		.align	2
- 585              	.L35:
- 586 0000 0C000000 		.word	.L41
- 587 0004 28000000 		.word	.L42
- 588 0008 10000000 		.word	.L39
- 589 000c 14000000 		.word	.L38
- 590 0010 18000000 		.word	.L37
- 591 0014 1C000000 		.word	.L36
- 592 0018 20000000 		.word	.L34
- 593              		.section	.text.nextEventFromState
- 594              	.L41:
- 595 000c 0120     		movs	r0, #1
- 596              	.L40:
- 250:Core/Src/fsm.c ****   {
- 251:Core/Src/fsm.c ****   case Idle_State:
- 252:Core/Src/fsm.c ****     return Arm_Event;
- 253:Core/Src/fsm.c ****     break;
- 254:Core/Src/fsm.c **** 
- 255:Core/Src/fsm.c ****   case Standby_State:
- 256:Core/Src/fsm.c ****     return Launch_Event;
- 257:Core/Src/fsm.c ****     break;
- 258:Core/Src/fsm.c **** 
- 259:Core/Src/fsm.c ****   case Igniter_On_State:
- 260:Core/Src/fsm.c ****     return Open_Valve_Timer_Event;
- 261:Core/Src/fsm.c ****     break;
- 262:Core/Src/fsm.c **** 
- 263:Core/Src/fsm.c ****   case Valve_Open_State:
- 264:Core/Src/fsm.c ****     return Stop_Igniter_Timer_Event;
- 265:Core/Src/fsm.c ****     break;
- 266:Core/Src/fsm.c **** 
- 267:Core/Src/fsm.c ****   case Igniter_Off_State:
- 268:Core/Src/fsm.c ****     return Last_Event;
- 269:Core/Src/fsm.c ****     break;
- 270:Core/Src/fsm.c **** 
- 271:Core/Src/fsm.c ****   case Aborted_State:
- 272:Core/Src/fsm.c ****     return Last_Event;
- 273:Core/Src/fsm.c ****     break;
- 274:Core/Src/fsm.c **** 
- 275:Core/Src/fsm.c ****   case Last_State:
- 276:Core/Src/fsm.c ****     return Reset_Event;
- 277:Core/Src/fsm.c ****     break;
- 278:Core/Src/fsm.c **** 
- 279:Core/Src/fsm.c ****   default:
- 280:Core/Src/fsm.c ****     break;
- 281:Core/Src/fsm.c ****   }
- 282:Core/Src/fsm.c **** 
- 283:Core/Src/fsm.c ****   return 6;
- 284:Core/Src/fsm.c **** }
- 597              		.loc 1 284 1 view .LVU105
- 598              		@ sp needed
- 599 000e 7047     		bx	lr
- 600              	.L39:
- 257:Core/Src/fsm.c **** 
- 601              		.loc 1 257 5 is_stmt 1 view .LVU106
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 17
+ 585 0010 18000000 		.word	.L36
+ 586 0014 1C000000 		.word	.L35
+ 587 0018 20000000 		.word	.L33
+ 588              		.section	.text.nextEventFromState
+ 589              	.L40:
+ 590 000c 0120     		movs	r0, #1
+ 591              	.L39:
+ 248:Core/Src/fsm.c ****   {
+ 249:Core/Src/fsm.c ****   case Idle_State:
+ 250:Core/Src/fsm.c ****     return Arm_Event;
+ 251:Core/Src/fsm.c ****     break;
+ 252:Core/Src/fsm.c **** 
+ 253:Core/Src/fsm.c ****   case Standby_State:
+ 254:Core/Src/fsm.c ****     return Launch_Event;
+ 255:Core/Src/fsm.c ****     break;
+ 256:Core/Src/fsm.c **** 
+ 257:Core/Src/fsm.c ****   case Igniter_On_State:
+ 258:Core/Src/fsm.c ****     return Open_Valve_Timer_Event;
+ 259:Core/Src/fsm.c ****     break;
+ 260:Core/Src/fsm.c **** 
+ 261:Core/Src/fsm.c ****   case Valve_Open_State:
+ 262:Core/Src/fsm.c ****     return Stop_Igniter_Timer_Event;
+ 263:Core/Src/fsm.c ****     break;
+ 264:Core/Src/fsm.c **** 
+ 265:Core/Src/fsm.c ****   case Igniter_Off_State:
+ 266:Core/Src/fsm.c ****     return Last_Event;
+ 267:Core/Src/fsm.c ****     break;
+ 268:Core/Src/fsm.c **** 
+ 269:Core/Src/fsm.c ****   case Aborted_State:
+ 270:Core/Src/fsm.c ****     return Last_Event;
+ 271:Core/Src/fsm.c ****     break;
+ 272:Core/Src/fsm.c **** 
+ 273:Core/Src/fsm.c ****   case Last_State:
+ 274:Core/Src/fsm.c ****     return Reset_Event;
+ 275:Core/Src/fsm.c ****     break;
+ 276:Core/Src/fsm.c **** 
+ 277:Core/Src/fsm.c ****   default:
+ 278:Core/Src/fsm.c ****     break;
+ 279:Core/Src/fsm.c ****   }
+ 280:Core/Src/fsm.c **** 
+ 281:Core/Src/fsm.c ****   return 6;
+ 282:Core/Src/fsm.c **** }
+ 592              		.loc 1 282 1 view .LVU103
+ 593              		@ sp needed
+ 594 000e 7047     		bx	lr
+ 595              	.L38:
+ 255:Core/Src/fsm.c **** 
+ 596              		.loc 1 255 5 is_stmt 1 view .LVU104
+ 258:Core/Src/fsm.c ****     break;
+ 597              		.loc 1 258 5 view .LVU105
+ 258:Core/Src/fsm.c ****     break;
+ 598              		.loc 1 258 12 is_stmt 0 view .LVU106
+ 599 0010 0320     		movs	r0, #3
+ 600 0012 FCE7     		b	.L39
+ 601              	.L37:
+ 259:Core/Src/fsm.c **** 
+ 602              		.loc 1 259 5 is_stmt 1 view .LVU107
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 17
 
 
- 260:Core/Src/fsm.c ****     break;
- 602              		.loc 1 260 5 view .LVU107
- 260:Core/Src/fsm.c ****     break;
- 603              		.loc 1 260 12 is_stmt 0 view .LVU108
- 604 0010 0320     		movs	r0, #3
- 605 0012 FCE7     		b	.L40
- 606              	.L38:
- 261:Core/Src/fsm.c **** 
- 607              		.loc 1 261 5 is_stmt 1 view .LVU109
- 264:Core/Src/fsm.c ****     break;
- 608              		.loc 1 264 5 view .LVU110
- 264:Core/Src/fsm.c ****     break;
- 609              		.loc 1 264 12 is_stmt 0 view .LVU111
- 610 0014 0420     		movs	r0, #4
- 611 0016 FAE7     		b	.L40
- 612              	.L37:
- 265:Core/Src/fsm.c **** 
- 613              		.loc 1 265 5 is_stmt 1 view .LVU112
- 268:Core/Src/fsm.c ****     break;
- 614              		.loc 1 268 5 view .LVU113
- 268:Core/Src/fsm.c ****     break;
- 615              		.loc 1 268 12 is_stmt 0 view .LVU114
- 616 0018 0620     		movs	r0, #6
- 617 001a F8E7     		b	.L40
- 618              	.L36:
- 269:Core/Src/fsm.c **** 
- 619              		.loc 1 269 5 is_stmt 1 view .LVU115
- 272:Core/Src/fsm.c ****     break;
- 620              		.loc 1 272 5 view .LVU116
- 272:Core/Src/fsm.c ****     break;
- 621              		.loc 1 272 12 is_stmt 0 view .LVU117
- 622 001c 0620     		movs	r0, #6
- 623 001e F6E7     		b	.L40
- 624              	.L34:
- 273:Core/Src/fsm.c **** 
- 625              		.loc 1 273 5 is_stmt 1 view .LVU118
- 276:Core/Src/fsm.c ****     break;
- 626              		.loc 1 276 5 view .LVU119
- 276:Core/Src/fsm.c ****     break;
- 627              		.loc 1 276 12 is_stmt 0 view .LVU120
- 628 0020 0520     		movs	r0, #5
- 629 0022 F4E7     		b	.L40
- 630              	.LVL43:
- 631              	.L33:
- 277:Core/Src/fsm.c **** 
- 632              		.loc 1 277 5 is_stmt 1 view .LVU121
- 280:Core/Src/fsm.c ****   }
- 633              		.loc 1 280 5 view .LVU122
- 283:Core/Src/fsm.c **** }
- 634              		.loc 1 283 3 view .LVU123
- 283:Core/Src/fsm.c **** }
- 635              		.loc 1 283 10 is_stmt 0 view .LVU124
- 636 0024 0620     		movs	r0, #6
- 637              	.LVL44:
- 283:Core/Src/fsm.c **** }
- 638              		.loc 1 283 10 view .LVU125
- 639 0026 F2E7     		b	.L40
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 18
+ 262:Core/Src/fsm.c ****     break;
+ 603              		.loc 1 262 5 view .LVU108
+ 262:Core/Src/fsm.c ****     break;
+ 604              		.loc 1 262 12 is_stmt 0 view .LVU109
+ 605 0014 0420     		movs	r0, #4
+ 606 0016 FAE7     		b	.L39
+ 607              	.L36:
+ 263:Core/Src/fsm.c **** 
+ 608              		.loc 1 263 5 is_stmt 1 view .LVU110
+ 266:Core/Src/fsm.c ****     break;
+ 609              		.loc 1 266 5 view .LVU111
+ 266:Core/Src/fsm.c ****     break;
+ 610              		.loc 1 266 12 is_stmt 0 view .LVU112
+ 611 0018 0620     		movs	r0, #6
+ 612 001a F8E7     		b	.L39
+ 613              	.L35:
+ 267:Core/Src/fsm.c **** 
+ 614              		.loc 1 267 5 is_stmt 1 view .LVU113
+ 270:Core/Src/fsm.c ****     break;
+ 615              		.loc 1 270 5 view .LVU114
+ 270:Core/Src/fsm.c ****     break;
+ 616              		.loc 1 270 12 is_stmt 0 view .LVU115
+ 617 001c 0620     		movs	r0, #6
+ 618 001e F6E7     		b	.L39
+ 619              	.L33:
+ 271:Core/Src/fsm.c **** 
+ 620              		.loc 1 271 5 is_stmt 1 view .LVU116
+ 274:Core/Src/fsm.c ****     break;
+ 621              		.loc 1 274 5 view .LVU117
+ 274:Core/Src/fsm.c ****     break;
+ 622              		.loc 1 274 12 is_stmt 0 view .LVU118
+ 623 0020 0520     		movs	r0, #5
+ 624 0022 F4E7     		b	.L39
+ 625              	.LVL43:
+ 626              	.L32:
+ 275:Core/Src/fsm.c **** 
+ 627              		.loc 1 275 5 is_stmt 1 view .LVU119
+ 278:Core/Src/fsm.c ****   }
+ 628              		.loc 1 278 5 view .LVU120
+ 281:Core/Src/fsm.c **** }
+ 629              		.loc 1 281 3 view .LVU121
+ 281:Core/Src/fsm.c **** }
+ 630              		.loc 1 281 10 is_stmt 0 view .LVU122
+ 631 0024 0620     		movs	r0, #6
+ 632              	.LVL44:
+ 281:Core/Src/fsm.c **** }
+ 633              		.loc 1 281 10 view .LVU123
+ 634 0026 F2E7     		b	.L39
+ 635              	.L41:
+ 254:Core/Src/fsm.c ****     break;
+ 636              		.loc 1 254 12 view .LVU124
+ 637 0028 0220     		movs	r0, #2
+ 638 002a F0E7     		b	.L39
+ 639              	.L43:
+ 640              		.align	2
+ 641              	.L42:
+ 642 002c 00000000 		.word	.L34
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 18
 
 
- 640              	.L42:
- 256:Core/Src/fsm.c ****     break;
- 641              		.loc 1 256 12 view .LVU126
- 642 0028 0220     		movs	r0, #2
- 643 002a F0E7     		b	.L40
- 644              	.L44:
- 645              		.align	2
- 646              	.L43:
- 647 002c 00000000 		.word	.L35
- 648              		.cfi_endproc
- 649              	.LFE55:
- 651              		.section	.rodata.FSM_reciveCMD.str1.4,"aMS",%progbits,1
- 652              		.align	2
- 653              	.LC17:
- 654 0000 0A00     		.ascii	"\012\000"
- 655              		.section	.text.FSM_reciveCMD,"ax",%progbits
- 656              		.align	1
- 657              		.global	FSM_reciveCMD
- 658              		.syntax unified
- 659              		.code	16
- 660              		.thumb_func
- 662              	FSM_reciveCMD:
- 663              	.LVL45:
- 664              	.LFB53:
+ 643              		.cfi_endproc
+ 644              	.LFE55:
+ 646              		.section	.rodata.FSM_reciveCMD.str1.4,"aMS",%progbits,1
+ 647              		.align	2
+ 648              	.LC17:
+ 649 0000 0A00     		.ascii	"\012\000"
+ 650              		.section	.text.FSM_reciveCMD,"ax",%progbits
+ 651              		.align	1
+ 652              		.global	FSM_reciveCMD
+ 653              		.syntax unified
+ 654              		.code	16
+ 655              		.thumb_func
+ 657              	FSM_reciveCMD:
+ 658              	.LVL45:
+ 659              	.LFB53:
  189:Core/Src/fsm.c ****   uint8_t strBuf = 0;
- 665              		.loc 1 189 1 is_stmt 1 view -0
- 666              		.cfi_startproc
- 667              		@ args = 0, pretend = 0, frame = 8
- 668              		@ frame_needed = 0, uses_anonymous_args = 0
+ 660              		.loc 1 189 1 is_stmt 1 view -0
+ 661              		.cfi_startproc
+ 662              		@ args = 0, pretend = 0, frame = 8
+ 663              		@ frame_needed = 0, uses_anonymous_args = 0
  189:Core/Src/fsm.c ****   uint8_t strBuf = 0;
- 669              		.loc 1 189 1 is_stmt 0 view .LVU128
- 670 0000 30B5     		push	{r4, r5, lr}
- 671              	.LCFI8:
- 672              		.cfi_def_cfa_offset 12
- 673              		.cfi_offset 4, -12
- 674              		.cfi_offset 5, -8
- 675              		.cfi_offset 14, -4
- 676 0002 83B0     		sub	sp, sp, #12
- 677              	.LCFI9:
- 678              		.cfi_def_cfa_offset 24
- 679 0004 0400     		movs	r4, r0
+ 664              		.loc 1 189 1 is_stmt 0 view .LVU126
+ 665 0000 30B5     		push	{r4, r5, lr}
+ 666              	.LCFI8:
+ 667              		.cfi_def_cfa_offset 12
+ 668              		.cfi_offset 4, -12
+ 669              		.cfi_offset 5, -8
+ 670              		.cfi_offset 14, -4
+ 671 0002 83B0     		sub	sp, sp, #12
+ 672              	.LCFI9:
+ 673              		.cfi_def_cfa_offset 24
+ 674 0004 0400     		movs	r4, r0
  190:Core/Src/fsm.c **** 
- 680              		.loc 1 190 3 is_stmt 1 view .LVU129
+ 675              		.loc 1 190 3 is_stmt 1 view .LVU127
  190:Core/Src/fsm.c **** 
- 681              		.loc 1 190 11 is_stmt 0 view .LVU130
- 682 0006 0023     		movs	r3, #0
- 683 0008 6A46     		mov	r2, sp
- 684 000a D371     		strb	r3, [r2, #7]
+ 676              		.loc 1 190 11 is_stmt 0 view .LVU128
+ 677 0006 0023     		movs	r3, #0
+ 678 0008 6A46     		mov	r2, sp
+ 679 000a D371     		strb	r3, [r2, #7]
  192:Core/Src/fsm.c **** 
- 685              		.loc 1 192 3 is_stmt 1 view .LVU131
- 686 000c 6433     		adds	r3, r3, #100
- 687 000e 0122     		movs	r2, #1
- 688 0010 6946     		mov	r1, sp
- 689 0012 0731     		adds	r1, r1, #7
- 690 0014 FFF7FEFF 		bl	HAL_UART_Receive
- 691              	.LVL46:
+ 680              		.loc 1 192 3 is_stmt 1 view .LVU129
+ 681 000c 6433     		adds	r3, r3, #100
+ 682 000e 0122     		movs	r2, #1
+ 683 0010 6946     		mov	r1, sp
+ 684 0012 0731     		adds	r1, r1, #7
+ 685 0014 FFF7FEFF 		bl	HAL_UART_Receive
+ 686              	.LVL46:
  195:Core/Src/fsm.c ****   {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 19
+ 687              		.loc 1 195 3 view .LVU130
+ 195:Core/Src/fsm.c ****   {
+ 688              		.loc 1 195 14 is_stmt 0 view .LVU131
+ 689 0018 6B46     		mov	r3, sp
+ 690 001a DB79     		ldrb	r3, [r3, #7]
+ 195:Core/Src/fsm.c ****   {
+ 691              		.loc 1 195 6 view .LVU132
+ 692 001c 002B     		cmp	r3, #0
+ 693 001e 01D0     		beq	.L44
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 19
 
 
- 692              		.loc 1 195 3 view .LVU132
  195:Core/Src/fsm.c ****   {
- 693              		.loc 1 195 14 is_stmt 0 view .LVU133
- 694 0018 6B46     		mov	r3, sp
- 695 001a DB79     		ldrb	r3, [r3, #7]
- 195:Core/Src/fsm.c ****   {
- 696              		.loc 1 195 6 view .LVU134
- 697 001c 002B     		cmp	r3, #0
- 698 001e 01D0     		beq	.L45
- 195:Core/Src/fsm.c ****   {
- 699              		.loc 1 195 19 discriminator 1 view .LVU135
- 700 0020 0A2B     		cmp	r3, #10
- 701 0022 01D1     		bne	.L48
- 702              	.L45:
+ 694              		.loc 1 195 19 discriminator 1 view .LVU133
+ 695 0020 0A2B     		cmp	r3, #10
+ 696 0022 01D1     		bne	.L47
+ 697              	.L44:
  213:Core/Src/fsm.c **** 
- 703              		.loc 1 213 1 view .LVU136
- 704 0024 03B0     		add	sp, sp, #12
- 705              		@ sp needed
- 706              	.LVL47:
+ 698              		.loc 1 213 1 view .LVU134
+ 699 0024 03B0     		add	sp, sp, #12
+ 700              		@ sp needed
+ 701              	.LVL47:
  213:Core/Src/fsm.c **** 
- 707              		.loc 1 213 1 view .LVU137
- 708 0026 30BD     		pop	{r4, r5, pc}
- 709              	.LVL48:
- 710              	.L48:
+ 702              		.loc 1 213 1 view .LVU135
+ 703 0026 30BD     		pop	{r4, r5, pc}
+ 704              	.LVL48:
+ 705              	.L47:
  197:Core/Src/fsm.c ****     HAL_UART_Transmit(uartHandle, "\n", 2, 50);
- 711              		.loc 1 197 5 is_stmt 1 view .LVU138
- 712 0028 6B46     		mov	r3, sp
- 713 002a DD1D     		adds	r5, r3, #7
- 714 002c 3223     		movs	r3, #50
- 715 002e 0122     		movs	r2, #1
- 716 0030 2900     		movs	r1, r5
- 717 0032 2000     		movs	r0, r4
- 718 0034 FFF7FEFF 		bl	HAL_UART_Transmit
- 719              	.LVL49:
+ 706              		.loc 1 197 5 is_stmt 1 view .LVU136
+ 707 0028 6B46     		mov	r3, sp
+ 708 002a DD1D     		adds	r5, r3, #7
+ 709 002c 3223     		movs	r3, #50
+ 710 002e 0122     		movs	r2, #1
+ 711 0030 2900     		movs	r1, r5
+ 712 0032 2000     		movs	r0, r4
+ 713 0034 FFF7FEFF 		bl	HAL_UART_Transmit
+ 714              	.LVL49:
  198:Core/Src/fsm.c **** 
- 720              		.loc 1 198 5 view .LVU139
- 721 0038 3223     		movs	r3, #50
- 722 003a 0222     		movs	r2, #2
- 723 003c 0C49     		ldr	r1, .L50
- 724 003e 2000     		movs	r0, r4
- 725 0040 FFF7FEFF 		bl	HAL_UART_Transmit
- 726              	.LVL50:
+ 715              		.loc 1 198 5 view .LVU137
+ 716 0038 3223     		movs	r3, #50
+ 717 003a 0222     		movs	r2, #2
+ 718 003c 0C49     		ldr	r1, .L49
+ 719 003e 2000     		movs	r0, r4
+ 720 0040 FFF7FEFF 		bl	HAL_UART_Transmit
+ 721              	.LVL50:
  200:Core/Src/fsm.c ****     {
- 727              		.loc 1 200 5 view .LVU140
+ 722              		.loc 1 200 5 view .LVU138
  200:Core/Src/fsm.c ****     {
- 728              		.loc 1 200 24 is_stmt 0 view .LVU141
- 729 0044 2B78     		ldrb	r3, [r5]
- 730 0046 1800     		movs	r0, r3
- 731 0048 3038     		subs	r0, r0, #48
- 732 004a C0B2     		uxtb	r0, r0
+ 723              		.loc 1 200 24 is_stmt 0 view .LVU139
+ 724 0044 2B78     		ldrb	r3, [r5]
+ 725 0046 1800     		movs	r0, r3
+ 726 0048 3038     		subs	r0, r0, #48
+ 727 004a C0B2     		uxtb	r0, r0
  200:Core/Src/fsm.c ****     {
- 733              		.loc 1 200 8 view .LVU142
- 734 004c 0628     		cmp	r0, #6
- 735 004e 0AD9     		bls	.L49
+ 728              		.loc 1 200 8 view .LVU140
+ 729 004c 0628     		cmp	r0, #6
+ 730 004e 0AD9     		bls	.L48
  206:Core/Src/fsm.c ****     {
- 736              		.loc 1 206 10 is_stmt 1 view .LVU143
+ 731              		.loc 1 206 10 is_stmt 1 view .LVU141
  206:Core/Src/fsm.c ****     {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 20
+ 732              		.loc 1 206 13 is_stmt 0 view .LVU142
+ 733 0050 372B     		cmp	r3, #55
+ 734 0052 E7D1     		bne	.L44
+ 206:Core/Src/fsm.c ****     {
+ 735              		.loc 1 206 49 discriminator 1 view .LVU143
+ 736 0054 074B     		ldr	r3, .L49+4
+ 737 0056 1878     		ldrb	r0, [r3]
+ 206:Core/Src/fsm.c ****     {
+ 738              		.loc 1 206 29 discriminator 1 view .LVU144
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 20
 
 
- 737              		.loc 1 206 13 is_stmt 0 view .LVU144
- 738 0050 372B     		cmp	r3, #55
- 739 0052 E7D1     		bne	.L45
- 206:Core/Src/fsm.c ****     {
- 740              		.loc 1 206 49 discriminator 1 view .LVU145
- 741 0054 074B     		ldr	r3, .L50+4
- 742 0056 1878     		ldrb	r0, [r3]
- 206:Core/Src/fsm.c ****     {
- 743              		.loc 1 206 29 discriminator 1 view .LVU146
- 744 0058 0428     		cmp	r0, #4
- 745 005a E3D0     		beq	.L45
+ 739 0058 0428     		cmp	r0, #4
+ 740 005a E3D0     		beq	.L44
  208:Core/Src/fsm.c ****     }
- 746              		.loc 1 208 7 is_stmt 1 view .LVU147
- 747 005c FFF7FEFF 		bl	nextEventFromState
- 748              	.LVL51:
- 749 0060 FFF7FEFF 		bl	FSM_sendEvent
- 750              	.LVL52:
+ 741              		.loc 1 208 7 is_stmt 1 view .LVU145
+ 742 005c FFF7FEFF 		bl	nextEventFromState
+ 743              	.LVL51:
+ 744 0060 FFF7FEFF 		bl	FSM_sendEvent
+ 745              	.LVL52:
  212:Core/Src/fsm.c **** }
- 751              		.loc 1 212 3 view .LVU148
- 752 0064 DEE7     		b	.L45
- 753              	.L49:
+ 746              		.loc 1 212 3 view .LVU146
+ 747 0064 DEE7     		b	.L44
+ 748              	.L48:
  203:Core/Src/fsm.c ****       FSM_sendEvent((eFsmEvent)strBuf);
- 754              		.loc 1 203 7 view .LVU149
+ 749              		.loc 1 203 7 view .LVU147
  203:Core/Src/fsm.c ****       FSM_sendEvent((eFsmEvent)strBuf);
- 755              		.loc 1 203 14 is_stmt 0 view .LVU150
- 756 0066 2870     		strb	r0, [r5]
+ 750              		.loc 1 203 14 is_stmt 0 view .LVU148
+ 751 0066 2870     		strb	r0, [r5]
  204:Core/Src/fsm.c ****     }
- 757              		.loc 1 204 7 is_stmt 1 view .LVU151
- 758 0068 FFF7FEFF 		bl	FSM_sendEvent
- 759              	.LVL53:
- 760 006c DAE7     		b	.L45
- 761              	.L51:
- 762 006e C046     		.align	2
- 763              	.L50:
- 764 0070 00000000 		.word	.LC17
- 765 0074 00000000 		.word	.LANCHOR2
- 766              		.cfi_endproc
- 767              	.LFE53:
- 769              		.section	.text.eventToQue,"ax",%progbits
- 770              		.align	1
- 771              		.global	eventToQue
- 772              		.syntax unified
- 773              		.code	16
- 774              		.thumb_func
- 776              	eventToQue:
- 777              	.LVL54:
- 778              	.LFB56:
- 285:Core/Src/fsm.c **** 
- 286:Core/Src/fsm.c **** void eventToQue(eFsmEvent Event)
- 287:Core/Src/fsm.c **** {
- 779              		.loc 1 287 1 view -0
- 780              		.cfi_startproc
- 781              		@ args = 0, pretend = 0, frame = 0
- 782              		@ frame_needed = 0, uses_anonymous_args = 0
- 783              		@ link register save eliminated.
- 288:Core/Src/fsm.c ****     
- 289:Core/Src/fsm.c **** }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 21
+ 752              		.loc 1 204 7 is_stmt 1 view .LVU149
+ 753 0068 FFF7FEFF 		bl	FSM_sendEvent
+ 754              	.LVL53:
+ 755 006c DAE7     		b	.L44
+ 756              	.L50:
+ 757 006e C046     		.align	2
+ 758              	.L49:
+ 759 0070 00000000 		.word	.LC17
+ 760 0074 00000000 		.word	.LANCHOR2
+ 761              		.cfi_endproc
+ 762              	.LFE53:
+ 764              		.section	.text.eventToQue,"ax",%progbits
+ 765              		.align	1
+ 766              		.global	eventToQue
+ 767              		.syntax unified
+ 768              		.code	16
+ 769              		.thumb_func
+ 771              	eventToQue:
+ 772              	.LVL54:
+ 773              	.LFB56:
+ 283:Core/Src/fsm.c **** 
+ 284:Core/Src/fsm.c **** void eventToQue(eFsmEvent Event)
+ 285:Core/Src/fsm.c **** {
+ 774              		.loc 1 285 1 view -0
+ 775              		.cfi_startproc
+ 776              		@ args = 0, pretend = 0, frame = 0
+ 777              		@ frame_needed = 0, uses_anonymous_args = 0
+ 778              		@ link register save eliminated.
+ 286:Core/Src/fsm.c ****     
+ 287:Core/Src/fsm.c **** }
+ 779              		.loc 1 287 1 view .LVU151
+ 780              		@ sp needed
+ 781 0000 7047     		bx	lr
+ 782              		.cfi_endproc
+ 783              	.LFE56:
+ 785              		.section	.bss.msgBuff.0,"aw",%nobits
+ 786              		.align	2
+ 787              		.set	.LANCHOR5,. + 0
+ 790              	msgBuff.0:
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 21
 
 
- 784              		.loc 1 289 1 view .LVU153
- 785              		@ sp needed
- 786 0000 7047     		bx	lr
- 787              		.cfi_endproc
- 788              	.LFE56:
- 790              		.section	.bss.msgBuff.0,"aw",%nobits
- 791              		.align	2
- 792              		.set	.LANCHOR5,. + 0
- 795              	msgBuff.0:
- 796 0000 00000000 		.space	32
- 796      00000000 
- 796      00000000 
- 796      00000000 
- 796      00000000 
- 797              		.section	.data.eFsmCurrentState,"aw"
- 798              		.set	.LANCHOR2,. + 0
- 801              	eFsmCurrentState:
- 802 0000 06       		.byte	6
- 803              		.section	.data.eFsmNewEvent,"aw"
- 804              		.set	.LANCHOR3,. + 0
- 807              	eFsmNewEvent:
- 808 0000 06       		.byte	6
- 809              		.section	.data.preEvent.1,"aw"
- 810              		.set	.LANCHOR6,. + 0
- 813              	preEvent.1:
- 814 0000 06       		.byte	6
- 815              		.section	.rodata.FSM.2,"a"
- 816              		.align	2
- 819              	FSM.2:
- 820 0000 00000000 		.word	_errorHandler
- 821 0004 00000000 		.word	_recivedArmHandler
- 822 0008 00000000 		.space	12
+ 791 0000 00000000 		.space	32
+ 791      00000000 
+ 791      00000000 
+ 791      00000000 
+ 791      00000000 
+ 792              		.section	.data.eFsmCurrentState,"aw"
+ 793              		.set	.LANCHOR2,. + 0
+ 796              	eFsmCurrentState:
+ 797 0000 06       		.byte	6
+ 798              		.section	.data.eFsmNewEvent,"aw"
+ 799              		.set	.LANCHOR3,. + 0
+ 802              	eFsmNewEvent:
+ 803 0000 06       		.byte	6
+ 804              		.section	.data.preEvent.1,"aw"
+ 805              		.set	.LANCHOR6,. + 0
+ 808              	preEvent.1:
+ 809 0000 06       		.byte	6
+ 810              		.section	.rodata.FSM.2,"a"
+ 811              		.align	2
+ 814              	FSM.2:
+ 815 0000 00000000 		.word	_errorHandler
+ 816 0004 00000000 		.word	_recivedArmHandler
+ 817 0008 00000000 		.space	12
+ 817      00000000 
+ 817      00000000 
+ 818 0014 00000000 		.word	_resetHandler
+ 819 0018 00000000 		.word	_errorHandler
+ 820 001c 00000000 		.space	4
+ 821 0020 00000000 		.word	_revicedLaunchHandler
+ 822 0024 00000000 		.space	8
  822      00000000 
- 822      00000000 
- 823 0014 00000000 		.word	_resetHandler
- 824 0018 00000000 		.word	_errorHandler
- 825 001c 00000000 		.space	4
- 826 0020 00000000 		.word	_revicedLaunchHandler
- 827 0024 00000000 		.space	8
- 827      00000000 
- 828 002c 00000000 		.word	_resetHandler
- 829 0030 00000000 		.word	_errorHandler
- 830 0034 00000000 		.space	8
+ 823 002c 00000000 		.word	_resetHandler
+ 824 0030 00000000 		.word	_errorHandler
+ 825 0034 00000000 		.space	8
+ 825      00000000 
+ 826 003c 00000000 		.word	_alarmOpenValveHandler
+ 827 0040 00000000 		.space	4
+ 828 0044 00000000 		.word	_resetHandler
+ 829 0048 00000000 		.word	_errorHandler
+ 830 004c 00000000 		.space	12
  830      00000000 
- 831 003c 00000000 		.word	_alarmOpenValveHandler
- 832 0040 00000000 		.space	4
- 833 0044 00000000 		.word	_resetHandler
- 834 0048 00000000 		.word	_errorHandler
- 835 004c 00000000 		.space	12
- 835      00000000 
- 835      00000000 
- 836 0058 00000000 		.word	_alarmTurnOffIgniterHandler
- 837 005c 00000000 		.word	_resetHandler
- 838 0060 00000000 		.word	_errorHandler
- 839 0064 00000000 		.space	16
- 839      00000000 
- 839      00000000 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 22
+ 830      00000000 
+ 831 0058 00000000 		.word	_alarmTurnOffIgniterHandler
+ 832 005c 00000000 		.word	_resetHandler
+ 833 0060 00000000 		.word	_errorHandler
+ 834 0064 00000000 		.space	16
+ 834      00000000 
+ 834      00000000 
+ 834      00000000 
+ 835 0074 00000000 		.word	_resetHandler
+ 836 0078 00000000 		.word	_errorHandler
+ 837 007c 00000000 		.space	16
+ 837      00000000 
+ 837      00000000 
+ 837      00000000 
+ 838 008c 00000000 		.word	_resetHandler
+ 839              		.section	.rodata.eFsmStateNames,"a"
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 22
 
 
- 839      00000000 
- 840 0074 00000000 		.word	_resetHandler
- 841 0078 00000000 		.word	_errorHandler
- 842 007c 00000000 		.space	16
- 842      00000000 
- 842      00000000 
- 842      00000000 
- 843 008c 00000000 		.word	_resetHandler
- 844              		.section	.rodata.eFsmStateNames,"a"
- 845              		.align	2
- 846              		.set	.LANCHOR4,. + 0
- 849              	eFsmStateNames:
- 850 0000 49646C65 		.ascii	"Idle\000"
- 850      00
- 851 0005 00000000 		.space	7
- 851      000000
- 852 000c 5374616E 		.ascii	"Standby\000"
- 852      64627900 
- 853 0014 00000000 		.space	4
- 854 0018 49676E69 		.ascii	"Igniter On\000"
- 854      74657220 
- 854      4F6E00
- 855 0023 00       		.space	1
- 856 0024 56616C76 		.ascii	"Valve Open\000"
- 856      65204F70 
- 856      656E00
- 857 002f 00       		.space	1
- 858 0030 49676E69 		.ascii	"Igniter Off\000"
- 858      74657220 
- 858      4F666600 
- 859 003c 41626F72 		.ascii	"Aborted\000"
- 859      74656400 
- 860 0044 00000000 		.space	4
- 861 0048 504C4143 		.ascii	"PLACEHOLDER\000"
- 861      45484F4C 
- 861      44455200 
- 862              		.section	.rodata.errorMsg,"a"
- 863              		.align	2
- 864              		.set	.LANCHOR0,. + 0
- 867              	errorMsg:
- 868 0000 0D0A536F 		.ascii	"\015\012Somthing went wrong! MOVED TO ERROR STATE\015"
- 868      6D746869 
- 868      6E672077 
- 868      656E7420 
- 868      77726F6E 
- 869 002c 0A00     		.ascii	"\012\000"
- 870              		.section	.rodata.resetMsg,"a"
- 871              		.align	2
- 872              		.set	.LANCHOR1,. + 0
- 875              	resetMsg:
- 876 0000 0D0A5265 		.ascii	"\015\012Returned to idel state\015\012\000"
- 876      7475726E 
- 876      65642074 
- 876      6F206964 
- 876      656C2073 
- 877              		.text
- 878              	.Letext0:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 23
+ 840              		.align	2
+ 841              		.set	.LANCHOR4,. + 0
+ 844              	eFsmStateNames:
+ 845 0000 49646C65 		.ascii	"Idle\000"
+ 845      00
+ 846 0005 00000000 		.space	7
+ 846      000000
+ 847 000c 5374616E 		.ascii	"Standby\000"
+ 847      64627900 
+ 848 0014 00000000 		.space	4
+ 849 0018 49676E69 		.ascii	"Igniter On\000"
+ 849      74657220 
+ 849      4F6E00
+ 850 0023 00       		.space	1
+ 851 0024 56616C76 		.ascii	"Valve Open\000"
+ 851      65204F70 
+ 851      656E00
+ 852 002f 00       		.space	1
+ 853 0030 49676E69 		.ascii	"Igniter Off\000"
+ 853      74657220 
+ 853      4F666600 
+ 854 003c 41626F72 		.ascii	"Aborted\000"
+ 854      74656400 
+ 855 0044 00000000 		.space	4
+ 856 0048 504C4143 		.ascii	"PLACEHOLDER\000"
+ 856      45484F4C 
+ 856      44455200 
+ 857              		.section	.rodata.errorMsg,"a"
+ 858              		.align	2
+ 859              		.set	.LANCHOR0,. + 0
+ 862              	errorMsg:
+ 863 0000 0D0A536F 		.ascii	"\015\012Somthing went wrong! MOVED TO ERROR STATE\015"
+ 863      6D746869 
+ 863      6E672077 
+ 863      656E7420 
+ 863      77726F6E 
+ 864 002c 0A00     		.ascii	"\012\000"
+ 865              		.section	.rodata.resetMsg,"a"
+ 866              		.align	2
+ 867              		.set	.LANCHOR1,. + 0
+ 870              	resetMsg:
+ 871 0000 0D0A5265 		.ascii	"\015\012Returned to idel state\015\012\000"
+ 871      7475726E 
+ 871      65642074 
+ 871      6F206964 
+ 871      656C2073 
+ 872              		.text
+ 873              	.Letext0:
+ 874              		.file 2 "f:\\toolchains\\gnu_arm\\10 2021.10\\arm-none-eabi\\include\\machine\\_default_types.h"
+ 875              		.file 3 "f:\\toolchains\\gnu_arm\\10 2021.10\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 876              		.file 4 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h"
+ 877              		.file 5 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h"
+ 878              		.file 6 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h"
+ 879              		.file 7 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h"
+ 880              		.file 8 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h"
+ 881              		.file 9 "Core/Inc/fsm.h"
+ 882              		.file 10 "f:\\toolchains\\gnu_arm\\10 2021.10\\arm-none-eabi\\include\\stdio.h"
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 23
 
 
- 879              		.file 2 "f:\\toolchains\\gnu_arm\\10 2021.10\\arm-none-eabi\\include\\machine\\_default_types.h"
- 880              		.file 3 "f:\\toolchains\\gnu_arm\\10 2021.10\\arm-none-eabi\\include\\sys\\_stdint.h"
- 881              		.file 4 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h"
- 882              		.file 5 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h"
- 883              		.file 6 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h"
- 884              		.file 7 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h"
- 885              		.file 8 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h"
- 886              		.file 9 "Core/Inc/fsm.h"
- 887              		.file 10 "f:\\toolchains\\gnu_arm\\10 2021.10\\arm-none-eabi\\include\\stdio.h"
- 888              		.file 11 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h"
- 889              		.file 12 "Core/Inc/pwm.h"
- 890              		.file 13 "Core/Inc/usart.h"
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 24
+ 883              		.file 11 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h"
+ 884              		.file 12 "Core/Inc/pwm.h"
+ 885              		.file 13 "Core/Inc/usart.h"
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 fsm.c
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:18     .text._recivedArmHandler:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:24     .text._recivedArmHandler:00000000 _recivedArmHandler
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:56     .text._revicedLaunchHandler:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:62     .text._revicedLaunchHandler:00000000 _revicedLaunchHandler
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:93     .text._alarmTurnOffIgniterHandler:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:99     .text._alarmTurnOffIgniterHandler:00000000 _alarmTurnOffIgniterHandler
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:141    .text._errorHandler:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:147    .text._errorHandler:00000000 _errorHandler
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:194    .text._errorHandler:00000030 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:200    .text._alarmOpenValveHandler:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:206    .text._alarmOpenValveHandler:00000000 _alarmOpenValveHandler
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:233    .text._alarmOpenValveHandler:0000000c $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:238    .text._resetHandler:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:244    .text._resetHandler:00000000 _resetHandler
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:295    .text._resetHandler:00000034 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:301    .text.FSM_init:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:307    .text.FSM_init:00000000 FSM_init
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:326    .text.FSM_init:00000008 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:331    .text.FSM_state:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:337    .text.FSM_state:00000000 FSM_state
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:354    .text.FSM_state:00000008 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:359    .text.FSM_sendEvent:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:365    .text.FSM_sendEvent:00000000 FSM_sendEvent
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:384    .text.FSM_sendEvent:00000008 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:389    .rodata.sendStateMsg.str1.4:00000000 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:393    .text.sendStateMsg:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:399    .text.sendStateMsg:00000000 sendStateMsg
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:468    .text.sendStateMsg:00000030 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:476    .text.FSM_step:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:482    .text.FSM_step:00000000 FSM_step
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:552    .text.FSM_step:00000040 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:819    .rodata.FSM.2:00000000 FSM.2
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:560    .text.nextEventFromState:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:566    .text.nextEventFromState:00000000 nextEventFromState
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:584    .rodata.nextEventFromState:00000000 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:647    .text.nextEventFromState:0000002c $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:652    .rodata.FSM_reciveCMD.str1.4:00000000 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:656    .text.FSM_reciveCMD:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:662    .text.FSM_reciveCMD:00000000 FSM_reciveCMD
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:764    .text.FSM_reciveCMD:00000070 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:770    .text.eventToQue:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:776    .text.eventToQue:00000000 eventToQue
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:791    .bss.msgBuff.0:00000000 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:795    .bss.msgBuff.0:00000000 msgBuff.0
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:801    .data.eFsmCurrentState:00000000 eFsmCurrentState
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:807    .data.eFsmNewEvent:00000000 eFsmNewEvent
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:813    .data.preEvent.1:00000000 preEvent.1
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:816    .rodata.FSM.2:00000000 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:845    .rodata.eFsmStateNames:00000000 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:849    .rodata.eFsmStateNames:00000000 eFsmStateNames
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:863    .rodata.errorMsg:00000000 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:867    .rodata.errorMsg:00000000 errorMsg
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:871    .rodata.resetMsg:00000000 $d
-C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s:875    .rodata.resetMsg:00000000 resetMsg
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:18     .text._recivedArmHandler:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:24     .text._recivedArmHandler:00000000 _recivedArmHandler
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:56     .text._revicedLaunchHandler:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:62     .text._revicedLaunchHandler:00000000 _revicedLaunchHandler
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:93     .text._alarmTurnOffIgniterHandler:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:99     .text._alarmTurnOffIgniterHandler:00000000 _alarmTurnOffIgniterHandler
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:141    .text._errorHandler:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:147    .text._errorHandler:00000000 _errorHandler
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:194    .text._errorHandler:00000030 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:200    .text._alarmOpenValveHandler:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:206    .text._alarmOpenValveHandler:00000000 _alarmOpenValveHandler
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:233    .text._alarmOpenValveHandler:0000000c $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:238    .text._resetHandler:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:244    .text._resetHandler:00000000 _resetHandler
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:295    .text._resetHandler:00000034 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:301    .text.FSM_init:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:307    .text.FSM_init:00000000 FSM_init
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:326    .text.FSM_init:00000008 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:331    .text.FSM_state:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:337    .text.FSM_state:00000000 FSM_state
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:354    .text.FSM_state:00000008 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:359    .text.FSM_sendEvent:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:365    .text.FSM_sendEvent:00000000 FSM_sendEvent
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:384    .text.FSM_sendEvent:00000008 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:389    .rodata.sendStateMsg.str1.4:00000000 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:393    .text.sendStateMsg:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:399    .text.sendStateMsg:00000000 sendStateMsg
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:463    .text.sendStateMsg:0000002c $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:471    .text.FSM_step:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:477    .text.FSM_step:00000000 FSM_step
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:547    .text.FSM_step:00000040 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:814    .rodata.FSM.2:00000000 FSM.2
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:555    .text.nextEventFromState:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:561    .text.nextEventFromState:00000000 nextEventFromState
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:579    .rodata.nextEventFromState:00000000 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:642    .text.nextEventFromState:0000002c $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:647    .rodata.FSM_reciveCMD.str1.4:00000000 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:651    .text.FSM_reciveCMD:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:657    .text.FSM_reciveCMD:00000000 FSM_reciveCMD
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:759    .text.FSM_reciveCMD:00000070 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:765    .text.eventToQue:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:771    .text.eventToQue:00000000 eventToQue
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:786    .bss.msgBuff.0:00000000 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:790    .bss.msgBuff.0:00000000 msgBuff.0
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:796    .data.eFsmCurrentState:00000000 eFsmCurrentState
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:802    .data.eFsmNewEvent:00000000 eFsmNewEvent
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:808    .data.preEvent.1:00000000 preEvent.1
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:811    .rodata.FSM.2:00000000 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:840    .rodata.eFsmStateNames:00000000 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:844    .rodata.eFsmStateNames:00000000 eFsmStateNames
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:858    .rodata.errorMsg:00000000 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:862    .rodata.errorMsg:00000000 errorMsg
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:866    .rodata.resetMsg:00000000 $d
+C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s:870    .rodata.resetMsg:00000000 resetMsg
 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccN5S2zN.s 			page 25
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\cckRFN7h.s 			page 25
 
 
 UNDEFINED SYMBOLS

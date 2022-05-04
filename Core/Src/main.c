@@ -93,10 +93,8 @@ int main(void)
   MX_USART2_UART_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-  //PWM1_start();
-  //FSM_sendEvent(Last_Event);
+  PWM1_start();
   /* USER CODE END 2 */
-
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)

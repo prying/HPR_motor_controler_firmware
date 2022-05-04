@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
   30:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         (++) UART interrupts handling:
   31:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****               -@@-  The specific UART interrupts (Transmission complete interrupt,
   32:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****                 RXNE interrupt, RX/TX FIFOs related interrupts and Error Interrupts)
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 2
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 2
 
 
   33:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****                 are managed using the macros __HAL_UART_ENABLE_IT() and __HAL_UART_DISABLE_IT()
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
   87:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     (+) AbortTransmitCpltCallback : Abort Transmit Complete Callback.
   88:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     (+) AbortReceiveCpltCallback  : Abort Receive Complete Callback.
   89:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     (+) WakeupCallback            : Wakeup Callback.
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 3
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 3
 
 
   90:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     (+) MspInitCallback           : UART MspInit.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  144:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @attention
  145:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   *
  146:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * <h2><center>&copy; Copyright (c) 2016 STMicroelectronics.
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 4
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 4
 
 
  147:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * All rights reserved.</center></h2>
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  201:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** static void UART_DMATxHalfCplt(DMA_HandleTypeDef *hdma);
  202:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** static void UART_DMAError(DMA_HandleTypeDef *hdma);
  203:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** static void UART_DMAAbortOnError(DMA_HandleTypeDef *hdma);
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 5
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 5
 
 
  204:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** static void UART_DMATxAbortCallback(DMA_HandleTypeDef *hdma);
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  258:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  259:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** @endverbatim
  260:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 6
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 6
 
 
  261:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   Depending on the frame length defined by the M1 and M0 bits (7-bit,
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  315:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #if (USE_HAL_UART_REGISTER_CALLBACKS == 1)
  316:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     UART_InitCallbacksToDefault(huart);
  317:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 7
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 7
 
 
  318:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     if (huart->MspInitCallback == NULL)
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  372:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* Check UART instance */
  373:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   assert_param(IS_UART_HALFDUPLEX_INSTANCE(huart->Instance));
  374:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 8
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 8
 
 
  375:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   if (huart->gState == HAL_UART_STATE_RESET)
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  429:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   *        parameters in the UART_InitTypeDef and creates the associated handle.
  430:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @param huart             UART handle.
  431:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @param BreakDetectLength Specifies the LIN break detection length.
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 9
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 9
 
 
  432:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   *        This parameter can be one of the following values:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  486:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* Set the UART Communication parameters */
  487:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   if (UART_SetConfig(huart) == HAL_ERROR)
  488:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 10
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 10
 
 
  489:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     return HAL_ERROR;
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  543:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   assert_param(IS_UART_WAKEUPMETHOD(WakeUpMethod));
  544:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  545:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   if (huart->gState == HAL_UART_STATE_RESET)
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 11
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 11
 
 
  546:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  600:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** }
  601:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  602:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 12
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 12
 
 
  603:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** /**
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  657:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   UNUSED(huart);
  658:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  659:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* NOTE : This function should not be modified, when the callback is needed,
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 13
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 13
 
 
  660:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****             the HAL_UART_MspInit can be implemented in the user file
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  714:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   if (huart->gState == HAL_UART_STATE_READY)
  715:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
  716:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     switch (CallbackID)
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 14
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 14
 
 
  717:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  771:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
  772:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     switch (CallbackID)
  773:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 15
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 15
 
 
  774:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       case HAL_UART_MSPINIT_CB_ID :
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  828:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     switch (CallbackID)
  829:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
  830:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       case HAL_UART_TX_HALFCOMPLETE_CB_ID :
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 16
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 16
 
 
  831:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         huart->TxHalfCpltCallback = HAL_UART_TxHalfCpltCallback;               /* Legacy weak  TxHa
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  885:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     switch (CallbackID)
  886:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
  887:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       case HAL_UART_MSPINIT_CB_ID :
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 17
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 17
 
 
  888:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         huart->MspInitCallback = HAL_UART_MspInit;
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  942:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  943:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     status =  HAL_ERROR;
  944:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 18
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 18
 
 
  945:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  999:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****            The HAL status of all data processing is returned by the same function
 1000:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****            after finishing transfer.
 1001:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****        (+) Non-Blocking mode: The communication is performed using Interrupts
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 19
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 19
 
 
 1002:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****            or DMA, These API's return the HAL status.
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1056:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****            to identify error type, and HAL_UART_ErrorCallback() user callback is executed.
 1057:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****            Transfer is kept ongoing on UART side.
 1058:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****            If user wants to abort it, Abort services should be called by user.
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 20
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 20
 
 
 1059:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****        (+) Error is considered as Blocking : Transfer could not be completed properly and is aborte
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1113:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
 1114:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     huart->ErrorCode = HAL_UART_ERROR_NONE;
 1115:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     huart->gState = HAL_UART_STATE_BUSY_TX;
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 21
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 21
 
 
 1116:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1170:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** }
 1171:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
 1172:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** /**
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 22
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 22
 
 
 1173:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @brief Receive an amount of data in blocking mode.
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1227:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     UART_MASK_COMPUTATION(huart);
 1228:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     uhMask = huart->Mask;
 1229:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 23
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 23
 
 
 1230:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     /* In case of 9bits/No Parity transfer, pRxData needs to be handled as a uint16_t pointer */
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1284:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   *         to ensure proper alignment for pData.
 1285:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @param huart UART handle.
 1286:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @param pData Pointer to data buffer (u8 or u16 data elements).
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 24
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 24
 
 
 1287:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @param Size  Amount of data elements (u8 or u16) to be sent.
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1341:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
 1342:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** }
 1343:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 25
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 25
 
 
 1344:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** /**
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1398:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
 1399:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     return HAL_BUSY;
 1400:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 26
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 26
 
 
 1401:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** }
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1455:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
 1456:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       /* Set the DMA error callback */
 1457:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       huart->hdmatx->XferErrorCallback = UART_DMAError;
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 27
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 27
 
 
 1458:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1512:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* Check that a Rx process is not already ongoing */
 1513:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   if (huart->RxState == HAL_UART_STATE_READY)
 1514:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 28
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 28
 
 
 1515:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     if ((pData == NULL) || (Size == 0U))
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1569:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     /* Disable the UART DMA Tx request */
 1570:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     ATOMIC_CLEAR_BIT(huart->Instance->CR3, USART_CR3_DMAT);
 1571:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 29
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 29
 
 
 1572:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   if ((HAL_IS_BIT_SET(huart->Instance->CR3, USART_CR3_DMAR)) &&
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1626:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** {
 1627:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* The Lock is not implemented on this API to allow the user application
 1628:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****      to call the HAL UART API under callbacks HAL_UART_TxCpltCallback() / HAL_UART_RxCpltCallback()
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 30
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 30
 
 
 1629:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****      HAL_UART_TxHalfCpltCallback / HAL_UART_RxHalfCpltCallback:
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1683:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
 1684:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
 1685:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   return HAL_OK;
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 31
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 31
 
 
 1686:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** }
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1740:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     ATOMIC_CLEAR_BIT(huart->Instance->CR3, USART_CR3_DMAR);
 1741:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
 1742:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     /* Abort the UART DMA Rx channel : use blocking DMA Abort API (no callback) */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 32
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 32
 
 
 1743:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     if (huart->hdmarx != NULL)
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1797:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* Disable TXEIE and TCIE interrupts */
 1798:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   ATOMIC_CLEAR_BIT(huart->Instance->CR1, (USART_CR1_TXEIE | USART_CR1_TCIE));
 1799:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 33
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 33
 
 
 1800:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* Disable the UART DMA Tx request if enabled */
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1854:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   if (huart->ReceptionType == HAL_UART_RECEPTION_TOIDLE)
 1855:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
 1856:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     ATOMIC_CLEAR_BIT(huart->Instance->CR1, (USART_CR1_IDLEIE));
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 34
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 34
 
 
 1857:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1911:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   *         considered as completed only when user abort complete callback is executed (not when ex
 1912:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @retval HAL status
 1913:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 35
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 35
 
 
 1914:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** HAL_StatusTypeDef HAL_UART_Abort_IT(UART_HandleTypeDef *huart)
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1968:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       /* UART Tx DMA Abort callback has already been initialised :
 1969:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****          will lead to call HAL_UART_AbortCpltCallback() at end of DMA abort procedure */
 1970:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 36
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 36
 
 
 1971:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       /* Abort DMA TX */
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2025:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     /* Discard the received data */
 2026:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     __HAL_UART_SEND_REQ(huart, UART_RXDATA_FLUSH_REQUEST);
 2027:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 37
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 37
 
 
 2028:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     /* Restore huart->gState and huart->RxState to Ready */
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2082:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       }
 2083:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     }
 2084:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     else
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 38
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 38
 
 
 2085:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2139:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   *           - At abort completion, call user abort complete callback
 2140:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @note   This procedure is executed in Interrupt mode, meaning that abort procedure could be
 2141:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   *         considered as completed only when user abort complete callback is executed (not when ex
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 39
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 39
 
 
 2142:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @retval HAL status
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2196:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       huart->AbortReceiveCpltCallback(huart);
 2197:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #else
 2198:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       /* Call legacy weak Abort Receive Complete Callback */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 40
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 40
 
 
 2199:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       HAL_UART_AbortReceiveCpltCallback(huart);
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2253:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       if (huart->RxISR != NULL)
 2254:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       {
 2255:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         huart->RxISR(huart);
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 41
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 41
 
 
 2256:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       }
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2310:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
 2311:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       /* UART in mode Receiver --------------------------------------------------*/
 2312:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       if (((isrflags & USART_ISR_RXNE) != 0U)
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 42
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 42
 
 
 2313:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****           && ((cr1its & USART_CR1_RXNEIE) != 0U))
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2367:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         else
 2368:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         {
 2369:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****           /* Call user error callback */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 43
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 43
 
 
 2370:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #if (USE_HAL_UART_REGISTER_CALLBACKS == 1)
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2424:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****           ATOMIC_CLEAR_BIT(huart->Instance->CR3, USART_CR3_EIE);
 2425:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
 2426:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****           /* Disable the DMA transfer for the receiver request by resetting the DMAR bit
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 44
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 44
 
 
 2427:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****              in the UART CR3 register */
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2481:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     }
 2482:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
 2483:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 45
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 45
 
 
 2484:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* UART wakeup from Stop mode interrupt occurred ---------------------------*/
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2538:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @brief  Tx Half Transfer completed callback.
 2539:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @param  huart UART handle.
 2540:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @retval None
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 46
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 46
 
 
 2541:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   */
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2595:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** }
 2596:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
 2597:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** /**
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 47
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 47
 
 
 2598:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @brief  UART Abort Complete callback.
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2652:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   UNUSED(huart);
 2653:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   UNUSED(Size);
 2654:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 48
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 48
 
 
 2655:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* NOTE : This function should not be modified, when the callback is needed,
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2709:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   *                    the configuration information for the specified UART module.
 2710:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @retval HAL status
 2711:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 49
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 49
 
 
 2712:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** HAL_StatusTypeDef HAL_UART_EnableReceiverTimeout(UART_HandleTypeDef *huart)
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2766:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       /* Process Unlocked */
 2767:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       __HAL_UNLOCK(huart);
 2768:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 50
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 50
 
 
 2769:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       return HAL_OK;
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2823:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @brief Enter UART mute mode (means UART actually enters mute mode).
 2824:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @note  To exit from mute mode, HAL_MultiProcessor_DisableMuteMode() API must be called.
 2825:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @param huart UART handle.
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 51
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 51
 
 
 2826:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @retval None
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2880:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** /**
 2881:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @brief  Transmit break characters.
 2882:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @param  huart UART handle.
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 52
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 52
 
 
 2883:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @retval HAL status
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2937:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   return (HAL_UART_StateTypeDef)(temp1 | temp2);
 2938:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** }
 2939:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 53
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 53
 
 
 2940:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** /**
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2994:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   UART_ClockSourceTypeDef clocksource;
 2995:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   uint32_t usartdiv;
 2996:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   HAL_StatusTypeDef ret               = HAL_OK;
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 54
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 54
 
 
 2997:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   uint32_t pclk;
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3051:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   if (UART_INSTANCE_LOWPOWER(huart))
 3052:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
 3053:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     /* Retrieve frequency clock */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 55
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 55
 
 
 3054:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     switch (clocksource)
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3108:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     switch (clocksource)
 3109:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
 3110:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       case UART_CLOCKSOURCE_PCLK1:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 56
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 56
 
 
 3111:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         pclk = HAL_RCC_GetPCLK1Freq();
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3165:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         if (__HAL_RCC_GET_FLAG(RCC_FLAG_HSIDIV) != 0U)
 3166:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         {
 3167:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****           pclk = (uint32_t)(HSI_VALUE >> 2U);
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 57
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 57
 
 
 3168:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         }
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3222:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     assert_param(IS_UART_ADVFEATURE_TXINV(huart->AdvancedInit.TxPinLevelInvert));
 3223:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     MODIFY_REG(huart->Instance->CR2, USART_CR2_TXINV, huart->AdvancedInit.TxPinLevelInvert);
 3224:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 58
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 58
 
 
 3225:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3279:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     MODIFY_REG(huart->Instance->CR2, USART_CR2_MSBFIRST, huart->AdvancedInit.MSBFirst);
 3280:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
 3281:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 59
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 59
 
 
 3282:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3336:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @param Timeout   Timeout duration
 3337:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @retval HAL status
 3338:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 60
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 60
 
 
 3339:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_t Flag, FlagStatus 
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3393:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @note   When calling this function, parameters validity is considered as already checked,
 3394:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   *         i.e. Rx State, buffer address, ...
 3395:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   *         UART Handle is assumed as Locked.
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 61
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 61
 
 
 3396:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @param  huart UART handle.
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3450:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   huart->ErrorCode = HAL_UART_ERROR_NONE;
 3451:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   huart->RxState = HAL_UART_STATE_BUSY_RX;
 3452:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 62
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 62
 
 
 3453:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   if (huart->hdmarx != NULL)
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
   30              		@ frame_needed = 0, uses_anonymous_args = 0
   31              		.loc 1 3503 1 is_stmt 0 view .LVU1
   32 0000 10B5     		push	{r4, lr}
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 63
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 63
 
 
   33              	.LCFI0:
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
   42:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
   43:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __INLINE
   44:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __INLINE                               inline
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 64
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 64
 
 
   45:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
   99:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
  100:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT32_WRITE(addr, val)    (void)((((struct T_UINT32_WRITE *)(void *)(addr))-
  101:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 65
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 65
 
 
  102:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __UNALIGNED_UINT32_READ
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  156:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
  157:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  158:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 66
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 66
 
 
  159:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  213:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  214:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  215:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get APSR Register
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 67
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 67
 
 
  216:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the content of the APSR Register.
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  270:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  271:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  272:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 68
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 68
 
 
  273:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Process Stack Pointer
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  327:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Main Stack Pointer
  328:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Assigns the given value to the Main Stack Pointer (MSP).
  329:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    topOfMainStack  Main Stack Pointer value to set
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 69
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 69
 
 
  330:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
   45              	.LBB566:
  383:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  384:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 70
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 70
 
 
   46              		.loc 2 384 3 view .LVU6
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
   70              	.LVL2:
   71              		.loc 2 414 3 is_stmt 0 view .LVU13
   72              		.thumb
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 71
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 71
 
 
   73              		.syntax unified
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3514:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @param  huart UART handle.
 3515:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @retval None
 3516:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 72
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 72
 
 
 3517:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** static void UART_EndRxTransfer(UART_HandleTypeDef *huart)
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  164              		.thumb
  165              		.syntax unified
  166              	.LBE575:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 73
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 73
 
 
  167              	.LBE574:
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  214              		.loc 1 3521 3 is_stmt 1 view .LVU51
  215              	.LBB581:
  216              	.LBI581:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 74
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 74
 
 
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3529:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* At end of Rx process, restore huart->RxState to Ready */
 3530:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   huart->RxState = HAL_UART_STATE_READY;
  262              		.loc 1 3530 3 discriminator 1 view .LVU65
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 75
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 75
 
 
  263              		.loc 1 3530 18 is_stmt 0 discriminator 1 view .LVU66
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  302              	.LBB589:
  303              		.loc 2 414 3 view .LVU82
  304              		.syntax divided
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 76
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 76
 
 
  305              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3538:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** /**
 3539:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @brief DMA UART transmit process complete callback.
 3540:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @param hdma DMA handle.
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 77
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 77
 
 
 3541:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   * @retval None
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3595:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** static void UART_DMAReceiveCplt(DMA_HandleTypeDef *hdma)
 3596:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** {
 3597:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   UART_HandleTypeDef *huart = (UART_HandleTypeDef *)(hdma->Parent);
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 78
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 78
 
 
 3598:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3652:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** static void UART_DMARxHalfCplt(DMA_HandleTypeDef *hdma)
 3653:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** {
 3654:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   UART_HandleTypeDef *huart = (UART_HandleTypeDef *)(hdma->Parent);
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 79
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 79
 
 
 3655:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3709:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   huart->ErrorCode |= HAL_UART_ERROR_DMA;
 3710:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
 3711:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #if (USE_HAL_UART_REGISTER_CALLBACKS == 1)
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 80
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 80
 
 
 3712:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /*Call registered error callback*/
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3766:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   huart->RxXferCount = 0U;
 3767:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
 3768:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* Reset errorCode */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 81
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 81
 
 
 3769:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   huart->ErrorCode = HAL_UART_ERROR_NONE;
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3823:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
 3824:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* Discard the received data */
 3825:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   __HAL_UART_SEND_REQ(huart, UART_RXDATA_FLUSH_REQUEST);
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 82
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 82
 
 
 3826:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3880:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** {
 3881:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   UART_HandleTypeDef *huart = (UART_HandleTypeDef *)((DMA_HandleTypeDef *)hdma)->Parent;
 3882:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 83
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 83
 
 
 3883:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   huart->RxXferCount = 0U;
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3919:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       /* Disable the UART Transmit Data Register Empty Interrupt */
 3920:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       ATOMIC_CLEAR_BIT(huart->Instance->CR1, USART_CR1_TXEIE);
 3921:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 84
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 84
 
 
 3922:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       /* Enable the UART Transmit Complete Interrupt */
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  405              	.LBE594:
  406              	.LBE593:
 3920:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 85
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 85
 
 
  407              		.loc 1 3920 7 is_stmt 1 view .LVU106
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3923:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     }
  451              		.loc 1 3923 7 view .LVU117
 3923:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 86
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 86
 
 
  452              		.loc 1 3923 7 view .LVU118
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  494              		.loc 1 3923 7 is_stmt 1 view .LVU130
  495              	.LVL27:
  496              	.LBB604:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 87
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 87
 
 
  497              	.LBI604:
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  541              		.section	.text.UART_TxISR_16BIT,"ax",%progbits
  542              		.align	1
  543              		.syntax unified
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 88
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 88
 
 
  544              		.code	16
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3963:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
 3964:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** }
  569              		.loc 1 3964 1 view .LVU151
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 89
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 89
 
 
  570              		@ sp needed
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  610              		.syntax divided
  611              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  612 001a 82F31088 		MSR primask, r2
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 90
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 90
 
 
  613              	@ 0 "" 2
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  654              		.loc 2 386 3 view .LVU178
  655              		.syntax divided
  656              	@ 386 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 91
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 91
 
 
  657 002c EFF31081 		MRS r1, primask
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  700              	@ 0 "" 2
  701              		.loc 2 415 1 is_stmt 0 view .LVU190
  702              		.thumb
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 92
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 92
 
 
  703              		.syntax unified
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  747              		.thumb_func
  749              	HAL_UART_MspInit:
  750              	.LVL42:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 93
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 93
 
 
  751              	.LFB45:
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  801 0000 70B5     		push	{r4, r5, r6, lr}
  802              	.LCFI4:
  803              		.cfi_def_cfa_offset 16
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 94
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 94
 
 
  804              		.cfi_offset 4, -16
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  639:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   huart->gState = HAL_UART_STATE_RESET;
  842              		.loc 1 639 3 view .LVU228
  639:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   huart->gState = HAL_UART_STATE_RESET;
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 95
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 95
 
 
  843              		.loc 1 639 20 is_stmt 0 view .LVU229
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  883              		.code	16
  884              		.thumb_func
  886              	HAL_UART_Transmit_IT:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 96
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 96
 
 
  887              	.LVL49:
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1311:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  928              		.loc 1 1311 5 discriminator 2 view .LVU258
  929 0022 7424     		movs	r4, #116
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 97
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 97
 
 
  930 0024 0125     		movs	r5, #1
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  967 0044 19D0     		beq	.L31
  968              	.L23:
 1328:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 98
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 98
 
 
  969              		.loc 1 1328 7 is_stmt 1 view .LVU276
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1008              		.syntax divided
  1009              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  1010 0056 83F31088 		MSR primask, r3
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 99
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 99
 
 
  1011              	@ 0 "" 2
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1054 0070 D3D1     		bne	.L22
 1305:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       {
  1055              		.loc 1 1305 7 is_stmt 1 view .LVU303
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 100
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 100
 
 
 1305:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       {
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1098              	.LVL68:
  1099              	.L29:
 1311:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 101
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 101
 
 
  1100              		.loc 1 1311 5 view .LVU316
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1147 0010 002B     		cmp	r3, #0
  1148 0012 54D0     		beq	.L40
 1431:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 102
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 102
 
 
  1149              		.loc 1 1431 5 is_stmt 1 view .LVU326
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1446:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  1188              		.loc 1 1446 5 is_stmt 1 discriminator 2 view .LVU342
 1446:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 103
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 103
 
 
  1189              		.loc 1 1446 19 is_stmt 0 discriminator 2 view .LVU343
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1226 0062 E06E     		ldr	r0, [r4, #108]
  1227 0064 FFF7FEFF 		bl	HAL_DMA_Start_IT
  1228              	.LVL74:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 104
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 104
 
 
 1463:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       {
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1268 0090 4022     		movs	r2, #64
  1269 0092 1A62     		str	r2, [r3, #32]
 1479:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 105
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 105
 
 
  1270              		.loc 1 1479 5 view .LVU376
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1310              		.thumb
  1311              		.syntax unified
  1312              	.LBE631:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 106
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 106
 
 
  1313              	.LBE630:
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1425:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     }
  1356              		.loc 1 1425 14 view .LVU402
  1357 00ba 0120     		movs	r0, #1
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 107
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 107
 
 
  1358              	.LVL85:
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1562:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  1406              		.loc 1 1562 3 is_stmt 1 view .LVU411
 1562:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 108
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 108
 
 
  1407              		.loc 1 1562 31 is_stmt 0 view .LVU412
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1583:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  1447              		.loc 1 1583 3 discriminator 1 view .LVU427
 1583:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 109
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 109
 
 
  1448              		.loc 1 1583 3 discriminator 1 view .LVU428
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1488              	.LBB638:
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  1489              		.loc 2 414 3 view .LVU443
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 110
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 110
 
 
  1490 003a 0123     		movs	r3, #1
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1535              	.LBB643:
  384:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  1536              		.loc 2 384 3 view .LVU455
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 111
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 111
 
 
  386:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  1580              		.loc 2 414 3 view .LVU467
  1581              		.syntax divided
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 112
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 112
 
 
  1582              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1623              	@ 0 "" 2
  1624              	.LVL105:
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 113
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 113
 
 
  1625              		.loc 2 414 3 is_stmt 0 view .LVU481
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1667              	@ 0 "" 2
  1668              	.LVL108:
  387:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 114
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 114
 
 
  1669              		.loc 2 387 3 view .LVU494
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1713 0092 CBE7     		b	.L49
  1714              	.LVL112:
  1715              	.L50:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 115
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 115
 
 
  1716              		.loc 2 415 1 view .LVU506
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1597:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
  1764              		.loc 1 1597 3 discriminator 2 view .LVU515
 1597:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 116
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 116
 
 
  1765              		.loc 1 1597 12 is_stmt 0 discriminator 2 view .LVU516
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1803              	.LBB664:
  384:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  1804              		.loc 2 384 3 view .LVU533
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 117
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 117
 
 
  386:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1848              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  1849 003a 81F31088 		MSR primask, r1
  1850              	@ 0 "" 2
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 118
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 118
 
 
  1851              		.loc 2 415 1 is_stmt 0 view .LVU545
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1893              		.syntax divided
  1894              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  1895 004c 83F31088 		MSR primask, r3
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 119
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 119
 
 
  1896              	@ 0 "" 2
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1937              		.loc 2 386 3 view .LVU571
  1938              		.syntax divided
  1939              	@ 386 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 120
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 120
 
 
  1940 005e EFF31084 		MRS r4, primask
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  1983              		.thumb
  1984              		.syntax unified
  1985              	.LBE682:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 121
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 121
 
 
  1986              	.LBE681:
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2026              		.loc 1 1612 5 is_stmt 1 view .LVU596
  2027 007a 0268     		ldr	r2, [r0]
  2028 007c 9368     		ldr	r3, [r2, #8]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 122
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 122
 
 
  2029 007e 4024     		movs	r4, #64
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2077              		.loc 1 1626 1 is_stmt 0 view .LVU606
  2078 0000 70B5     		push	{r4, r5, r6, lr}
  2079              	.LCFI9:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 123
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 123
 
 
  2080              		.cfi_def_cfa_offset 16
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1641:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  2121              		.loc 1 1641 5 is_stmt 1 view .LVU620
  2122              	.LBB690:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 124
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 124
 
 
 1641:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2164 0032 8020     		movs	r0, #128
  2165              	.LVL143:
 1641:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 125
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 125
 
 
  2166              		.loc 1 1641 5 view .LVU634
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1648:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         {
  2208              		.loc 1 1648 9 view .LVU647
 1648:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 126
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 126
 
 
  2209              		.loc 1 1648 13 is_stmt 0 view .LVU648
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2249              	.LBI700:
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  2250              		.loc 2 412 27 view .LVU663
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 127
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 127
 
 
  2251              	.LBB701:
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2294 0082 03D0     		beq	.L66
 1670:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       {
  2295              		.loc 1 1670 7 is_stmt 1 view .LVU675
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 128
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 128
 
 
 1670:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       {
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2336              		.loc 1 1686 1 view .LVU689
  2337 00ac 70BD     		pop	{r4, r5, r6, pc}
  2338              		.cfi_endproc
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 129
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 129
 
 
  2339              	.LFE55:
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1703:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   ATOMIC_CLEAR_BIT(huart->Instance->CR3, USART_CR3_EIE);
  2385              		.loc 1 1703 3 is_stmt 1 view .LVU700
  2386              	.LBB707:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 130
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 130
 
 
  2387              	.LBI707:
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1704:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  2430              		.loc 1 1704 3 view .LVU712
  2431              	.LBB712:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 131
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 131
 
 
  2432              	.LBI712:
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2474              	.LBB717:
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  2475              		.loc 2 414 3 view .LVU725
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 132
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 132
 
 
  2476              		.syntax divided
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2515              	@ 386 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  2516 003e EFF31081 		MRS r1, primask
  2517              	@ 0 "" 2
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 133
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 133
 
 
  2518              	.LVL168:
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2561              		.thumb
  2562              		.syntax unified
  2563              	.LBE724:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 134
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 134
 
 
  2564              	.LBE723:
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2601              		.loc 2 384 3 view .LVU768
  386:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
  2602              		.loc 2 386 3 view .LVU769
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 135
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 135
 
 
  2603              		.syntax divided
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2647              	@ 0 "" 2
  2648              	.LVL176:
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 136
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 136
 
 
  2649              		.loc 2 414 3 is_stmt 0 view .LVU780
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2688              		.loc 1 1771 3 view .LVU795
  2689 00ae 2168     		ldr	r1, [r4]
  2690 00b0 8A69     		ldr	r2, [r1, #24]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 137
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 137
 
 
  2691 00b2 0820     		movs	r0, #8
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  386:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
  2728              		.loc 2 386 3 view .LVU813
  2729              		.syntax divided
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 138
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 138
 
 
  2730              	@ 386 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2773 00da 81F31088 		MSR primask, r1
  2774              	@ 0 "" 2
  2775              		.loc 2 415 1 is_stmt 0 view .LVU825
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 139
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 139
 
 
  2776              		.thumb
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1756:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         }
  2817              		.loc 1 1756 18 is_stmt 0 view .LVU840
  2818 0104 1D38     		subs	r0, r0, #29
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 140
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 140
 
 
  2819 0106 DEE7     		b	.L76
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2865              		.thumb
  2866              		.syntax unified
  2867              	.LBE741:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 141
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 141
 
 
  2868              	.LBE740:
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1798:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  2912              		.loc 1 1798 3 is_stmt 1 view .LVU861
 1801:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 142
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 142
 
 
  2913              		.loc 1 1801 3 view .LVU862
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2953              		.loc 2 414 3 is_stmt 0 view .LVU876
  2954              		.thumb
  2955              		.syntax unified
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 143
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 143
 
 
  2956              	.LBE750:
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  2997              	.LVL197:
 1812:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       {
  2998              		.loc 1 1812 10 view .LVU890
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 144
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 144
 
 
  2999 004c 0028     		cmp	r0, #0
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3038 0070 F4E7     		b	.L85
  3039              		.cfi_endproc
  3040              	.LFE57:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 145
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 145
 
 
  3042              		.section	.text.HAL_UART_AbortReceive,"ax",%progbits
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3086              		.loc 1 1850 3 is_stmt 1 view .LVU916
  3087              	.LBB756:
  3088              	.LBI756:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 146
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 146
 
 
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3131              		.loc 1 1851 3 view .LVU928
  3132              	.LBB761:
  3133              	.LBI761:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 147
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 147
 
 
  382:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  3176              		.loc 2 414 3 view .LVU941
  3177              		.syntax divided
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 148
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 148
 
 
  3178              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3217 003e EFF31081 		MRS r1, primask
  3218              	@ 0 "" 2
  3219              	.LVL211:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 149
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 149
 
 
  387:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3263              		.syntax unified
  3264              	.LBE773:
  3265              	.LBE772:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 150
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 150
 
 
  3266              	.LBE767:
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3305 0082 E367     		str	r3, [r4, #124]
 1895:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  3306              		.loc 1 1895 3 is_stmt 1 view .LVU983
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 151
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 151
 
 
 1895:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  3346              		.loc 2 414 3 view .LVU999
  3347              		.syntax divided
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 152
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 152
 
 
  3348              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3393 00aa DED1     		bne	.L89
 1876:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  3394              		.loc 1 1876 11 is_stmt 1 view .LVU1011
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 153
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 153
 
 
 1876:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3445              		.loc 1 3544 1 is_stmt 0 view .LVU1019
  3446 0000 10B5     		push	{r4, lr}
  3447              	.LCFI13:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 154
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 154
 
 
  3448              		.cfi_def_cfa_offset 8
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3486              		.loc 2 387 3 is_stmt 0 view .LVU1035
  3487              		.thumb
  3488              		.syntax unified
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 155
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 155
 
 
  3489              	.LBE783:
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3557:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
  3533              		.loc 1 3557 5 view .LVU1046
  3534              	.LBB788:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 156
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 156
 
 
 3557:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3576 003a 0343     		orrs	r3, r0
  3577 003c 1360     		str	r3, [r2]
 3557:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 157
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 157
 
 
  3578              		.loc 1 3557 5 is_stmt 1 view .LVU1060
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3974:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** {
  3619              		.loc 1 3974 1 is_stmt 1 view -0
  3620              		.cfi_startproc
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 158
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 158
 
 
  3621              		@ args = 0, pretend = 0, frame = 0
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3665              	.LBE799:
  3666              	.LBE798:
  3667              		.loc 1 3976 3 is_stmt 1 view .LVU1081
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 159
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 159
 
 
  3668 000c 0268     		ldr	r2, [r0]
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3704              		@ sp needed
  3705 0026 10BD     		pop	{r4, pc}
  3706              		.cfi_endproc
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 160
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 160
 
 
  3707              	.LFE103:
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3588:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  3757              		.loc 1 3588 1 is_stmt 0 view .LVU1101
  3758              		@ sp needed
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 161
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 161
 
 
  3759 0008 10BD     		pop	{r4, pc}
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3812              		.thumb_func
  3814              	HAL_UART_ErrorCallback:
  3815              	.LVL251:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 162
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 162
 
 
  3816              	.LFB67:
@@ -9718,7 +9718,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3861              	.LVL255:
 3694:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       (gstate == HAL_UART_STATE_BUSY_TX))
  3862              		.loc 1 3694 3 is_stmt 1 view .LVU1119
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 163
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 163
 
 
 3694:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       (gstate == HAL_UART_STATE_BUSY_TX))
@@ -9778,7 +9778,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3904              		.loc 1 3697 5 is_stmt 1 view .LVU1132
 3697:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     UART_EndTxTransfer(huart);
  3905              		.loc 1 3697 24 is_stmt 0 view .LVU1133
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 164
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 164
 
 
  3906 0032 5223     		movs	r3, #82
@@ -9838,7 +9838,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  3952              		.loc 1 3728 23 is_stmt 0 view .LVU1143
  3953 0002 806A     		ldr	r0, [r0, #40]
  3954              	.LVL266:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 165
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 165
 
 
 3729:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   huart->TxXferCount = 0U;
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4004              	.LFB59:
 1915:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   uint32_t abortcplt = 1U;
  4005              		.loc 1 1915 1 is_stmt 1 view -0
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 166
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 166
 
 
  4006              		.cfi_startproc
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4047 0008 0122     		movs	r2, #1
  4048              		.syntax divided
  4049              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 167
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 167
 
 
  4050 000a 82F31088 		MSR primask, r2
@@ -10018,7 +10018,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  386:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
  4092              		.loc 2 386 3 view .LVU1179
  4093              		.syntax divided
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 168
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 168
 
 
  4094              	@ 386 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
@@ -10078,7 +10078,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4137              		.loc 2 414 3 is_stmt 0 view .LVU1190
  4138              		.thumb
  4139              		.syntax unified
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 169
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 169
 
 
  4140              	.LBE815:
@@ -10138,7 +10138,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4177              		.loc 1 1949 5 is_stmt 1 view .LVU1207
 1949:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
  4178              		.loc 1 1949 9 is_stmt 0 view .LVU1208
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 170
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 170
 
 
  4179 004e 2268     		ldr	r2, [r4]
@@ -10198,7 +10198,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4218              	.LBB819:
  4219              	.LBI819:
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 171
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 171
 
 
  4220              		.loc 2 412 27 view .LVU1224
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4263 007c 0028     		cmp	r0, #0
  4264 007e 4ED0     		beq	.L123
 1972:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 172
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 172
 
 
  4265              		.loc 1 1972 7 is_stmt 1 view .LVU1236
@@ -10318,7 +10318,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4304              		.loc 1 1925 5 is_stmt 1 view .LVU1251
  4305              	.LBB826:
  4306              	.LBI826:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 173
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 173
 
 
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -10378,7 +10378,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4351 00aa 0022     		movs	r2, #0
  4352 00ac 9A63     		str	r2, [r3, #56]
  4353 00ae CBE7     		b	.L114
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 174
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 174
 
 
  4354              	.L117:
@@ -10438,7 +10438,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4393              		.loc 1 1986 5 is_stmt 1 view .LVU1278
  4394              	.LBB833:
  4395              	.LBI833:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 175
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 175
 
 
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -10498,7 +10498,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1989:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
  4439              		.loc 1 1989 8 view .LVU1290
  4440 00da 0028     		cmp	r0, #0
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 176
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 176
 
 
  4441 00dc 23D0     		beq	.L119
@@ -10558,7 +10558,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4477 00fc A350     		str	r3, [r4, r2]
 2022:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  4478              		.loc 1 2022 5 is_stmt 1 view .LVU1309
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 177
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 177
 
 
  4479 00fe 2268     		ldr	r2, [r4]
@@ -10618,7 +10618,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2043:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** }
  4521              		.loc 1 2043 3 is_stmt 1 view .LVU1322
 2044:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 178
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 178
 
 
  4522              		.loc 1 2044 1 is_stmt 0 view .LVU1323
@@ -10678,7 +10678,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4568 000a C36E     		ldr	r3, [r0, #108]
 3806:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
  4569              		.loc 1 3806 6 view .LVU1334
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 179
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 179
 
 
  4570 000c 002B     		cmp	r3, #0
@@ -10738,7 +10738,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3830:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  4609              		.loc 1 3830 3 is_stmt 1 view .LVU1350
 3830:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 180
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 180
 
 
  4610              		.loc 1 3830 24 is_stmt 0 view .LVU1351
@@ -10798,7 +10798,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4654              		.loc 1 3756 6 view .LVU1363
  4655 000c 002B     		cmp	r3, #0
  4656 000e 02D0     		beq	.L132
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 181
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 181
 
 
 3758:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
@@ -10858,7 +10858,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4694              	.L131:
 3788:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  4695              		.loc 1 3788 1 is_stmt 0 view .LVU1381
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 182
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 182
 
 
  4696              		@ sp needed
@@ -10918,7 +10918,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2063:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  4747              		.loc 1 2063 3 view .LVU1389
  4748              	.LBB838:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 183
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 183
 
 
  4749              	.LBI838:
@@ -10978,7 +10978,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4791              	.LVL316:
  4792              	.LBB842:
  4793              	.LBI842:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 184
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 184
 
 
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -11038,7 +11038,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4833              		.thumb
  4834              		.syntax unified
  4835              	.LBE846:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 185
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 185
 
 
  4836              	.LBE845:
@@ -11098,7 +11098,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4879              		.loc 1 2071 5 view .LVU1427
 2071:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
  4880              		.loc 1 2071 14 is_stmt 0 view .LVU1428
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 186
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 186
 
 
  4881 003c E36E     		ldr	r3, [r4, #108]
@@ -11158,7 +11158,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4919 0062 A367     		str	r3, [r4, #120]
 2101:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #endif /* USE_HAL_UART_REGISTER_CALLBACKS */
  4920              		.loc 1 2101 7 is_stmt 1 view .LVU1445
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 187
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 187
 
 
  4921 0064 2000     		movs	r0, r4
@@ -11218,7 +11218,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  4966              	.LVL329:
  4967              	.LFB99:
 3852:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   UART_HandleTypeDef *huart = (UART_HandleTypeDef *)(hdma->Parent);
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 188
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 188
 
 
  4968              		.loc 1 3852 1 is_stmt 1 view -0
@@ -11278,7 +11278,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5014              		@ link register save eliminated.
 2635:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  5015              		.loc 1 2635 3 view .LVU1468
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 189
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 189
 
 
 2640:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -11338,7 +11338,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5061              		.loc 2 387 3 is_stmt 0 view .LVU1479
  5062              		.thumb
  5063              		.syntax unified
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 190
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 190
 
 
  5064              	.LBE853:
@@ -11398,7 +11398,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2148:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  5108              		.loc 1 2148 3 view .LVU1490
  5109              	.LBB858:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 191
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 191
 
 
 2148:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -11458,7 +11458,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5151              	.LVL340:
  5152              	.LBB863:
  5153              	.LBI863:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 192
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 192
 
 
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -11518,7 +11518,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  384:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  5193              		.loc 2 384 3 view .LVU1519
  386:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 193
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 193
 
 
  5194              		.loc 2 386 3 view .LVU1520
@@ -11578,7 +11578,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5238 0052 81F31088 		MSR primask, r1
  5239              	@ 0 "" 2
  5240              	.LVL346:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 194
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 194
 
 
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -11638,7 +11638,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5279              		.loc 1 2153 5 view .LVU1546
 2153:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
  5280              		.loc 1 2153 5 view .LVU1547
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 195
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 195
 
 
  5281              	.LBB873:
@@ -11698,7 +11698,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5323              	.LVL353:
  5324              	.LBB877:
  5325              	.LBI877:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 196
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 196
 
 
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -11758,7 +11758,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2191:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  5368              		.loc 1 2191 28 is_stmt 0 view .LVU1574
  5369 00a6 2366     		str	r3, [r4, #96]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 197
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 197
 
 
 2199:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #endif /* USE_HAL_UART_REGISTER_CALLBACKS */
@@ -11818,7 +11818,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5410 00d0 00000000 		.word	UART_DMARxOnlyAbortCallback
  5411              		.cfi_endproc
  5412              	.LFE61:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 198
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 198
 
 
  5414              		.section	.text.UART_DMARxOnlyAbortCallback,"ax",%progbits
@@ -11878,7 +11878,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5457              		.loc 1 3893 24 is_stmt 0 view .LVU1600
  5458 001e 0266     		str	r2, [r0, #96]
 3901:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #endif /* USE_HAL_UART_REGISTER_CALLBACKS */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 199
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 199
 
 
  5459              		.loc 1 3901 3 is_stmt 1 view .LVU1601
@@ -11938,7 +11938,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5510              		.cfi_offset 5, -12
  5511              		.cfi_offset 6, -8
  5512              		.cfi_offset 14, -4
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 200
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 200
 
 
  5513 0002 0400     		movs	r4, r0
@@ -11998,7 +11998,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5549              		.loc 1 2262 6 is_stmt 0 view .LVU1626
  5550 001e 002E     		cmp	r6, #0
  5551 0020 07D0     		beq	.L157
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 201
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 201
 
 
 2263:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****           || ((cr1its & (USART_CR1_RXNEIE | USART_CR1_PEIE | USART_CR1_RTOIE)) != 0U)))
@@ -12058,7 +12058,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5592 004a 00D5     		bpl	.LCB4372
  5593 004c 2AE1     		b	.L182	@long jump
  5594              	.LCB4372:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 202
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 202
 
 
  5595              	.L177:
@@ -12118,7 +12118,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2267:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
  5636              		.loc 1 2267 43 discriminator 1 view .LVU1654
  5637 006a C105     		lsls	r1, r0, #23
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 203
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 203
 
 
  5638 006c 05D5     		bpl	.L159
@@ -12178,7 +12178,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5678 009a 2268     		ldr	r2, [r4]
  5679 009c 0421     		movs	r1, #4
  5680 009e 1162     		str	r1, [r2, #32]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 204
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 204
 
 
 2287:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     }
@@ -12238,7 +12238,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5722 00d2 1162     		str	r1, [r2, #32]
 2305:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     }
  5723              		.loc 1 2305 7 view .LVU1682
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 205
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 205
 
 
 2305:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     }
@@ -12298,7 +12298,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2327:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****           ((errorcode & (HAL_UART_ERROR_RTO | HAL_UART_ERROR_ORE)) != 0U))
  5764              		.loc 1 2327 7 is_stmt 1 view .LVU1697
 2327:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****           ((errorcode & (HAL_UART_ERROR_RTO | HAL_UART_ERROR_ORE)) != 0U))
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 206
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 206
 
 
  5765              		.loc 1 2327 12 is_stmt 0 view .LVU1698
@@ -12358,7 +12358,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5804              		.loc 2 387 3 is_stmt 0 view .LVU1713
  5805              		.thumb
  5806              		.syntax unified
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 207
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 207
 
 
  5807              	.LBE881:
@@ -12418,7 +12418,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2341:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****           {
  5851              		.loc 1 2341 11 view .LVU1724
 2341:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****           {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 208
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 208
 
 
  5852              		.loc 1 2341 20 is_stmt 0 view .LVU1725
@@ -12478,7 +12478,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5893 015c 7CE7     		b	.L153
  5894              	.LVL392:
  5895              	.L168:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 209
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 209
 
 
 2388:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #endif /* USE_HAL_UART_REGISTER_CALLBACKS */
@@ -12538,7 +12538,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2412:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       if ((nb_remaining_rx_data > 0U)
  5937              		.loc 1 2412 16 view .LVU1752
  5938 018a 9BB2     		uxth	r3, r3
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 210
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 210
 
 
  5939              	.LVL396:
@@ -12598,7 +12598,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  5979 01b4 2000     		movs	r0, r4
  5980 01b6 FFF7FEFF 		bl	HAL_UARTEx_RxEventCallback
  5981              	.LVL399:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 211
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 211
 
 
 2447:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     }
@@ -12658,7 +12658,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6023              	.LBE890:
 2423:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****           ATOMIC_CLEAR_BIT(huart->Instance->CR3, USART_CR3_EIE);
  6024              		.loc 1 2423 11 is_stmt 1 view .LVU1780
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 212
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 212
 
 
  6025 01c6 2168     		ldr	r1, [r4]
@@ -12718,7 +12718,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6066              	@ 0 "" 2
  6067              	.LVL407:
  387:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 213
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 213
 
 
  6068              		.loc 2 387 3 view .LVU1794
@@ -12778,7 +12778,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6112              	.LBE894:
 2424:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  6113              		.loc 1 2424 11 is_stmt 1 view .LVU1805
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 214
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 214
 
 
 2428:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -12838,7 +12838,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6155 01f6 FF35     		adds	r5, r5, #255
  6156 01f8 AA43     		bics	r2, r5
  6157 01fa 8A60     		str	r2, [r1, #8]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 215
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 215
 
 
 2428:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -12898,7 +12898,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6197 0208 EFF31081 		MRS r1, primask
  6198              	@ 0 "" 2
  6199              	.LVL415:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 216
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 216
 
 
  387:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -12958,7 +12958,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6242              		.loc 2 414 3 is_stmt 0 view .LVU1845
  6243              		.thumb
  6244              		.syntax unified
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 217
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 217
 
 
  6245              	.LBE914:
@@ -13018,7 +13018,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2459:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  6286              		.loc 1 2459 9 is_stmt 1 view .LVU1859
  6287              	.LBB916:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 218
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 218
 
 
 2459:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -13078,7 +13078,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6329 0250 1E4E     		ldr	r6, .L185+16
  6330 0252 3240     		ands	r2, r6
  6331 0254 0260     		str	r2, [r0]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 219
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 219
 
 
 2459:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -13138,7 +13138,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6372              		.loc 1 2462 9 is_stmt 1 view .LVU1886
  6373              	.LBB926:
  6374              	.LBI926:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 220
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 220
 
 
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -13198,7 +13198,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2466:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  6417              		.loc 1 2466 30 is_stmt 0 view .LVU1899
  6418 0272 0022     		movs	r2, #0
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 221
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 221
 
 
  6419 0274 2266     		str	r2, [r4, #96]
@@ -13258,7 +13258,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6459              	.LBE933:
 2471:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #if (USE_HAL_UART_REGISTER_CALLBACKS == 1)
  6460              		.loc 1 2471 9 is_stmt 1 view .LVU1914
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 222
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 222
 
 
  6461 0280 2268     		ldr	r2, [r4]
@@ -13318,7 +13318,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6503 0298 5B03     		lsls	r3, r3, #13
  6504 029a 1362     		str	r3, [r2, #32]
 2497:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #endif /* USE_HAL_UART_REGISTER_CALLBACKS */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 223
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 223
 
 
  6505              		.loc 1 2497 5 is_stmt 1 view .LVU1927
@@ -13378,7 +13378,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6548 02c8 FFFEFFFF 		.word	-257
  6549 02cc DFFEFFFF 		.word	-289
  6550              		.cfi_endproc
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 224
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 224
 
 
  6551              	.LFE62:
@@ -13438,7 +13438,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 4015:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
 4016:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       /* Disable the UART Error Interrupt: (Frame error, noise error, overrun error) */
 4017:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       ATOMIC_CLEAR_BIT(huart->Instance->CR3, USART_CR3_EIE);
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 225
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 225
 
 
 4018:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -13498,7 +13498,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6591 0014 9361     		str	r3, [r2, #24]
  6592              	.LVL453:
  6593              	.L187:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 226
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 226
 
 
 4065:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
@@ -13558,7 +13558,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6632 0036 9BB2     		uxth	r3, r3
 4011:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
  6633              		.loc 1 4011 8 view .LVU1964
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 227
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 227
 
 
  6634 0038 002B     		cmp	r3, #0
@@ -13618,7 +13618,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6675 0046 0168     		ldr	r1, [r0]
  6676 0048 0B68     		ldr	r3, [r1]
  6677 004a 184C     		ldr	r4, .L193
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 228
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 228
 
 
  6678 004c 2340     		ands	r3, r4
@@ -13678,7 +13678,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6719              	.LBE945:
 4017:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  6720              		.loc 1 4017 7 is_stmt 1 view .LVU1991
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 229
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 229
 
 
  6721              	.LBB947:
@@ -13738,7 +13738,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 4023:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  6764              		.loc 1 4023 7 is_stmt 1 view .LVU2003
 4023:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 230
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 230
 
 
  6765              		.loc 1 4023 20 is_stmt 0 view .LVU2004
@@ -13798,7 +13798,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  6804              		.loc 2 414 3 view .LVU2020
  6805 007e 0133     		adds	r3, r3, #1
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 231
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 231
 
 
  6806              		.syntax divided
@@ -13858,7 +13858,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6849 009a 1A62     		str	r2, [r3, #32]
  6850              	.L191:
 4045:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #endif /* (USE_HAL_UART_REGISTER_CALLBACKS) */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 232
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 232
 
 
  6851              		.loc 1 4045 9 view .LVU2032
@@ -13918,7 +13918,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6892              		.loc 1 4078 3 view .LVU2039
  6893              		.loc 1 4078 12 is_stmt 0 view .LVU2040
  6894 0002 5C23     		movs	r3, #92
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 233
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 233
 
 
  6895 0004 C25A     		ldrh	r2, [r0, r3]
@@ -13978,7 +13978,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 4124:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         HAL_UARTEx_RxEventCallback(huart, huart->RxXferSize);
 4125:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #endif /* (USE_HAL_UART_REGISTER_CALLBACKS) */
 4126:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 234
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 234
 
 
 4127:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       else
@@ -14038,7 +14038,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  6932              		.loc 1 4086 10 view .LVU2054
  6933 0020 1380     		strh	r3, [r2]
  6934              	.LVL482:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 235
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 235
 
 
 4087:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     huart->RxXferCount--;
@@ -14098,7 +14098,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  387:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  6973              		.loc 2 387 3 is_stmt 0 view .LVU2071
  6974              		.thumb
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 236
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 236
 
 
  6975              		.syntax unified
@@ -14158,7 +14158,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7019              		.loc 1 4093 7 is_stmt 1 view .LVU2081
 4096:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  7020              		.loc 1 4096 7 view .LVU2082
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 237
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 237
 
 
  7021              	.LBB965:
@@ -14218,7 +14218,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7062              		.loc 1 4096 7 view .LVU2095
  7063              	.LVL490:
  7064              	.LBB970:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 238
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 238
 
 
  7065              	.LBI970:
@@ -14278,7 +14278,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7103              	.LBB973:
  7104              	.LBI973:
  382:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 239
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 239
 
 
  7105              		.loc 2 382 31 view .LVU2112
@@ -14338,7 +14338,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7148              	.LBB978:
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  7149              		.loc 2 414 3 view .LVU2124
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 240
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 240
 
 
  7150              		.syntax divided
@@ -14398,7 +14398,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7195              		.syntax unified
  7196              		.code	16
  7197              		.thumb_func
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 241
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 241
 
 
  7199              	UART_DMARxHalfCplt:
@@ -14458,7 +14458,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7240 001a F8E7     		b	.L203
  7241              		.cfi_endproc
  7242              	.LFE94:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 242
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 242
 
 
  7244              		.section	.text.UART_DMAReceiveCplt,"ax",%progbits
@@ -14518,7 +14518,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3605:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     ATOMIC_CLEAR_BIT(huart->Instance->CR3, USART_CR3_EIE);
  7287              		.loc 1 3605 5 view .LVU2160
  7288              	.LBB980:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 243
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 243
 
 
  7289              	.LBI980:
@@ -14578,7 +14578,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  7332              		.loc 2 412 27 view .LVU2172
  7333              	.LBB985:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 244
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 244
 
 
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -14638,7 +14638,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7374              		.syntax divided
  7375              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  7376 0030 83F31088 		MSR primask, r3
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 245
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 245
 
 
  7377              	@ 0 "" 2
@@ -14698,7 +14698,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7418              		.syntax divided
  7419              	@ 386 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  7420 0040 EFF31081 		MRS r1, primask
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 246
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 246
 
 
  7421              	@ 0 "" 2
@@ -14758,7 +14758,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7464              	.LVL519:
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  7465              		.loc 2 414 3 is_stmt 0 view .LVU2211
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 247
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 247
 
 
  7466              		.thumb
@@ -14818,7 +14818,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7505              	.LBI1001:
  382:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  7506              		.loc 2 382 31 view .LVU2227
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 248
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 248
 
 
  7507              	.LBB1002:
@@ -14878,7 +14878,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7549              		.loc 2 414 3 view .LVU2239
  7550              		.syntax divided
  7551              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 249
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 249
 
 
  7552 007e 81F31088 		MSR primask, r1
@@ -14938,7 +14938,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7601 0006 9842     		cmp	r0, r3
  7602 0008 04D0     		beq	.L215
 2701:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     MODIFY_REG(huart->Instance->RTOR, USART_RTOR_RTO, TimeoutValue);
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 250
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 250
 
 
  7603              		.loc 1 2701 5 is_stmt 1 view .LVU2249
@@ -14998,7 +14998,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7650              		.loc 1 2716 5 is_stmt 1 view .LVU2258
 2716:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
  7651              		.loc 1 2716 14 is_stmt 0 view .LVU2259
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 251
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 251
 
 
  7652 000a 826F     		ldr	r2, [r0, #120]
@@ -15058,7 +15058,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2742:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  7691              		.loc 1 2742 1 view .LVU2275
  7692              		@ sp needed
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 252
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 252
 
 
  7693 0036 10BD     		pop	{r4, pc}
@@ -15118,7 +15118,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7741              		.cfi_offset 14, -4
 2752:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
  7742              		.loc 1 2752 3 is_stmt 1 view .LVU2284
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 253
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 253
 
 
 2752:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
@@ -15178,7 +15178,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7781 002e 0023     		movs	r3, #0
  7782 0030 4354     		strb	r3, [r0, r1]
 2767:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 254
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 254
 
 
  7783              		.loc 1 2767 7 discriminator 2 view .LVU2301
@@ -15238,7 +15238,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7830              	.LFB77:
 2829:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   __HAL_UART_SEND_REQ(huart, UART_MUTE_MODE_REQUEST);
  7831              		.loc 1 2829 1 is_stmt 1 view -0
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 255
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 255
 
 
  7832              		.cfi_startproc
@@ -15298,7 +15298,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7880              		.loc 1 2840 3 discriminator 2 view .LVU2319
 2841:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  7881              		.loc 1 2841 3 discriminator 2 view .LVU2320
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 256
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 256
 
 
 2841:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -15358,7 +15358,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7922              		.loc 1 2844 3 is_stmt 1 discriminator 2 view .LVU2334
  7923 001c 0468     		ldr	r4, [r0]
  7924 001e 2268     		ldr	r2, [r4]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 257
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 257
 
 
  7925 0020 0C26     		movs	r6, #12
@@ -15418,7 +15418,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  7966              	.LBE1016:
  7967              	.LBE1015:
 2847:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 258
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 258
 
 
  7968              		.loc 1 2847 3 is_stmt 1 discriminator 2 view .LVU2348
@@ -15478,7 +15478,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8011              		.loc 1 2849 3 discriminator 2 view .LVU2359
 2849:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  8012              		.loc 1 2849 17 is_stmt 0 discriminator 2 view .LVU2360
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 259
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 259
 
 
  8013 0040 2023     		movs	r3, #32
@@ -15538,7 +15538,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8059              		.cfi_offset 14, -4
 2863:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   huart->gState = HAL_UART_STATE_BUSY;
  8060              		.loc 1 2863 3 is_stmt 1 view .LVU2371
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 260
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 260
 
 
 2863:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   huart->gState = HAL_UART_STATE_BUSY;
@@ -15598,7 +15598,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8100              	.LBB1025:
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  8101              		.loc 2 414 3 discriminator 2 view .LVU2387
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 261
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 261
 
 
  8102              		.syntax divided
@@ -15658,7 +15658,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  384:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  8145              		.loc 2 384 3 discriminator 2 view .LVU2399
  386:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 262
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 262
 
 
  8146              		.loc 2 386 3 discriminator 2 view .LVU2400
@@ -15718,7 +15718,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8189              		.syntax divided
  8190              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  8191 003c 84F31088 		MSR primask, r4
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 263
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 263
 
 
  8192              	@ 0 "" 2
@@ -15778,7 +15778,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8236              	.LVL574:
  8237              	.LFB80:
 2886:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* Check the parameters */
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 264
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 264
 
 
  8238              		.loc 1 2886 1 is_stmt 1 view -0
@@ -15838,7 +15838,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8278              		.loc 1 2899 3 discriminator 2 view .LVU2438
 2901:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** }
  8279              		.loc 1 2901 3 discriminator 2 view .LVU2439
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 265
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 265
 
 
 2901:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** }
@@ -15898,7 +15898,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8323              		.loc 1 2937 10 is_stmt 0 view .LVU2452
  8324 0004 1843     		orrs	r0, r3
  8325              	.LVL581:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 266
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 266
 
 
 2938:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -15958,7 +15958,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8377              		.cfi_def_cfa_offset 16
  8378              		.cfi_offset 4, -16
  8379              		.cfi_offset 6, -12
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 267
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 267
 
 
  8380              		.cfi_offset 7, -8
@@ -16018,7 +16018,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8413              		.loc 1 3025 3 is_stmt 1 view .LVU2480
  8414 0014 0A68     		ldr	r2, [r1]
  8415 0016 8748     		ldr	r0, .L304
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 268
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 268
 
 
  8416              	.LVL587:
@@ -16078,7 +16078,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8457 0044 2268     		ldr	r2, [r4]
  8458 0046 7F4B     		ldr	r3, .L304+16
  8459 0048 9A42     		cmp	r2, r3
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 269
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 269
 
 
  8460 004a 12D0     		beq	.L298
@@ -16138,7 +16138,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8504 001c 28020000 		.word	.L293
  8505 0020 06020000 		.word	.L294
  8506              		.section	.text.UART_SetConfig
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 270
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 270
 
 
  8507              	.LVL594:
@@ -16198,7 +16198,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8555              	.L250:
  8556 00b8 C021     		movs	r1, #192
  8557 00ba 0901     		lsls	r1, r1, #4
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 271
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 271
 
 
  8558 00bc 8B42     		cmp	r3, r1
@@ -16258,7 +16258,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8606              	.L302:
 3054:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
  8607              		.loc 1 3054 5 view .LVU2516
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 272
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 272
 
 
  8608 00fa 0120     		movs	r0, #1
@@ -16318,7 +16318,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8651 0130 494B     		ldr	r3, .L304+36
  8652 0132 9A42     		cmp	r2, r3
  8653 0134 00D9     		bls	.LCB6926
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 273
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 273
 
 
  8654 0136 6FE0     		b	.L288	@long jump
@@ -16378,7 +16378,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8693 0154 F8E7     		b	.L258
  8694              	.LVL609:
  8695              	.L284:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 274
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 274
 
 
 3062:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         }
@@ -16438,7 +16438,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8740 0172 5B08     		lsrs	r3, r3, #1
  8741 0174 C018     		adds	r0, r0, r3
  8742 0176 6168     		ldr	r1, [r4, #4]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 275
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 275
 
 
  8743 0178 FFF7FEFF 		bl	__aeabi_uidiv
@@ -16498,7 +16498,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8783              	.LVL620:
  8784              	.L264:
 3114:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         break;
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 276
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 276
 
 
  8785              		.loc 1 3114 9 is_stmt 1 view .LVU2567
@@ -16558,7 +16558,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8824 01c2 0028     		cmp	r0, #0
  8825 01c4 32D0     		beq	.L296
  8826              	.LVL626:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 277
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 277
 
 
  8827              	.L267:
@@ -16618,7 +16618,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8866              		.loc 1 3207 1 view .LVU2597
  8867 01ec D0BD     		pop	{r4, r6, r7, pc}
  8868              	.LVL631:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 278
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 278
 
 
  8869              	.L271:
@@ -16678,7 +16678,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  8910              	.L287:
  8911 0214 0120     		movs	r0, #1
  8912 0216 E6E7     		b	.L256
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 279
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 279
 
 
  8913              	.LVL637:
@@ -16738,7 +16738,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3196:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       }
  8956              		.loc 1 3196 13 view .LVU2622
  8957 0232 D8E7     		b	.L256
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 280
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 280
 
 
  8958              	.L305:
@@ -16798,7 +16798,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3227:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
  9008              		.loc 1 3227 3 view .LVU2629
 3227:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 281
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 281
 
 
  9009              		.loc 1 3227 6 is_stmt 0 view .LVU2630
@@ -16858,7 +16858,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3248:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
  9053              		.loc 1 3248 3 view .LVU2641
 3248:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 282
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 282
 
 
  9054              		.loc 1 3248 6 is_stmt 0 view .LVU2642
@@ -16918,7 +16918,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9097 008a 5360     		str	r3, [r2, #4]
 3268:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
  9098              		.loc 1 3268 5 view .LVU2654
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 283
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 283
 
 
 3268:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
@@ -16978,7 +16978,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9145 00d8 FFFFF7FF 		.word	-524289
  9146 00dc FFFF9FFF 		.word	-6291457
  9147              		.cfi_endproc
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 284
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 284
 
 
  9148              	.LFE84:
@@ -17038,7 +17038,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9197              		.loc 1 3343 50 view .LVU2669
  9198 001a 641B     		subs	r4, r4, r5
  9199 001c 6342     		rsbs	r3, r4, #0
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 285
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 285
 
 
  9200 001e 5C41     		adcs	r4, r4, r3
@@ -17098,7 +17098,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3368:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  9239              		.loc 1 3368 11 is_stmt 1 view .LVU2685
  9240 004a 8022     		movs	r2, #128
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 286
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 286
 
 
  9241 004c 1201     		lsls	r2, r2, #4
@@ -17158,7 +17158,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9282 005a 3168     		ldr	r1, [r6]
  9283 005c 0B68     		ldr	r3, [r1]
  9284 005e 1E4C     		ldr	r4, .L326
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 287
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 287
 
 
  9285 0060 2340     		ands	r3, r4
@@ -17218,7 +17218,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9326              	.LBE1043:
 3373:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  9327              		.loc 1 3373 11 is_stmt 1 view .LVU2712
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 288
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 288
 
 
  9328              	.LBB1045:
@@ -17278,7 +17278,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3376:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****           huart->ErrorCode = HAL_UART_ERROR_RTO;
  9371              		.loc 1 3376 11 is_stmt 1 view .LVU2724
 3376:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****           huart->ErrorCode = HAL_UART_ERROR_RTO;
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 289
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 289
 
 
  9372              		.loc 1 3376 26 is_stmt 0 view .LVU2725
@@ -17338,7 +17338,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9410              	.LBE1051:
  9411              	.LBE1050:
 3352:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         ATOMIC_CLEAR_BIT(huart->Instance->CR3, USART_CR3_EIE);
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 290
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 290
 
 
  9412              		.loc 1 3352 9 is_stmt 1 view .LVU2742
@@ -17398,7 +17398,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3353:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  9456              		.loc 1 3353 9 view .LVU2753
 3353:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 291
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 291
 
 
  9457              		.loc 1 3353 9 view .LVU2754
@@ -17458,7 +17458,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  9500              		.loc 2 412 27 view .LVU2766
  9501              	.LBB1062:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 292
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 292
 
 
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -17518,7 +17518,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9541              	.LVL675:
  9542              	.LVL676:
 3388:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 293
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 293
 
 
  9543              		.loc 1 3388 1 view .LVU2782
@@ -17578,7 +17578,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9593              		.loc 1 1094 3 view .LVU2788
 1094:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
  9594              		.loc 1 1094 12 is_stmt 0 view .LVU2789
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 294
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 294
 
 
  9595 0010 836F     		ldr	r3, [r0, #120]
@@ -17638,7 +17638,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9634              		.loc 1 1115 19 is_stmt 0 discriminator 2 view .LVU2804
  9635 003c 5F3B     		subs	r3, r3, #95
  9636 003e A367     		str	r3, [r4, #120]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 295
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 295
 
 
 1118:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -17698,7 +17698,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1104:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
  9676              		.loc 1 1104 56 discriminator 1 view .LVU2820
  9677 0066 0369     		ldr	r3, [r0, #16]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 296
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 296
 
 
  9678 0068 002B     		cmp	r3, #0
@@ -17758,7 +17758,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9718              		.loc 1 1145 30 view .LVU2834
  9719 0090 9362     		str	r3, [r2, #40]
 1146:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       }
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 297
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 297
 
 
  9720              		.loc 1 1146 9 is_stmt 1 view .LVU2835
@@ -17818,7 +17818,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1150:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         pdata8bits++;
  9761              		.loc 1 1150 42 is_stmt 0 view .LVU2849
  9762 00c2 2A78     		ldrb	r2, [r5]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 298
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 298
 
 
 1150:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****         pdata8bits++;
@@ -17878,7 +17878,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9803              	.LVL695:
 1170:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  9804              		.loc 1 1170 1 view .LVU2864
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 299
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 299
 
 
  9805 00e8 80BC     		pop	{r7}
@@ -17938,7 +17938,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9852              		.cfi_startproc
  9853              		@ args = 0, pretend = 0, frame = 8
  9854              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 300
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 300
 
 
 1189:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   uint8_t  *pdata8bits;
@@ -17998,7 +17998,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9898 0022 91E0     		b	.L366	@long jump
  9899              	.LCB8166:
 1206:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 301
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 301
 
 
  9900              		.loc 1 1206 5 is_stmt 1 view .LVU2885
@@ -18058,7 +18058,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9939              		.loc 1 1221 17 discriminator 2 view .LVU2900
  9940 004e 8046     		mov	r8, r0
  9941              	.LVL707:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 302
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 302
 
 
 1223:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     huart->RxXferCount = Size;
@@ -18118,7 +18118,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  9982              		.loc 1 1210 17 view .LVU2914
  9983 0080 5CE0     		b	.L350
  9984              	.LVL710:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 303
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 303
 
 
  9985              	.L373:
@@ -18178,7 +18178,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10028 00b6 5201     		lsls	r2, r2, #5
  10029 00b8 9342     		cmp	r3, r2
  10030 00ba 0FD0     		beq	.L375
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 304
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 304
 
 
 1239:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     }
@@ -18238,7 +18238,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 1233:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       pdata16bits = (uint16_t *) pData;
  10073              		.loc 1 1233 19 view .LVU2938
  10074 00e8 0026     		movs	r6, #0
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 305
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 305
 
 
  10075              	.LVL715:
@@ -18298,7 +18298,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10113              		.loc 1 1247 11 is_stmt 0 view .LVU2954
  10114 010c 0097     		str	r7, [sp]
  10115 010e 4346     		mov	r3, r8
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 306
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 306
 
 
  10116 0110 0022     		movs	r2, #0
@@ -18358,7 +18358,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10154 0138 00E0     		b	.L350
  10155              	.LVL720:
  10156              	.L364:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 307
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 307
 
 
 1271:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
@@ -18418,7 +18418,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10201              	.LFE48:
  10203              		.section	.text.UART_CheckIdleState,"ax",%progbits
  10204              		.align	1
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 308
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 308
 
 
  10205              		.global	UART_CheckIdleState
@@ -18478,7 +18478,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10248 0018 0DD4     		bmi	.L386
  10249              	.LVL734:
  10250              	.L381:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 309
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 309
 
 
 3310:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
@@ -18538,7 +18538,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10288              	.L386:
 3302:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
  10289              		.loc 1 3302 5 is_stmt 1 view .LVU3010
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 310
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 310
 
 
 3302:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
@@ -18598,7 +18598,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10337              		.code	16
  10338              		.thumb_func
  10340              	HAL_UART_Init:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 311
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 311
 
 
  10341              	.LVL741:
@@ -18658,7 +18658,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10381              	.LVL743:
  336:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
  10382              		.loc 1 336 6 view .LVU3033
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 312
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 312
 
 
  10383 0020 0128     		cmp	r0, #1
@@ -18718,7 +18718,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10426 0054 C254     		strb	r2, [r0, r3]
  327:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #endif /* (USE_HAL_UART_REGISTER_CALLBACKS) */
  10427              		.loc 1 327 5 is_stmt 1 view .LVU3045
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 313
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 313
 
 
  10428 0056 FFF7FEFF 		bl	HAL_UART_MspInit
@@ -18778,7 +18778,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  373:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  10476              		.loc 1 373 3 is_stmt 1 view .LVU3054
  375:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 314
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 314
 
 
  10477              		.loc 1 375 3 view .LVU3055
@@ -18838,7 +18838,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10519 003a 8B43     		bics	r3, r1
  10520 003c 9360     		str	r3, [r2, #8]
  418:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 315
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 315
 
 
  10521              		.loc 1 418 3 view .LVU3068
@@ -18898,7 +18898,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10564              		.loc 1 369 12 is_stmt 0 view .LVU3079
  10565 006e 0120     		movs	r0, #1
  10566              	.LVL760:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 316
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 316
 
 
  369:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   }
@@ -18958,7 +18958,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10613              		.loc 1 456 3 is_stmt 1 view .LVU3089
  456:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
  10614              		.loc 1 456 6 is_stmt 0 view .LVU3090
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 317
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 317
 
 
  10615 0014 8368     		ldr	r3, [r0, #8]
@@ -19018,7 +19018,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10656              		.loc 1 501 3 view .LVU3103
  10657 0048 2268     		ldr	r2, [r4]
  10658 004a 9368     		ldr	r3, [r2, #8]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 318
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 318
 
 
  10659 004c 2A21     		movs	r1, #42
@@ -19078,7 +19078,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10702              		.loc 1 478 5 is_stmt 1 view .LVU3114
  10703 0082 FFF7FEFF 		bl	HAL_UART_MspInit
  10704              	.LVL768:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 319
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 319
 
 
  478:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** #endif /* (USE_HAL_UART_REGISTER_CALLBACKS) */
@@ -19138,7 +19138,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10752              		.cfi_startproc
  10753              		@ args = 0, pretend = 0, frame = 0
  10754              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 320
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 320
 
 
  535:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* Check the UART handle allocation */
@@ -19198,7 +19198,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10796 0028 1ED0     		beq	.L420
  576:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
  10797              		.loc 1 576 3 is_stmt 1 view .LVU3137
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 321
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 321
 
 
  576:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
@@ -19258,7 +19258,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10842              	.L420:
  600:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  10843              		.loc 1 600 1 view .LVU3148
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 322
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 322
 
 
  10844              		@ sp needed
@@ -19318,7 +19318,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10888 0094 FFB7FFFF 		.word	-18433
  10889 0098 FFF7FFFF 		.word	-2049
  10890              		.cfi_endproc
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 323
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 323
 
 
  10891              	.LFE43:
@@ -19378,7 +19378,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10935              	.LBB1065:
  384:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  10936              		.loc 2 384 3 discriminator 2 view .LVU3171
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 324
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 324
 
 
  386:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
@@ -19438,7 +19438,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  10980              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  10981 0028 81F31088 		MSR primask, r1
  10982              	@ 0 "" 2
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 325
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 325
 
 
  10983              	.LVL792:
@@ -19498,7 +19498,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11028 0000 10B5     		push	{r4, lr}
  11029              	.LCFI51:
  11030              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 326
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 326
 
 
  11031              		.cfi_offset 4, -8
@@ -19558,7 +19558,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11070              	.LBB1073:
  11071              	.LBI1073:
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 327
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 327
 
 
  11072              		.loc 2 412 27 discriminator 2 view .LVU3209
@@ -19618,7 +19618,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 2819:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** }
  11115              		.loc 1 2819 11 is_stmt 0 discriminator 2 view .LVU3221
  11116 002e FFF7FEFF 		bl	UART_CheckIdleState
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 328
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 328
 
 
  11117              	.LVL801:
@@ -19678,7 +19678,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11162              		.loc 1 3406 3 is_stmt 1 view .LVU3232
 3406:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  11163              		.loc 1 3406 22 is_stmt 0 view .LVU3233
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 329
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 329
 
 
  11164 000a 0023     		movs	r3, #0
@@ -19738,7 +19738,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11208 0046 06E0     		b	.L441
  11209              	.L442:
 3409:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 330
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 330
 
 
  11210              		.loc 1 3409 3 discriminator 6 view .LVU3244
@@ -19798,7 +19798,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11250              	.LBE1078:
 3415:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  11251              		.loc 1 3415 3 is_stmt 1 discriminator 13 view .LVU3259
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 331
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 331
 
 
  11252              	.LBB1080:
@@ -19858,7 +19858,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
 3418:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
  11295              		.loc 1 3418 6 is_stmt 0 discriminator 13 view .LVU3271
  11296 0076 8023     		movs	r3, #128
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 332
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 332
 
 
  11297 0078 5B01     		lsls	r3, r3, #5
@@ -19918,7 +19918,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  412:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  11337              		.loc 2 412 27 view .LVU3286
  11338              	.LBB1088:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 333
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 333
 
 
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -19978,7 +19978,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11382              		@ sp needed
  11383 00a6 7047     		bx	lr
  11384              	.LVL816:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 334
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 334
 
 
  11385              	.L449:
@@ -20038,7 +20038,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11434              		@ frame_needed = 0, uses_anonymous_args = 0
 1360:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   /* Check that a Rx process is not already ongoing */
  11435              		.loc 1 1360 1 is_stmt 0 view .LVU3305
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 335
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 335
 
 
  11436 0000 70B5     		push	{r4, r5, r6, lr}
@@ -20098,7 +20098,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11476              		.loc 1 1383 26 is_stmt 0 discriminator 2 view .LVU3319
  11477 0028 0023     		movs	r3, #0
  11478 002a 0366     		str	r3, [r0, #96]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 336
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 336
 
 
 1385:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
@@ -20158,7 +20158,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11517              	.LBB1095:
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  11518              		.loc 2 414 3 view .LVU3336
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 337
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 337
 
 
  11519 003e 0123     		movs	r3, #1
@@ -20218,7 +20218,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11563              	.LVL824:
  11564              	.L462:
 1372:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 338
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 338
 
 
  11565              		.loc 1 1372 56 discriminator 1 view .LVU3347
@@ -20278,7 +20278,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11607 0076 F8E7     		b	.L454
  11608              	.L464:
  11609              		.align	2
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 339
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 339
 
 
  11610              	.L463:
@@ -20338,7 +20338,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11655              		.loc 1 3451 3 is_stmt 1 view .LVU3370
 3451:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  11656              		.loc 1 3451 18 is_stmt 0 view .LVU3371
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 340
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 340
 
 
  11657 0012 5E3A     		subs	r2, r2, #94
@@ -20398,7 +20398,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11694              	.LVL837:
 3468:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****     {
  11695              		.loc 1 3468 9 view .LVU3389
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 341
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 341
 
 
  11696 003a FFF7FEFF 		bl	HAL_DMA_Start_IT
@@ -20458,7 +20458,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11735 004c 733B     		subs	r3, r3, #115
  11736              		.syntax divided
  11737              	@ 414 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 342
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 342
 
 
  11738 004e 83F31088 		MSR primask, r3
@@ -20518,7 +20518,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11780              		.loc 2 384 3 view .LVU3416
  386:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
  11781              		.loc 2 386 3 view .LVU3417
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 343
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 343
 
 
  11782              		.syntax divided
@@ -20578,7 +20578,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  414:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  11826              		.loc 2 414 3 is_stmt 0 view .LVU3428
  11827              		.thumb
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 344
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 344
 
 
  11828              		.syntax unified
@@ -20638,7 +20638,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11869              	.LBE1115:
 3491:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  11870              		.loc 1 3491 3 is_stmt 1 view .LVU3442
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 345
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 345
 
 
  11871 007e 2268     		ldr	r2, [r4]
@@ -20698,7 +20698,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11913 0094 E250     		str	r2, [r4, r3]
 3473:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
  11914              		.loc 1 3473 7 is_stmt 1 view .LVU3455
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 346
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 346
 
 
 3473:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c **** 
@@ -20758,7 +20758,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  11961 0002 C36F     		ldr	r3, [r0, #124]
 1513:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****   {
  11962              		.loc 1 1513 6 view .LVU3466
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 347
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 347
 
 
  11963 0004 202B     		cmp	r3, #32
@@ -20818,7 +20818,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  12002              		.loc 1 1539 7 is_stmt 1 view .LVU3481
 1539:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       {
  12003              		.loc 1 1539 11 is_stmt 0 view .LVU3482
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 348
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 348
 
 
  12004 0034 5B68     		ldr	r3, [r3, #4]
@@ -20878,7 +20878,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  12045              	.LBE1122:
 1542:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       }
  12046              		.loc 1 1542 9 is_stmt 1 view .LVU3496
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 349
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 349
 
 
  12047 0044 0468     		ldr	r4, [r0]
@@ -20938,7 +20938,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  12089              		.loc 1 1527 17 view .LVU3508
  12090 0064 0120     		movs	r0, #1
  12091              	.LVL862:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 350
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 350
 
 
 1527:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c ****       }
@@ -20998,192 +20998,192 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 1
  12138              		.file 8 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h"
  12139              		.file 9 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h"
  12140              		.file 10 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h"
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 351
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 351
 
 
  12141              		.file 11 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h"
  12142              		.file 12 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h"
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 352
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 352
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l0xx_hal_uart.c
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:18     .text.UART_EndTxTransfer:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:23     .text.UART_EndTxTransfer:00000000 UART_EndTxTransfer
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:112    .text.UART_EndRxTransfer:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:117    .text.UART_EndRxTransfer:00000000 UART_EndRxTransfer
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:339    .text.UART_EndRxTransfer:0000005c $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:347    .text.UART_TxISR_8BIT:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:352    .text.UART_TxISR_8BIT:00000000 UART_TxISR_8BIT
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:542    .text.UART_TxISR_16BIT:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:547    .text.UART_TxISR_16BIT:00000000 UART_TxISR_16BIT
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:743    .text.HAL_UART_MspInit:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:749    .text.HAL_UART_MspInit:00000000 HAL_UART_MspInit
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:765    .text.HAL_UART_MspDeInit:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:771    .text.HAL_UART_MspDeInit:00000000 HAL_UART_MspDeInit
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:787    .text.HAL_UART_DeInit:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:793    .text.HAL_UART_DeInit:00000000 HAL_UART_DeInit
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:880    .text.HAL_UART_Transmit_IT:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:886    .text.HAL_UART_Transmit_IT:00000000 HAL_UART_Transmit_IT
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:1108   .text.HAL_UART_Transmit_IT:00000098 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:1114   .text.HAL_UART_Transmit_DMA:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:1120   .text.HAL_UART_Transmit_DMA:00000000 HAL_UART_Transmit_DMA
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:1375   .text.HAL_UART_Transmit_DMA:000000c8 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3438   .text.UART_DMATransmitCplt:00000000 UART_DMATransmitCplt
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3737   .text.UART_DMATxHalfCplt:00000000 UART_DMATxHalfCplt
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3835   .text.UART_DMAError:00000000 UART_DMAError
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:1382   .text.HAL_UART_DMAPause:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:1388   .text.HAL_UART_DMAPause:00000000 HAL_UART_DMAPause
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:1728   .text.HAL_UART_DMAPause:00000098 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:1733   .text.HAL_UART_DMAResume:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:1739   .text.HAL_UART_DMAResume:00000000 HAL_UART_DMAResume
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:2064   .text.HAL_UART_DMAStop:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:2070   .text.HAL_UART_DMAStop:00000000 HAL_UART_DMAStop
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:2342   .text.HAL_UART_Abort:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:2348   .text.HAL_UART_Abort:00000000 HAL_UART_Abort
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:2823   .text.HAL_UART_Abort:00000108 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:2828   .text.HAL_UART_AbortTransmit:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:2834   .text.HAL_UART_AbortTransmit:00000000 HAL_UART_AbortTransmit
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3043   .text.HAL_UART_AbortReceive:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3049   .text.HAL_UART_AbortReceive:00000000 HAL_UART_AbortReceive
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3406   .text.HAL_UART_AbortReceive:000000b8 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3411   .text.HAL_UART_TxCpltCallback:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3417   .text.HAL_UART_TxCpltCallback:00000000 HAL_UART_TxCpltCallback
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3433   .text.UART_DMATransmitCplt:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3611   .text.UART_EndTransmit_IT:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3616   .text.UART_EndTransmit_IT:00000000 UART_EndTransmit_IT
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3710   .text.HAL_UART_TxHalfCpltCallback:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3716   .text.HAL_UART_TxHalfCpltCallback:00000000 HAL_UART_TxHalfCpltCallback
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3732   .text.UART_DMATxHalfCplt:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3764   .text.HAL_UART_RxCpltCallback:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3770   .text.HAL_UART_RxCpltCallback:00000000 HAL_UART_RxCpltCallback
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3786   .text.HAL_UART_RxHalfCpltCallback:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3792   .text.HAL_UART_RxHalfCpltCallback:00000000 HAL_UART_RxHalfCpltCallback
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3808   .text.HAL_UART_ErrorCallback:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3814   .text.HAL_UART_ErrorCallback:00000000 HAL_UART_ErrorCallback
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3830   .text.UART_DMAError:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3933   .text.UART_DMAAbortOnError:00000000 $t
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 353
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:18     .text.UART_EndTxTransfer:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:23     .text.UART_EndTxTransfer:00000000 UART_EndTxTransfer
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:112    .text.UART_EndRxTransfer:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:117    .text.UART_EndRxTransfer:00000000 UART_EndRxTransfer
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:339    .text.UART_EndRxTransfer:0000005c $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:347    .text.UART_TxISR_8BIT:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:352    .text.UART_TxISR_8BIT:00000000 UART_TxISR_8BIT
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:542    .text.UART_TxISR_16BIT:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:547    .text.UART_TxISR_16BIT:00000000 UART_TxISR_16BIT
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:743    .text.HAL_UART_MspInit:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:749    .text.HAL_UART_MspInit:00000000 HAL_UART_MspInit
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:765    .text.HAL_UART_MspDeInit:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:771    .text.HAL_UART_MspDeInit:00000000 HAL_UART_MspDeInit
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:787    .text.HAL_UART_DeInit:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:793    .text.HAL_UART_DeInit:00000000 HAL_UART_DeInit
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:880    .text.HAL_UART_Transmit_IT:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:886    .text.HAL_UART_Transmit_IT:00000000 HAL_UART_Transmit_IT
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:1108   .text.HAL_UART_Transmit_IT:00000098 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:1114   .text.HAL_UART_Transmit_DMA:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:1120   .text.HAL_UART_Transmit_DMA:00000000 HAL_UART_Transmit_DMA
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:1375   .text.HAL_UART_Transmit_DMA:000000c8 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3438   .text.UART_DMATransmitCplt:00000000 UART_DMATransmitCplt
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3737   .text.UART_DMATxHalfCplt:00000000 UART_DMATxHalfCplt
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3835   .text.UART_DMAError:00000000 UART_DMAError
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:1382   .text.HAL_UART_DMAPause:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:1388   .text.HAL_UART_DMAPause:00000000 HAL_UART_DMAPause
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:1728   .text.HAL_UART_DMAPause:00000098 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:1733   .text.HAL_UART_DMAResume:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:1739   .text.HAL_UART_DMAResume:00000000 HAL_UART_DMAResume
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:2064   .text.HAL_UART_DMAStop:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:2070   .text.HAL_UART_DMAStop:00000000 HAL_UART_DMAStop
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:2342   .text.HAL_UART_Abort:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:2348   .text.HAL_UART_Abort:00000000 HAL_UART_Abort
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:2823   .text.HAL_UART_Abort:00000108 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:2828   .text.HAL_UART_AbortTransmit:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:2834   .text.HAL_UART_AbortTransmit:00000000 HAL_UART_AbortTransmit
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3043   .text.HAL_UART_AbortReceive:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3049   .text.HAL_UART_AbortReceive:00000000 HAL_UART_AbortReceive
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3406   .text.HAL_UART_AbortReceive:000000b8 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3411   .text.HAL_UART_TxCpltCallback:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3417   .text.HAL_UART_TxCpltCallback:00000000 HAL_UART_TxCpltCallback
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3433   .text.UART_DMATransmitCplt:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3611   .text.UART_EndTransmit_IT:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3616   .text.UART_EndTransmit_IT:00000000 UART_EndTransmit_IT
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3710   .text.HAL_UART_TxHalfCpltCallback:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3716   .text.HAL_UART_TxHalfCpltCallback:00000000 HAL_UART_TxHalfCpltCallback
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3732   .text.UART_DMATxHalfCplt:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3764   .text.HAL_UART_RxCpltCallback:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3770   .text.HAL_UART_RxCpltCallback:00000000 HAL_UART_RxCpltCallback
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3786   .text.HAL_UART_RxHalfCpltCallback:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3792   .text.HAL_UART_RxHalfCpltCallback:00000000 HAL_UART_RxHalfCpltCallback
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3808   .text.HAL_UART_ErrorCallback:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3814   .text.HAL_UART_ErrorCallback:00000000 HAL_UART_ErrorCallback
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3830   .text.UART_DMAError:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3933   .text.UART_DMAAbortOnError:00000000 $t
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 353
 
 
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3938   .text.UART_DMAAbortOnError:00000000 UART_DMAAbortOnError
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3974   .text.HAL_UART_AbortCpltCallback:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3980   .text.HAL_UART_AbortCpltCallback:00000000 HAL_UART_AbortCpltCallback
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:3996   .text.HAL_UART_Abort_IT:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:4002   .text.HAL_UART_Abort_IT:00000000 HAL_UART_Abort_IT
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:4531   .text.HAL_UART_Abort_IT:00000130 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:4628   .text.UART_DMATxAbortCallback:00000000 UART_DMATxAbortCallback
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:4543   .text.UART_DMARxAbortCallback:00000000 UART_DMARxAbortCallback
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:4538   .text.UART_DMARxAbortCallback:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:4623   .text.UART_DMATxAbortCallback:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:4702   .text.HAL_UART_AbortTransmitCpltCallback:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:4708   .text.HAL_UART_AbortTransmitCpltCallback:00000000 HAL_UART_AbortTransmitCpltCallback
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:4724   .text.HAL_UART_AbortTransmit_IT:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:4730   .text.HAL_UART_AbortTransmit_IT:00000000 HAL_UART_AbortTransmit_IT
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:4955   .text.HAL_UART_AbortTransmit_IT:00000084 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:4965   .text.UART_DMATxOnlyAbortCallback:00000000 UART_DMATxOnlyAbortCallback
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:4960   .text.UART_DMATxOnlyAbortCallback:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:5001   .text.HAL_UART_AbortReceiveCpltCallback:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:5007   .text.HAL_UART_AbortReceiveCpltCallback:00000000 HAL_UART_AbortReceiveCpltCallback
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:5023   .text.HAL_UART_AbortReceive_IT:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:5029   .text.HAL_UART_AbortReceive_IT:00000000 HAL_UART_AbortReceive_IT
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:5409   .text.HAL_UART_AbortReceive_IT:000000cc $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:5420   .text.UART_DMARxOnlyAbortCallback:00000000 UART_DMARxOnlyAbortCallback
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:5415   .text.UART_DMARxOnlyAbortCallback:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:5469   .text.HAL_UARTEx_RxEventCallback:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:5475   .text.HAL_UARTEx_RxEventCallback:00000000 HAL_UARTEx_RxEventCallback
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:5492   .text.HAL_UART_IRQHandler:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:5498   .text.HAL_UART_IRQHandler:00000000 HAL_UART_IRQHandler
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:6545   .text.HAL_UART_IRQHandler:000002bc $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:6554   .text.UART_RxISR_8BIT:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:6559   .text.UART_RxISR_8BIT:00000000 UART_RxISR_8BIT
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:6868   .text.UART_RxISR_8BIT:000000ac $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:6873   .text.UART_RxISR_16BIT:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:6878   .text.UART_RxISR_16BIT:00000000 UART_RxISR_16BIT
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7189   .text.UART_RxISR_16BIT:000000ac $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7194   .text.UART_DMARxHalfCplt:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7199   .text.UART_DMARxHalfCplt:00000000 UART_DMARxHalfCplt
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7245   .text.UART_DMAReceiveCplt:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7250   .text.UART_DMAReceiveCplt:00000000 UART_DMAReceiveCplt
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7574   .text.UART_DMAReceiveCplt:00000090 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7579   .text.HAL_UART_ReceiverTimeout_Config:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7585   .text.HAL_UART_ReceiverTimeout_Config:00000000 HAL_UART_ReceiverTimeout_Config
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7619   .text.HAL_UART_ReceiverTimeout_Config:00000018 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7624   .text.HAL_UART_EnableReceiverTimeout:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7630   .text.HAL_UART_EnableReceiverTimeout:00000000 HAL_UART_EnableReceiverTimeout
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7718   .text.HAL_UART_EnableReceiverTimeout:00000044 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7723   .text.HAL_UART_DisableReceiverTimeout:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7729   .text.HAL_UART_DisableReceiverTimeout:00000000 HAL_UART_DisableReceiverTimeout
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7816   .text.HAL_UART_DisableReceiverTimeout:00000044 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7822   .text.HAL_MultiProcessor_EnterMuteMode:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7828   .text.HAL_MultiProcessor_EnterMuteMode:00000000 HAL_MultiProcessor_EnterMuteMode
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7849   .text.HAL_HalfDuplex_EnableTransmitter:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:7855   .text.HAL_HalfDuplex_EnableTransmitter:00000000 HAL_HalfDuplex_EnableTransmitter
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8039   .text.HAL_HalfDuplex_EnableReceiver:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8045   .text.HAL_HalfDuplex_EnableReceiver:00000000 HAL_HalfDuplex_EnableReceiver
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8229   .text.HAL_LIN_SendBreak:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8235   .text.HAL_LIN_SendBreak:00000000 HAL_LIN_SendBreak
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 354
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3938   .text.UART_DMAAbortOnError:00000000 UART_DMAAbortOnError
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3974   .text.HAL_UART_AbortCpltCallback:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3980   .text.HAL_UART_AbortCpltCallback:00000000 HAL_UART_AbortCpltCallback
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:3996   .text.HAL_UART_Abort_IT:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:4002   .text.HAL_UART_Abort_IT:00000000 HAL_UART_Abort_IT
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:4531   .text.HAL_UART_Abort_IT:00000130 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:4628   .text.UART_DMATxAbortCallback:00000000 UART_DMATxAbortCallback
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:4543   .text.UART_DMARxAbortCallback:00000000 UART_DMARxAbortCallback
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:4538   .text.UART_DMARxAbortCallback:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:4623   .text.UART_DMATxAbortCallback:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:4702   .text.HAL_UART_AbortTransmitCpltCallback:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:4708   .text.HAL_UART_AbortTransmitCpltCallback:00000000 HAL_UART_AbortTransmitCpltCallback
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:4724   .text.HAL_UART_AbortTransmit_IT:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:4730   .text.HAL_UART_AbortTransmit_IT:00000000 HAL_UART_AbortTransmit_IT
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:4955   .text.HAL_UART_AbortTransmit_IT:00000084 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:4965   .text.UART_DMATxOnlyAbortCallback:00000000 UART_DMATxOnlyAbortCallback
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:4960   .text.UART_DMATxOnlyAbortCallback:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:5001   .text.HAL_UART_AbortReceiveCpltCallback:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:5007   .text.HAL_UART_AbortReceiveCpltCallback:00000000 HAL_UART_AbortReceiveCpltCallback
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:5023   .text.HAL_UART_AbortReceive_IT:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:5029   .text.HAL_UART_AbortReceive_IT:00000000 HAL_UART_AbortReceive_IT
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:5409   .text.HAL_UART_AbortReceive_IT:000000cc $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:5420   .text.UART_DMARxOnlyAbortCallback:00000000 UART_DMARxOnlyAbortCallback
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:5415   .text.UART_DMARxOnlyAbortCallback:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:5469   .text.HAL_UARTEx_RxEventCallback:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:5475   .text.HAL_UARTEx_RxEventCallback:00000000 HAL_UARTEx_RxEventCallback
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:5492   .text.HAL_UART_IRQHandler:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:5498   .text.HAL_UART_IRQHandler:00000000 HAL_UART_IRQHandler
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:6545   .text.HAL_UART_IRQHandler:000002bc $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:6554   .text.UART_RxISR_8BIT:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:6559   .text.UART_RxISR_8BIT:00000000 UART_RxISR_8BIT
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:6868   .text.UART_RxISR_8BIT:000000ac $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:6873   .text.UART_RxISR_16BIT:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:6878   .text.UART_RxISR_16BIT:00000000 UART_RxISR_16BIT
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7189   .text.UART_RxISR_16BIT:000000ac $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7194   .text.UART_DMARxHalfCplt:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7199   .text.UART_DMARxHalfCplt:00000000 UART_DMARxHalfCplt
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7245   .text.UART_DMAReceiveCplt:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7250   .text.UART_DMAReceiveCplt:00000000 UART_DMAReceiveCplt
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7574   .text.UART_DMAReceiveCplt:00000090 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7579   .text.HAL_UART_ReceiverTimeout_Config:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7585   .text.HAL_UART_ReceiverTimeout_Config:00000000 HAL_UART_ReceiverTimeout_Config
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7619   .text.HAL_UART_ReceiverTimeout_Config:00000018 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7624   .text.HAL_UART_EnableReceiverTimeout:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7630   .text.HAL_UART_EnableReceiverTimeout:00000000 HAL_UART_EnableReceiverTimeout
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7718   .text.HAL_UART_EnableReceiverTimeout:00000044 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7723   .text.HAL_UART_DisableReceiverTimeout:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7729   .text.HAL_UART_DisableReceiverTimeout:00000000 HAL_UART_DisableReceiverTimeout
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7816   .text.HAL_UART_DisableReceiverTimeout:00000044 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7822   .text.HAL_MultiProcessor_EnterMuteMode:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7828   .text.HAL_MultiProcessor_EnterMuteMode:00000000 HAL_MultiProcessor_EnterMuteMode
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7849   .text.HAL_HalfDuplex_EnableTransmitter:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:7855   .text.HAL_HalfDuplex_EnableTransmitter:00000000 HAL_HalfDuplex_EnableTransmitter
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8039   .text.HAL_HalfDuplex_EnableReceiver:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8045   .text.HAL_HalfDuplex_EnableReceiver:00000000 HAL_HalfDuplex_EnableReceiver
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8229   .text.HAL_LIN_SendBreak:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8235   .text.HAL_LIN_SendBreak:00000000 HAL_LIN_SendBreak
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 354
 
 
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8298   .text.HAL_UART_GetState:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8304   .text.HAL_UART_GetState:00000000 HAL_UART_GetState
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8333   .text.HAL_UART_GetError:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8339   .text.HAL_UART_GetError:00000000 HAL_UART_GetError
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8361   .text.UART_SetConfig:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8367   .text.UART_SetConfig:00000000 UART_SetConfig
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8495   .rodata.UART_SetConfig:00000000 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8961   .text.UART_SetConfig:00000234 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8978   .text.UART_AdvFeatureConfig:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:8984   .text.UART_AdvFeatureConfig:00000000 UART_AdvFeatureConfig
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:9138   .text.UART_AdvFeatureConfig:000000bc $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:9151   .text.UART_WaitOnFlagUntilTimeout:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:9157   .text.UART_WaitOnFlagUntilTimeout:00000000 UART_WaitOnFlagUntilTimeout
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:9551   .text.UART_WaitOnFlagUntilTimeout:000000d8 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:9556   .text.HAL_UART_Transmit:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:9562   .text.HAL_UART_Transmit:00000000 HAL_UART_Transmit
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:9842   .text.HAL_UART_Receive:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:9848   .text.HAL_UART_Receive:00000000 HAL_UART_Receive
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10199  .text.HAL_UART_Receive:00000154 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10204  .text.UART_CheckIdleState:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10210  .text.UART_CheckIdleState:00000000 UART_CheckIdleState
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10329  .text.UART_CheckIdleState:0000006c $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10334  .text.HAL_UART_Init:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10340  .text.HAL_UART_Init:00000000 HAL_UART_Init
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10448  .text.HAL_UART_Init:00000068 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10453  .text.HAL_HalfDuplex_Init:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10459  .text.HAL_HalfDuplex_Init:00000000 HAL_HalfDuplex_Init
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10572  .text.HAL_HalfDuplex_Init:00000074 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10577  .text.HAL_LIN_Init:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10583  .text.HAL_LIN_Init:00000000 HAL_LIN_Init
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10737  .text.HAL_LIN_Init:0000009c $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10742  .text.HAL_MultiProcessor_Init:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10748  .text.HAL_MultiProcessor_Init:00000000 HAL_MultiProcessor_Init
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10888  .text.HAL_MultiProcessor_Init:00000094 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10894  .text.HAL_MultiProcessor_EnableMuteMode:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:10900  .text.HAL_MultiProcessor_EnableMuteMode:00000000 HAL_MultiProcessor_EnableMuteMode
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11014  .text.HAL_MultiProcessor_DisableMuteMode:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11020  .text.HAL_MultiProcessor_DisableMuteMode:00000000 HAL_MultiProcessor_DisableMuteMode
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11132  .text.HAL_MultiProcessor_DisableMuteMode:00000038 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11137  .text.UART_Start_Receive_IT:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11143  .text.UART_Start_Receive_IT:00000000 UART_Start_Receive_IT
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11415  .text.UART_Start_Receive_IT:000000cc $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11422  .text.HAL_UART_Receive_IT:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11428  .text.HAL_UART_Receive_IT:00000000 HAL_UART_Receive_IT
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11611  .text.HAL_UART_Receive_IT:00000078 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11616  .text.UART_Start_Receive_DMA:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11622  .text.UART_Start_Receive_DMA:00000000 UART_Start_Receive_DMA
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11931  .text.UART_Start_Receive_DMA:000000a4 $d
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11938  .text.HAL_UART_Receive_DMA:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:11944  .text.HAL_UART_Receive_DMA:00000000 HAL_UART_Receive_DMA
-C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s:12127  .text.HAL_UART_Receive_DMA:00000078 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8298   .text.HAL_UART_GetState:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8304   .text.HAL_UART_GetState:00000000 HAL_UART_GetState
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8333   .text.HAL_UART_GetError:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8339   .text.HAL_UART_GetError:00000000 HAL_UART_GetError
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8361   .text.UART_SetConfig:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8367   .text.UART_SetConfig:00000000 UART_SetConfig
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8495   .rodata.UART_SetConfig:00000000 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8961   .text.UART_SetConfig:00000234 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8978   .text.UART_AdvFeatureConfig:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:8984   .text.UART_AdvFeatureConfig:00000000 UART_AdvFeatureConfig
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:9138   .text.UART_AdvFeatureConfig:000000bc $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:9151   .text.UART_WaitOnFlagUntilTimeout:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:9157   .text.UART_WaitOnFlagUntilTimeout:00000000 UART_WaitOnFlagUntilTimeout
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:9551   .text.UART_WaitOnFlagUntilTimeout:000000d8 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:9556   .text.HAL_UART_Transmit:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:9562   .text.HAL_UART_Transmit:00000000 HAL_UART_Transmit
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:9842   .text.HAL_UART_Receive:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:9848   .text.HAL_UART_Receive:00000000 HAL_UART_Receive
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10199  .text.HAL_UART_Receive:00000154 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10204  .text.UART_CheckIdleState:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10210  .text.UART_CheckIdleState:00000000 UART_CheckIdleState
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10329  .text.UART_CheckIdleState:0000006c $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10334  .text.HAL_UART_Init:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10340  .text.HAL_UART_Init:00000000 HAL_UART_Init
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10448  .text.HAL_UART_Init:00000068 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10453  .text.HAL_HalfDuplex_Init:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10459  .text.HAL_HalfDuplex_Init:00000000 HAL_HalfDuplex_Init
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10572  .text.HAL_HalfDuplex_Init:00000074 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10577  .text.HAL_LIN_Init:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10583  .text.HAL_LIN_Init:00000000 HAL_LIN_Init
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10737  .text.HAL_LIN_Init:0000009c $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10742  .text.HAL_MultiProcessor_Init:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10748  .text.HAL_MultiProcessor_Init:00000000 HAL_MultiProcessor_Init
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10888  .text.HAL_MultiProcessor_Init:00000094 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10894  .text.HAL_MultiProcessor_EnableMuteMode:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:10900  .text.HAL_MultiProcessor_EnableMuteMode:00000000 HAL_MultiProcessor_EnableMuteMode
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11014  .text.HAL_MultiProcessor_DisableMuteMode:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11020  .text.HAL_MultiProcessor_DisableMuteMode:00000000 HAL_MultiProcessor_DisableMuteMode
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11132  .text.HAL_MultiProcessor_DisableMuteMode:00000038 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11137  .text.UART_Start_Receive_IT:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11143  .text.UART_Start_Receive_IT:00000000 UART_Start_Receive_IT
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11415  .text.UART_Start_Receive_IT:000000cc $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11422  .text.HAL_UART_Receive_IT:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11428  .text.HAL_UART_Receive_IT:00000000 HAL_UART_Receive_IT
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11611  .text.HAL_UART_Receive_IT:00000078 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11616  .text.UART_Start_Receive_DMA:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11622  .text.UART_Start_Receive_DMA:00000000 UART_Start_Receive_DMA
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11931  .text.UART_Start_Receive_DMA:000000a4 $d
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11938  .text.HAL_UART_Receive_DMA:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:11944  .text.HAL_UART_Receive_DMA:00000000 HAL_UART_Receive_DMA
+C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s:12127  .text.HAL_UART_Receive_DMA:00000078 $d
 
 UNDEFINED SYMBOLS
 HAL_DMA_Start_IT
 HAL_DMA_Abort
 HAL_DMA_GetError
 HAL_DMA_Abort_IT
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccyUrmWh.s 			page 355
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccAY3h14.s 			page 355
 
 
 HAL_UARTEx_WakeupCallback
