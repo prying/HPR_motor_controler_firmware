@@ -8,6 +8,8 @@
 #ifndef INC_FSM_H_
 #define INC_FSM_H_
 
+#include "usart.h"
+
 #define STATE_NAME_LENGTH 12
 
 // States
@@ -45,6 +47,8 @@ typedef enum
     Last_Event
 } eFsmEvent;
 
+
+
 // Struct for handing pointers for external stuff if needed 
 // TODO remove if not used
 typedef struct PeripheriesData
@@ -63,6 +67,8 @@ void FSM_sendEvent(eFsmEvent Event);
 
 // Step the finite state machines logic
 void FSM_step(eFsmPeripheriesData *sPeripheries);
+
+void FSM_reciveCMD(UART_HandleTypeDef * uartHandle);
 
 
 #endif /* INC_FSM_H_ */

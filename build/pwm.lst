@@ -1,0 +1,389 @@
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s 			page 1
+
+
+   1              		.cpu cortex-m0plus
+   2              		.arch armv6s-m
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.file	"pwm.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.PWM1_start,"ax",%progbits
+  18              		.align	1
+  19              		.global	PWM1_start
+  20              		.syntax unified
+  21              		.code	16
+  22              		.thumb_func
+  24              	PWM1_start:
+  25              	.LFB40:
+  26              		.file 1 "Core/Src/pwm.c"
+   1:Core/Src/pwm.c **** /*
+   2:Core/Src/pwm.c ****  * pwm.c
+   3:Core/Src/pwm.c ****  *
+   4:Core/Src/pwm.c ****  *  Created on: 20 Jun 2021
+   5:Core/Src/pwm.c ****  *      Author: flynn
+   6:Core/Src/pwm.c ****  */
+   7:Core/Src/pwm.c **** 
+   8:Core/Src/pwm.c **** #include "tim.h"
+   9:Core/Src/pwm.c **** #include "main.h"
+  10:Core/Src/pwm.c **** 
+  11:Core/Src/pwm.c **** #define CLK_SPEED 16E6
+  12:Core/Src/pwm.c **** #define MILLISECOND 1E-3
+  13:Core/Src/pwm.c **** #define SERVO_RANGE 180
+  14:Core/Src/pwm.c **** 
+  15:Core/Src/pwm.c **** // TODO catch the HAL_StatusTypeDef and check for failures 
+  16:Core/Src/pwm.c **** // TODO figure out a good 'defualt' position for the servo
+  17:Core/Src/pwm.c **** void PWM1_start()
+  18:Core/Src/pwm.c **** {
+  27              		.loc 1 18 1 view -0
+  28              		.cfi_startproc
+  29              		@ args = 0, pretend = 0, frame = 0
+  30              		@ frame_needed = 0, uses_anonymous_args = 0
+  31 0000 10B5     		push	{r4, lr}
+  32              	.LCFI0:
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 4, -8
+  35              		.cfi_offset 14, -4
+  19:Core/Src/pwm.c ****     HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
+  36              		.loc 1 19 5 view .LVU1
+  37 0002 0021     		movs	r1, #0
+  38 0004 0148     		ldr	r0, .L2
+  39 0006 FFF7FEFF 		bl	HAL_TIM_PWM_Start
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s 			page 2
+
+
+  40              	.LVL0:
+  20:Core/Src/pwm.c **** }
+  41              		.loc 1 20 1 is_stmt 0 view .LVU2
+  42              		@ sp needed
+  43 000a 10BD     		pop	{r4, pc}
+  44              	.L3:
+  45              		.align	2
+  46              	.L2:
+  47 000c 00000000 		.word	htim2
+  48              		.cfi_endproc
+  49              	.LFE40:
+  51              		.global	__aeabi_ui2d
+  52              		.global	__aeabi_ddiv
+  53              		.global	__aeabi_d2f
+  54              		.global	__aeabi_ui2f
+  55              		.global	__aeabi_fmul
+  56              		.global	__aeabi_f2d
+  57              		.global	__aeabi_dmul
+  58              		.global	__aeabi_fdiv
+  59              		.global	__aeabi_fadd
+  60              		.global	__aeabi_d2iz
+  61              		.section	.text.PWM1_setPos,"ax",%progbits
+  62              		.align	1
+  63              		.global	PWM1_setPos
+  64              		.syntax unified
+  65              		.code	16
+  66              		.thumb_func
+  68              	PWM1_setPos:
+  69              	.LVL1:
+  70              	.LFB41:
+  21:Core/Src/pwm.c **** 
+  22:Core/Src/pwm.c **** // Sets the angle of PWM 1 (for servo motors). Angle is not the same as duty cycle!
+  23:Core/Src/pwm.c **** void PWM1_setPos(float angle)
+  24:Core/Src/pwm.c **** {
+  71              		.loc 1 24 1 is_stmt 1 view -0
+  72              		.cfi_startproc
+  73              		@ args = 0, pretend = 0, frame = 0
+  74              		@ frame_needed = 0, uses_anonymous_args = 0
+  75              		.loc 1 24 1 is_stmt 0 view .LVU4
+  76 0000 70B5     		push	{r4, r5, r6, lr}
+  77              	.LCFI1:
+  78              		.cfi_def_cfa_offset 16
+  79              		.cfi_offset 4, -16
+  80              		.cfi_offset 5, -12
+  81              		.cfi_offset 6, -8
+  82              		.cfi_offset 14, -4
+  83 0002 061C     		adds	r6, r0, #0
+  25:Core/Src/pwm.c ****     // Determin counts per pulse
+  26:Core/Src/pwm.c ****     float fPwm = CLK_SPEED/((htim2.Init.Prescaler + 1)*(htim2.Init.Period + 1));
+  84              		.loc 1 26 5 is_stmt 1 view .LVU5
+  85              		.loc 1 26 40 is_stmt 0 view .LVU6
+  86 0004 1A4B     		ldr	r3, .L5
+  87              		.loc 1 26 51 view .LVU7
+  88 0006 5A68     		ldr	r2, [r3, #4]
+  89 0008 501C     		adds	r0, r2, #1
+  90              	.LVL2:
+  91              		.loc 1 26 67 view .LVU8
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s 			page 3
+
+
+  92 000a DC68     		ldr	r4, [r3, #12]
+  93              		.loc 1 26 75 view .LVU9
+  94 000c 0134     		adds	r4, r4, #1
+  95              		.loc 1 26 55 view .LVU10
+  96 000e 6043     		muls	r0, r4
+  97              		.loc 1 26 27 view .LVU11
+  98 0010 FFF7FEFF 		bl	__aeabi_ui2d
+  99              	.LVL3:
+ 100 0014 0200     		movs	r2, r0
+ 101 0016 0B00     		movs	r3, r1
+ 102 0018 0020     		movs	r0, #0
+ 103 001a 1649     		ldr	r1, .L5+4
+ 104 001c FFF7FEFF 		bl	__aeabi_ddiv
+ 105              	.LVL4:
+ 106              		.loc 1 26 11 view .LVU12
+ 107 0020 FFF7FEFF 		bl	__aeabi_d2f
+ 108              	.LVL5:
+ 109 0024 051C     		adds	r5, r0, #0
+ 110              	.LVL6:
+  27:Core/Src/pwm.c ****     float cps = (htim2.Init.Period + 1)*fPwm;
+ 111              		.loc 1 27 5 is_stmt 1 view .LVU13
+ 112              		.loc 1 27 40 is_stmt 0 view .LVU14
+ 113 0026 2000     		movs	r0, r4
+ 114              	.LVL7:
+ 115              		.loc 1 27 40 view .LVU15
+ 116 0028 FFF7FEFF 		bl	__aeabi_ui2f
+ 117              	.LVL8:
+ 118              		.loc 1 27 11 view .LVU16
+ 119 002c 291C     		adds	r1, r5, #0
+ 120 002e FFF7FEFF 		bl	__aeabi_fmul
+ 121              	.LVL9:
+  28:Core/Src/pwm.c **** 
+  29:Core/Src/pwm.c ****     // Determin pulse length to get the desisered angle on the servo (servos 1ms 0, 2ms 180)
+  30:Core/Src/pwm.c ****     // Round down
+  31:Core/Src/pwm.c ****     int pulse = (int)(cps*MILLISECOND*(1 + angle/SERVO_RANGE));
+ 122              		.loc 1 31 5 is_stmt 1 view .LVU17
+ 123              		.loc 1 31 26 is_stmt 0 view .LVU18
+ 124 0032 FFF7FEFF 		bl	__aeabi_f2d
+ 125              	.LVL10:
+ 126              		.loc 1 31 26 view .LVU19
+ 127 0036 104A     		ldr	r2, .L5+8
+ 128 0038 104B     		ldr	r3, .L5+12
+ 129 003a FFF7FEFF 		bl	__aeabi_dmul
+ 130              	.LVL11:
+ 131 003e 0400     		movs	r4, r0
+ 132 0040 0D00     		movs	r5, r1
+ 133              	.LVL12:
+ 134              		.loc 1 31 49 view .LVU20
+ 135 0042 0F49     		ldr	r1, .L5+16
+ 136 0044 301C     		adds	r0, r6, #0
+ 137 0046 FFF7FEFF 		bl	__aeabi_fdiv
+ 138              	.LVL13:
+ 139              		.loc 1 31 42 view .LVU21
+ 140 004a FE21     		movs	r1, #254
+ 141 004c 8905     		lsls	r1, r1, #22
+ 142 004e FFF7FEFF 		bl	__aeabi_fadd
+ 143              	.LVL14:
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s 			page 4
+
+
+ 144 0052 FFF7FEFF 		bl	__aeabi_f2d
+ 145              	.LVL15:
+ 146 0056 0200     		movs	r2, r0
+ 147 0058 0B00     		movs	r3, r1
+ 148              		.loc 1 31 38 view .LVU22
+ 149 005a 2000     		movs	r0, r4
+ 150 005c 2900     		movs	r1, r5
+ 151 005e FFF7FEFF 		bl	__aeabi_dmul
+ 152              	.LVL16:
+ 153              		.loc 1 31 9 view .LVU23
+ 154 0062 FFF7FEFF 		bl	__aeabi_d2iz
+ 155              	.LVL17:
+  32:Core/Src/pwm.c **** 
+  33:Core/Src/pwm.c ****     // There might be a HAL function for this but i cant find it
+  34:Core/Src/pwm.c ****     TIM2->CCR1 = pulse;
+ 156              		.loc 1 34 5 is_stmt 1 view .LVU24
+ 157              		.loc 1 34 16 is_stmt 0 view .LVU25
+ 158 0066 8023     		movs	r3, #128
+ 159 0068 DB05     		lsls	r3, r3, #23
+ 160 006a 5863     		str	r0, [r3, #52]
+  35:Core/Src/pwm.c **** }
+ 161              		.loc 1 35 1 view .LVU26
+ 162              		@ sp needed
+ 163              	.LVL18:
+ 164              		.loc 1 35 1 view .LVU27
+ 165 006c 70BD     		pop	{r4, r5, r6, pc}
+ 166              	.L6:
+ 167 006e C046     		.align	2
+ 168              	.L5:
+ 169 0070 00000000 		.word	htim2
+ 170 0074 80846E41 		.word	1097761920
+ 171 0078 FCA9F1D2 		.word	-755914244
+ 172 007c 4D62503F 		.word	1062232653
+ 173 0080 00003443 		.word	1127481344
+ 174              		.cfi_endproc
+ 175              	.LFE41:
+ 177              		.global	__aeabi_i2d
+ 178              		.global	__aeabi_dsub
+ 179              		.section	.text.PWM1_getPos,"ax",%progbits
+ 180              		.align	1
+ 181              		.global	PWM1_getPos
+ 182              		.syntax unified
+ 183              		.code	16
+ 184              		.thumb_func
+ 186              	PWM1_getPos:
+ 187              	.LFB42:
+  36:Core/Src/pwm.c **** 
+  37:Core/Src/pwm.c **** // Returns the angle of PWM 1, Not the duty cycle.
+  38:Core/Src/pwm.c **** float PWM1_getPos()
+  39:Core/Src/pwm.c **** {
+ 188              		.loc 1 39 1 is_stmt 1 view -0
+ 189              		.cfi_startproc
+ 190              		@ args = 0, pretend = 0, frame = 0
+ 191              		@ frame_needed = 0, uses_anonymous_args = 0
+ 192 0000 70B5     		push	{r4, r5, r6, lr}
+ 193              	.LCFI2:
+ 194              		.cfi_def_cfa_offset 16
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s 			page 5
+
+
+ 195              		.cfi_offset 4, -16
+ 196              		.cfi_offset 5, -12
+ 197              		.cfi_offset 6, -8
+ 198              		.cfi_offset 14, -4
+  40:Core/Src/pwm.c ****     int pulse = TIM2->CCR1;
+ 199              		.loc 1 40 5 view .LVU29
+ 200              		.loc 1 40 21 is_stmt 0 view .LVU30
+ 201 0002 8023     		movs	r3, #128
+ 202 0004 DB05     		lsls	r3, r3, #23
+ 203 0006 5E6B     		ldr	r6, [r3, #52]
+ 204              	.LVL19:
+  41:Core/Src/pwm.c **** 
+  42:Core/Src/pwm.c ****     float fPwm = CLK_SPEED/((htim2.Init.Prescaler + 1)*(htim2.Init.Period + 1));
+ 205              		.loc 1 42 5 is_stmt 1 view .LVU31
+ 206              		.loc 1 42 40 is_stmt 0 view .LVU32
+ 207 0008 194B     		ldr	r3, .L8
+ 208              		.loc 1 42 51 view .LVU33
+ 209 000a 5A68     		ldr	r2, [r3, #4]
+ 210 000c 501C     		adds	r0, r2, #1
+ 211              		.loc 1 42 67 view .LVU34
+ 212 000e DC68     		ldr	r4, [r3, #12]
+ 213              		.loc 1 42 75 view .LVU35
+ 214 0010 0134     		adds	r4, r4, #1
+ 215              		.loc 1 42 55 view .LVU36
+ 216 0012 6043     		muls	r0, r4
+ 217              		.loc 1 42 27 view .LVU37
+ 218 0014 FFF7FEFF 		bl	__aeabi_ui2d
+ 219              	.LVL20:
+ 220 0018 0200     		movs	r2, r0
+ 221 001a 0B00     		movs	r3, r1
+ 222 001c 0020     		movs	r0, #0
+ 223 001e 1549     		ldr	r1, .L8+4
+ 224 0020 FFF7FEFF 		bl	__aeabi_ddiv
+ 225              	.LVL21:
+ 226              		.loc 1 42 11 view .LVU38
+ 227 0024 FFF7FEFF 		bl	__aeabi_d2f
+ 228              	.LVL22:
+ 229 0028 051C     		adds	r5, r0, #0
+ 230              	.LVL23:
+  43:Core/Src/pwm.c ****     float cps = (htim2.Init.Period + 1)*fPwm;
+ 231              		.loc 1 43 5 is_stmt 1 view .LVU39
+ 232              		.loc 1 43 40 is_stmt 0 view .LVU40
+ 233 002a 2000     		movs	r0, r4
+ 234              	.LVL24:
+ 235              		.loc 1 43 40 view .LVU41
+ 236 002c FFF7FEFF 		bl	__aeabi_ui2f
+ 237              	.LVL25:
+ 238              		.loc 1 43 11 view .LVU42
+ 239 0030 291C     		adds	r1, r5, #0
+ 240 0032 FFF7FEFF 		bl	__aeabi_fmul
+ 241              	.LVL26:
+  44:Core/Src/pwm.c **** 
+  45:Core/Src/pwm.c ****     pulse = pulse - cps*MILLISECOND;
+ 242              		.loc 1 45 5 is_stmt 1 view .LVU43
+ 243              		.loc 1 45 24 is_stmt 0 view .LVU44
+ 244 0036 FFF7FEFF 		bl	__aeabi_f2d
+ 245              	.LVL27:
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s 			page 6
+
+
+ 246              		.loc 1 45 24 view .LVU45
+ 247 003a 0F4A     		ldr	r2, .L8+8
+ 248 003c 0F4B     		ldr	r3, .L8+12
+ 249 003e FFF7FEFF 		bl	__aeabi_dmul
+ 250              	.LVL28:
+ 251 0042 0400     		movs	r4, r0
+ 252 0044 0D00     		movs	r5, r1
+ 253              	.LVL29:
+ 254              		.loc 1 45 19 view .LVU46
+ 255 0046 3000     		movs	r0, r6
+ 256 0048 FFF7FEFF 		bl	__aeabi_i2d
+ 257              	.LVL30:
+ 258 004c 2200     		movs	r2, r4
+ 259 004e 2B00     		movs	r3, r5
+ 260 0050 FFF7FEFF 		bl	__aeabi_dsub
+ 261              	.LVL31:
+ 262              		.loc 1 45 11 view .LVU47
+ 263 0054 FFF7FEFF 		bl	__aeabi_d2iz
+ 264              	.LVL32:
+  46:Core/Src/pwm.c ****     return pulse*SERVO_RANGE/(cps*MILLISECOND);
+ 265              		.loc 1 46 5 is_stmt 1 view .LVU48
+ 266              		.loc 1 46 17 is_stmt 0 view .LVU49
+ 267 0058 B423     		movs	r3, #180
+ 268 005a 5843     		muls	r0, r3
+ 269              	.LVL33:
+ 270              		.loc 1 46 29 view .LVU50
+ 271 005c FFF7FEFF 		bl	__aeabi_i2d
+ 272              	.LVL34:
+ 273 0060 2200     		movs	r2, r4
+ 274 0062 2B00     		movs	r3, r5
+ 275 0064 FFF7FEFF 		bl	__aeabi_ddiv
+ 276              	.LVL35:
+ 277 0068 FFF7FEFF 		bl	__aeabi_d2f
+ 278              	.LVL36:
+  47:Core/Src/pwm.c **** }...
+ 279              		.loc 1 47 1 view .LVU51
+ 280              		@ sp needed
+ 281 006c 70BD     		pop	{r4, r5, r6, pc}
+ 282              	.L9:
+ 283 006e C046     		.align	2
+ 284              	.L8:
+ 285 0070 00000000 		.word	htim2
+ 286 0074 80846E41 		.word	1097761920
+ 287 0078 FCA9F1D2 		.word	-755914244
+ 288 007c 4D62503F 		.word	1062232653
+ 289              		.cfi_endproc
+ 290              	.LFE42:
+ 292              		.text
+ 293              	.Letext0:
+ 294              		.file 2 "f:\\toolchains\\gnu_arm\\10 2021.10\\arm-none-eabi\\include\\machine\\_default_types.h"
+ 295              		.file 3 "f:\\toolchains\\gnu_arm\\10 2021.10\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 296              		.file 4 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h"
+ 297              		.file 5 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h"
+ 298              		.file 6 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h"
+ 299              		.file 7 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h"
+ 300              		.file 8 "Core/Inc/tim.h"
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s 			page 7
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 pwm.c
+C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s:18     .text.PWM1_start:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s:24     .text.PWM1_start:00000000 PWM1_start
+C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s:47     .text.PWM1_start:0000000c $d
+C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s:62     .text.PWM1_setPos:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s:68     .text.PWM1_setPos:00000000 PWM1_setPos
+C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s:169    .text.PWM1_setPos:00000070 $d
+C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s:180    .text.PWM1_getPos:00000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s:186    .text.PWM1_getPos:00000000 PWM1_getPos
+C:\Users\flynn\AppData\Local\Temp\ccg7tAGx.s:285    .text.PWM1_getPos:00000070 $d
+
+UNDEFINED SYMBOLS
+HAL_TIM_PWM_Start
+htim2
+__aeabi_ui2d
+__aeabi_ddiv
+__aeabi_d2f
+__aeabi_ui2f
+__aeabi_fmul
+__aeabi_f2d
+__aeabi_dmul
+__aeabi_fdiv
+__aeabi_fadd
+__aeabi_d2iz
+__aeabi_i2d
+__aeabi_dsub

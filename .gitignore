@@ -4,3 +4,9 @@ DeviceTree/
 graphics/
 Debug/
 *.launch
+
+Makefile
+openocd.cfg
+*.yaml
+STM32Make.make
+
