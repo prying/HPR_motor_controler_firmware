@@ -17,8 +17,8 @@
 #define MSGBUFF_SIZE             32
 #define ERROR_MSG_SIZE           30
 #define IGN_CONTROL_OFF_DELAY    20 //ms
-#define SERVO_CLOSED_ANGLE       0  //degrees
-#define SERVO_OPEN_ANGLE         90 //degrees
+#define SERVO_CLOSED_ANGLE       30  //degrees
+#define SERVO_OPEN_ANGLE         100 //degrees
 
 #define RX_TIMEOUT  100
 

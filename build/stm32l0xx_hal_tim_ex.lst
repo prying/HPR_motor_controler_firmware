@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 1
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 1
   29:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *                        opensource.org/licenses/BSD-3-Clause
   30:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *
   31:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   ******************************************************************************
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 2
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s 			page 2
 
 
   32:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 1
   29              		.cfi_startproc
   30              		@ args = 0, pretend = 0, frame = 0
   31              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 3
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s 			page 3
 
 
   32              		.loc 1 84 1 is_stmt 0 view .LVU1
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 1
   67              		.loc 1 103 11 is_stmt 0 discriminator 2 view .LVU17
   68 001a 9C68     		ldr	r4, [r3, #8]
   69              	.LVL2:
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 4
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s 			page 4
 
 
  104:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 1
  109 0040 4A68     		ldr	r2, [r1, #4]
  110              		.loc 1 118 13 view .LVU34
  111 0042 1443     		orrs	r4, r2
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 5
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s 			page 5
 
 
  112              	.LVL7:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 1
  153              		.global	HAL_TIMEx_RemapConfig
  154              		.syntax unified
  155              		.code	16
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 6
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s 			page 6
 
 
  156              		.thumb_func
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 1
  181:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   @endif
  182:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   @if STM32L011xx
  183:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *         For TIM2, the parameter is a combination of 2 fields (field1 | field2):
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 7
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s 			page 7
 
 
  184:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 1
  238:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *                   field4 can have the following values:
  239:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *           @arg TIM3_TI4_GPIO_DEF:  TIM3 TI4 connected to GPIO:
  240:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *                                    PB1(AF2) or PE6(AF2)
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 8
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s 			page 8
 
 
  241:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *           @arg TIM3_TI4_GPIOC9_AF2:TIM3 TI4 connected to PC9(AF)2
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 1
  295:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *
  296:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *                   field1 can have the following values:
  297:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *           @arg TIM21_ETR_GPIO:     TIM21 ETR connected to GPIO(default) :
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 9
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s 			page 9
 
 
  298:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *                                    PA1(AF5)
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 1
  352:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *                                    PC6(AF0) or PA6(AF5) or PB4(AF4) or PE0(AF3)
  353:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *           @arg TIM22_TI1_COMP2_OUT:TIM22 TI1 connected to COMP2 output
  354:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   *           @arg TIM22_TI1_COMP1_OUT:TIM22 TI1 connected to COMP1 output
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 10
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s 			page 10
 
 
  355:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c ****   @endif
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 1
  173 0008 3823     		movs	r3, #56
  174 000a 0122     		movs	r2, #1
  175 000c C254     		strb	r2, [r0, r3]
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 11
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s 			page 11
 
 
  176              		.loc 1 396 3 discriminator 2 view .LVU51
@@ -643,21 +643,21 @@ ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 1
  202              	.LFE41:
  204              		.text
  205              	.Letext0:
- 206              		.file 2 "f:\\toolchains\\gnu_arm\\10 2021.10\\arm-none-eabi\\include\\machine\\_default_types.h"
- 207              		.file 3 "f:\\toolchains\\gnu_arm\\10 2021.10\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 206              		.file 2 "c:\\users\\flynn\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
+ 207              		.file 3 "c:\\users\\flynn\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  208              		.file 4 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l031xx.h"
  209              		.file 5 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h"
  210              		.file 6 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h"
  211              		.file 7 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h"
-ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s 			page 12
+ARM GAS  C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s 			page 12
 
 
 DEFINED SYMBOLS
-                            *ABS*:00000000 stm32l0xx_hal_tim_ex.c
-C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s:18     .text.HAL_TIMEx_MasterConfigSynchronization:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s:24     .text.HAL_TIMEx_MasterConfigSynchronization:00000000 HAL_TIMEx_MasterConfigSynchronization
-C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s:146    .text.HAL_TIMEx_MasterConfigSynchronization:0000005c $d
-C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s:152    .text.HAL_TIMEx_RemapConfig:00000000 $t
-C:\Users\flynn\AppData\Local\Temp\ccsY8gi6.s:158    .text.HAL_TIMEx_RemapConfig:00000000 HAL_TIMEx_RemapConfig
+                            *ABS*:0000000000000000 stm32l0xx_hal_tim_ex.c
+C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s:18     .text.HAL_TIMEx_MasterConfigSynchronization:0000000000000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s:24     .text.HAL_TIMEx_MasterConfigSynchronization:0000000000000000 HAL_TIMEx_MasterConfigSynchronization
+C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s:146    .text.HAL_TIMEx_MasterConfigSynchronization:000000000000005c $d
+C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s:152    .text.HAL_TIMEx_RemapConfig:0000000000000000 $t
+C:\Users\flynn\AppData\Local\Temp\ccBLtTV8.s:158    .text.HAL_TIMEx_RemapConfig:0000000000000000 HAL_TIMEx_RemapConfig
 
 NO UNDEFINED SYMBOLS
