@@ -207,6 +207,10 @@ void FSM_reciveCMD(UART_HandleTypeDef * uartHandle)
     {
       FSM_sendEvent(nextEventFromState(eFsmCurrentState));
     }
+    else if ( strBuf == '8' )
+    {
+      sendStateMsg(eFsmCurrentState);
+    }
   }
 
   return;

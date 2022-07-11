@@ -1,7 +1,8 @@
 #MicroXplorer Configuration settings - do not modify
 File.Version=6
 GPIO.groupedBy=Group By Peripherals
-I2C1.IPParameters=Timing
+I2C1.IPParameters=Timing,OwnAddress
+I2C1.OwnAddress=1
 I2C1.Timing=0x00303D5B
 KeepUserPlacement=false
 Mcu.CPN=STM32L031F6P6
@@ -37,6 +38,7 @@ MxCube.Version=6.5.0
 MxDb.Version=DB.6.0.50
 NVIC.ForceEnableDMAVector=true
 NVIC.HardFault_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:true
+NVIC.I2C1_IRQn=true\:0\:0\:false\:false\:true\:true\:true\:true
 NVIC.NonMaskableInt_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:true
 NVIC.PendSV_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:true
 NVIC.SVC_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:true
