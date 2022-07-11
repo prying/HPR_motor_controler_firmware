@@ -3,6 +3,7 @@ common/
 DeviceTree/
 graphics/
 Debug/
+build/
 *.launch
 
 Makefile
