@@ -4,8 +4,11 @@ DeviceTree/
 graphics/
 Debug/
 build/
-*.launch
 
+.vscode/
+.settings/
+
+*.launch
 Makefile
 openocd.cfg
 *.yaml
