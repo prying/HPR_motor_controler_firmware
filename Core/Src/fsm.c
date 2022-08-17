@@ -24,7 +24,7 @@
 
 #define CMD_OFFSET 48   // Ascii offset from '0' to 0 
 
-#define TX_SIZE 11
+#define TX_SIZE 12
 #define TERMINATOR '\n'
 
 #define ADC_REF_VOLTAGE       (float)3.3
@@ -41,12 +41,13 @@ static const char resetMsg[] = "\r\nReturned to idel state\r\n";
 
 typedef union
 {
-  struct 
+  struct __attribute__((__packed__))
   {
-    char echo;
     float pressure;
     float temperature;
-    char currentState;
+    uint8_t currentState;
+    char echo;
+    char test;
     char terminator;
   };
   char byteArray[TX_SIZE];
@@ -88,7 +89,7 @@ eFsmState _errorHandler(eFsmPeripheriesData *sPeripheries)
   // TODO pwm control
 
   // Anounce over usart and i2c to let everyone know
-  HAL_UART_Transmit_DMA(&huart2, (uint8_t *)errorMsg, sizeof(errorMsg) / sizeof(char));
+  //HAL_UART_Transmit_DMA(&huart2, (uint8_t *)errorMsg, sizeof(errorMsg) / sizeof(char));
   // TODO Some i2c related method
   return Aborted_State;
 }
@@ -152,7 +153,7 @@ eFsmState _resetHandler(eFsmPeripheriesData *sPeripheries)
   PWM1_setPos(SERVO_CLOSED_ANGLE);
 
   // Anounce over usart and i2c to let everyone know
-  HAL_UART_Transmit_DMA(&huart2, (uint8_t *)resetMsg, sizeof(resetMsg) / sizeof(char));
+  //HAL_UART_Transmit_DMA(&huart2, (uint8_t *)resetMsg, sizeof(resetMsg) / sizeof(char));
 
   return Idle_State;
 }
@@ -239,7 +240,8 @@ void FSM_reciveCMD(UART_HandleTypeDef * uartHandle)
     txBuf.echo = strBuf;
     txBuf.pressure = countToPressure(HAL_ADC_GetValue(&hadc));
     txBuf.temperature = 0.0; // Not implemented yet
-    txBuf.currentState = eFsmCurrentState; 
+    txBuf.currentState = (uint8_t)eFsmCurrentState; 
+    txBuf.test = 'A';// Make into a 32 bit struct as its packed
     txBuf.terminator = TERMINATOR;
 
     HAL_UART_Transmit(&huart2, (uint8_t*)txBuf.byteArray, TX_SIZE, 100);
@@ -298,5 +300,5 @@ void eventToQue(eFsmEvent Event)
 
 static inline float countToPressure(uint16_t count)
 {
-  return SENSOR_M_PARAM*((float)count * ADC_REF_VOLTAGE/ADC_BITS) + SENSOR_C_PARAM;
+  return (float) SENSOR_M_PARAM*((float)count * ADC_REF_VOLTAGE/ADC_BITS) + SENSOR_C_PARAM;
 }
