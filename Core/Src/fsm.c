@@ -7,7 +7,6 @@
  */
 
 #include <stddef.h>
-#include <string.h>
 #include "fsm.h"
 #include "usart.h"
 #include "gpio.h"
@@ -25,7 +24,7 @@
 
 #define CMD_OFFSET 48   // Ascii offset from '0' to 0 
 
-#define TX_SIZE 10+STATE_NAME_LENGTH
+#define TX_SIZE 11
 #define TERMINATOR '\n'
 
 #define ADC_REF_VOLTAGE       (float)3.3
@@ -47,7 +46,7 @@ typedef union
     char echo;
     float pressure;
     float temperature;
-    char currentState[STATE_NAME_LENGTH];
+    char currentState;
     char terminator;
   };
   char byteArray[TX_SIZE];
@@ -240,7 +239,7 @@ void FSM_reciveCMD(UART_HandleTypeDef * uartHandle)
     txBuf.echo = strBuf;
     txBuf.pressure = countToPressure(HAL_ADC_GetValue(&hadc));
     txBuf.temperature = 0.0; // Not implemented yet
-    memcpy(txBuf.currentState, eFsmStateNames[eFsmCurrentState], STATE_NAME_LENGTH); 
+    txBuf.currentState = eFsmCurrentState; 
     txBuf.terminator = TERMINATOR;
 
     HAL_UART_Transmit(&huart2, (uint8_t*)txBuf.byteArray, TX_SIZE, 100);
