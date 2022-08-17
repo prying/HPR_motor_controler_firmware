@@ -7,11 +7,12 @@
  */
 
 #include <stddef.h>
-#include <stdio.h>
+#include <string.h>
 #include "fsm.h"
 #include "usart.h"
 #include "gpio.h"
 #include "pwm.h"
+#include "adc.h"
 
 // Defines
 #define MSGBUFF_SIZE             32
@@ -22,12 +23,35 @@
 
 #define RX_TIMEOUT  100
 
+#define CMD_OFFSET 48   // Ascii offset from '0' to 0 
+
+#define TX_SIZE 10+STATE_NAME_LENGTH
+#define TERMINATOR '\n'
+
+#define ADC_REF_VOLTAGE       (float)3.3
+#define ADC_BITS              4096      
+#define SENSOR_M_PARAM        50
+#define SENSOR_C_PARAM        -25
+
 // Nasty global vars
 static eFsmState  eFsmCurrentState = Last_State;
 static eFsmEvent  eFsmNewEvent     = Last_Event;
 
 static const char errorMsg[] = "\r\nSomthing went wrong! MOVED TO ERROR STATE\r\n";
 static const char resetMsg[] = "\r\nReturned to idel state\r\n";
+
+typedef union
+{
+  struct 
+  {
+    char echo;
+    float pressure;
+    float temperature;
+    char currentState[STATE_NAME_LENGTH];
+    char terminator;
+  };
+  char byteArray[TX_SIZE];
+} txStruct_s;
 
 // Event handler function pointer
 typedef eFsmState (*pfEventHandler) (eFsmPeripheriesData *sPeripheries);
@@ -39,11 +63,12 @@ typedef eFsmState (*const afEventHandler[Last_State][Last_Event])(eFsmPeripherie
 // Private helper functions
 //**************************************
 
-// Anounce on UART that it has moved to a state
-void sendStateMsg(eFsmState state);
 
 // Returns the next event from current state given no errors;
 eFsmEvent nextEventFromState(eFsmState state);
+
+// Convers ADC reading into float
+static inline float countToPressure(uint16_t count); 
 
 // Event handles
 //**************************************
@@ -179,7 +204,6 @@ void FSM_step(eFsmPeripheriesData *sPeripheries)
     // Call the event handler at the end of the function pointer
     eFsmCurrentState = (*FSM[eFsmCurrentState][eFsmNewEvent])(sPeripheries);
     preEvent = eFsmNewEvent;
-    sendStateMsg(eFsmCurrentState);
   }
   else
   {
@@ -193,29 +217,33 @@ void FSM_step(eFsmPeripheriesData *sPeripheries)
 void FSM_reciveCMD(UART_HandleTypeDef * uartHandle)
 {
   uint8_t strBuf = 0;
+  txStruct_s txBuf;
 
   HAL_UART_Receive(uartHandle, &strBuf, 1, RX_TIMEOUT);
 
   // Check what code was recived
   if (strBuf != 0 && strBuf != '\n')
   {
-    HAL_UART_Transmit(uartHandle, &strBuf, 1, 50);
-    HAL_UART_Transmit(uartHandle, "\n", 2, 50);
+    HAL_ADC_Start(&hadc);
 
     if ( '0' <= strBuf && strBuf <= '6')
     {
-      // Convert to int
-      strBuf -= 48;
-      FSM_sendEvent((eFsmEvent)strBuf);
+      FSM_sendEvent((eFsmEvent)(strBuf - 48));
     }
     else if ( strBuf == '7' && eFsmCurrentState != Igniter_Off_State)
     {
       FSM_sendEvent(nextEventFromState(eFsmCurrentState));
     }
-    else if ( strBuf == '8' )
-    {
-      sendStateMsg(eFsmCurrentState);
-    }
+
+    HAL_ADC_PollForConversion(&hadc, 1);
+
+    txBuf.echo = strBuf;
+    txBuf.pressure = countToPressure(HAL_ADC_GetValue(&hadc));
+    txBuf.temperature = 0.0; // Not implemented yet
+    memcpy(txBuf.currentState, eFsmStateNames[eFsmCurrentState], STATE_NAME_LENGTH); 
+    txBuf.terminator = TERMINATOR;
+
+    HAL_UART_Transmit(&huart2, (uint8_t*)txBuf.byteArray, TX_SIZE, 100);
   }
 
   return;
@@ -223,32 +251,6 @@ void FSM_reciveCMD(UART_HandleTypeDef * uartHandle)
 
 // Private helper function implementations
 //*****************************************
-
-// Anounce on UART that it has moved to a state
-void sendStateMsg(eFsmState state)
-{
-  // Needs to be a static becuase the memory is deallocated when this function is removed from the stack before DMA has finished moving it
-  static char msgBuff[MSGBUFF_SIZE];
-  int n = 0;
-
-  // TODO: make safe with snprintf
-  n = sprintf(msgBuff, "State: %s\n", eFsmStateNames[state]);
-  if (n <= 0)
-  {
-    // Somthing went wrong BUT DONT CRASH
-  }
-  else
-  {
-    // Cursed code TODO: figure out why for reset and error event code get stuck on 33 (busy tx-ing)
-    huart2.gState = HAL_UART_STATE_READY;
-    if (HAL_UART_Transmit(&huart2, (uint8_t *)msgBuff, n, 100) != HAL_OK)
-    {
-
-    }
-  }
-
-  return;
-}
 
 eFsmEvent nextEventFromState(eFsmState state)
 {
@@ -293,4 +295,9 @@ eFsmEvent nextEventFromState(eFsmState state)
 void eventToQue(eFsmEvent Event)
 {
     
+}
+
+static inline float countToPressure(uint16_t count)
+{
+  return SENSOR_M_PARAM*((float)count * ADC_REF_VOLTAGE/ADC_BITS) + SENSOR_C_PARAM;
 }
